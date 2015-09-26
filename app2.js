@@ -88,8 +88,9 @@ var arr0 = [
         sean: {
             firstname: 'Sean ',
             lastname: 'Fogarty',
-            homenum: '',
+            homenum: ' ',
             busnum: '727-893-6494',
+            ex: '36182',
             cellnum: '727-408-4330',
             email: 'Sean.Fogarty@hma.com',
             company: ''
@@ -1045,38 +1046,38 @@ if (app === arr[i].appl){
     if (anal3 === undefined){
                 document.getElementById("anal3").innerHTML = " ";
     } else if (anal2 !== undefined) {
-                document.getElementById("anal3").innerHTML = anal1.firstname;
-                document.getElementById("anal3").innerHTML = anal1.lastname;
-                document.getElementById("anal3").innerHTML = anal1.homenum;
-                document.getElementById("anal3").innerHTML = anal1.busnum;
-                document.getElementById("anal3").innerHTML = anal1.ex;
-                document.getElementById("anal3").innerHTML = anal1.cellnum;
-                document.getElementById("anal3").innerHTML = anal1.email;
-                document.getElementById("anal3").innerHTML = anal1.company;
+                document.getElementById("firstname3").innerHTML = anal1.firstname;
+                document.getElementById("lastname3").innerHTML = anal1.lastname;
+                document.getElementById("homenum3").innerHTML = anal1.homenum;
+                document.getElementById("busnum3").innerHTML = anal1.busnum;
+                document.getElementById("ex3").innerHTML = anal1.ex;
+                document.getElementById("cellnum3").innerHTML = anal1.cellnum;
+                document.getElementById("email3").innerHTML = anal1.email;
+                document.getElementById("company3").innerHTML = anal1.company;
         }
     if (anal4 === undefined){
                 document.getElementById("anal4").innerHTML = " ";
     } else if (anal2 !== undefined) {
-                document.getElementById("anal4").innerHTML = anal1.firstname;
-                document.getElementById("anal4").innerHTML = anal1.lastname;
-                document.getElementById("anal4").innerHTML = anal1.homenum;
-                document.getElementById("anal4").innerHTML = anal1.busnum;
-                document.getElementById("anal4").innerHTML = anal1.ex;
-                document.getElementById("anal4").innerHTML = anal1.cellnum;
-                document.getElementById("anal4").innerHTML = anal1.email;
-                document.getElementById("anal4").innerHTML = anal1.company;
+                document.getElementById("firstname4").innerHTML = anal1.firstname;
+                document.getElementById("lastname4").innerHTML = anal1.lastname;
+                document.getElementById("homenum4").innerHTML = anal1.homenum;
+                document.getElementById("busnum4").innerHTML = anal1.busnum;
+                document.getElementById("ex4").innerHTML = anal1.ex;
+                document.getElementById("cellnum4").innerHTML = anal1.cellnum;
+                document.getElementById("email4").innerHTML = anal1.email;
+                document.getElementById("company4").innerHTML = anal1.company;
         }
     if (anal5 === undefined){
                 document.getElementById("anal5").innerHTML = " ";
     }else if (anal2 !== undefined) {
-                document.getElementById("anal5").innerHTML = anal1.firstname;
-                document.getElementById("anal5").innerHTML = anal1.lastname;
-                document.getElementById("anal5").innerHTML = anal1.homenum;
-                document.getElementById("anal5").innerHTML = anal1.busnum;
-                document.getElementById("anal5").innerHTML = anal1.ex;
-                document.getElementById("anal5").innerHTML = anal1.cellnum;
-                document.getElementById("anal5").innerHTML = anal1.email;
-                document.getElementById("anal5").innerHTML = anal1.company;
+                document.getElementById("firstname5").innerHTML = anal1.firstname;
+                document.getElementById("lastname5").innerHTML = anal1.lastname;
+                document.getElementById("homenum5").innerHTML = anal1.homenum;
+                document.getElementById("busnum5").innerHTML = anal1.busnum;
+                document.getElementById("ex5").innerHTML = anal1.ex;
+                document.getElementById("cellnum5").innerHTML = anal1.cellnum;
+                document.getElementById("email5").innerHTML = anal1.email;
+                document.getElementById("company5").innerHTML = anal1.company;
         }
    
      
