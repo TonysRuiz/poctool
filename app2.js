@@ -995,6 +995,9 @@ var app, arrLength = arr.length;
 
 
 function myFunction() {
+    
+
+    
     var x, analystSupport, app;
     
     
@@ -1002,7 +1005,7 @@ function myFunction() {
     x = document.getElementById("app").value;
     app = x.toLowerCase();
 
-
+    
     for (var i = 0; i < arrLength; i++){
     
 if (app === arr[i].appl){
@@ -1019,7 +1022,7 @@ if (app === arr[i].appl){
     anal5 = arr[i].anal5;
     
     if (anal1 === undefined){
-                document.getElementById("anal2").innerHTML = " ";
+                document.getElementById("anal1").innerHTML = " ";
     } else if (anal1 !== undefined){
     
                 document.getElementById("firstname").innerHTML = anal1.firstname;
@@ -1032,7 +1035,7 @@ if (app === arr[i].appl){
                 document.getElementById("company").innerHTML = anal1.company;
         } 
     if (anal2 === undefined){
-                document.getElementById("anal3").innerHTML = " ";
+                document.getElementById("anal2").innerHTML = " ";
     } else if (anal2 !== undefined) {
                 document.getElementById("firstname2").innerHTML = anal2.firstname;
                 document.getElementById("lastname2").innerHTML = anal2.lastname;
@@ -1045,39 +1048,39 @@ if (app === arr[i].appl){
         }
     if (anal3 === undefined){
                 document.getElementById("anal3").innerHTML = " ";
-    } else if (anal2 !== undefined) {
-                document.getElementById("firstname3").innerHTML = anal1.firstname;
-                document.getElementById("lastname3").innerHTML = anal1.lastname;
-                document.getElementById("homenum3").innerHTML = anal1.homenum;
-                document.getElementById("busnum3").innerHTML = anal1.busnum;
-                document.getElementById("ex3").innerHTML = anal1.ex;
-                document.getElementById("cellnum3").innerHTML = anal1.cellnum;
-                document.getElementById("email3").innerHTML = anal1.email;
-                document.getElementById("company3").innerHTML = anal1.company;
+    } else if (anal3 !== undefined) {
+                document.getElementById("firstname3").innerHTML = anal3.firstname;
+                document.getElementById("lastname3").innerHTML = anal3.lastname;
+                document.getElementById("homenum3").innerHTML = anal3.homenum;
+                document.getElementById("busnum3").innerHTML = anal3.busnum;
+                document.getElementById("ex3").innerHTML = anal3.ex;
+                document.getElementById("cellnum3").innerHTML = anal3.cellnum;
+                document.getElementById("email3").innerHTML = anal3.email;
+                document.getElementById("company3").innerHTML = anal3.company;
         }
     if (anal4 === undefined){
                 document.getElementById("anal4").innerHTML = " ";
-    } else if (anal2 !== undefined) {
-                document.getElementById("firstname4").innerHTML = anal1.firstname;
-                document.getElementById("lastname4").innerHTML = anal1.lastname;
-                document.getElementById("homenum4").innerHTML = anal1.homenum;
-                document.getElementById("busnum4").innerHTML = anal1.busnum;
-                document.getElementById("ex4").innerHTML = anal1.ex;
-                document.getElementById("cellnum4").innerHTML = anal1.cellnum;
-                document.getElementById("email4").innerHTML = anal1.email;
-                document.getElementById("company4").innerHTML = anal1.company;
+    } else if (anal4 !== undefined) {
+                document.getElementById("firstname4").innerHTML = anal4.firstname;
+                document.getElementById("lastname4").innerHTML = anal4.lastname;
+                document.getElementById("homenum4").innerHTML = anal4.homenum;
+                document.getElementById("busnum4").innerHTML = anal4.busnum;
+                document.getElementById("ex4").innerHTML = anal4.ex;
+                document.getElementById("cellnum4").innerHTML = anal4.cellnum;
+                document.getElementById("email4").innerHTML = anal4.email;
+                document.getElementById("company4").innerHTML = anal4.company;
         }
     if (anal5 === undefined){
                 document.getElementById("anal5").innerHTML = " ";
-    }else if (anal2 !== undefined) {
-                document.getElementById("firstname5").innerHTML = anal1.firstname;
-                document.getElementById("lastname5").innerHTML = anal1.lastname;
-                document.getElementById("homenum5").innerHTML = anal1.homenum;
-                document.getElementById("busnum5").innerHTML = anal1.busnum;
-                document.getElementById("ex5").innerHTML = anal1.ex;
-                document.getElementById("cellnum5").innerHTML = anal1.cellnum;
-                document.getElementById("email5").innerHTML = anal1.email;
-                document.getElementById("company5").innerHTML = anal1.company;
+    } else if (anal5 !== undefined) {
+                document.getElementById("firstname5").innerHTML = anal5.firstname;
+                document.getElementById("lastname5").innerHTML = anal5.lastname;
+                document.getElementById("homenum5").innerHTML = anal5.homenum;
+                document.getElementById("busnum5").innerHTML = anal5.busnum;
+                document.getElementById("ex5").innerHTML = anal5.ex;
+                document.getElementById("cellnum5").innerHTML = anal5.cellnum;
+                document.getElementById("email5").innerHTML = anal5.email;
+                document.getElementById("company5").innerHTML = anal5.company;
         }
    
      
@@ -1087,6 +1090,8 @@ if (app === arr[i].appl){
 } //end of iterate through 'arr' array
     
 }
+
+            
 
 function enterKey(e){
 var key=e.keyCode || e.which;
