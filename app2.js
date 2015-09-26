@@ -13,9 +13,10 @@ var arr0 = [
         perkeisha: {
             firstname: 'Perkeisha',
             lastname: 'Underwood',
-            homenum: '',
-            busnum: '',
-            cellnum: '',
+            homenum: '754-366-6908',
+            busnum: '727-553-7834',
+            ex: '37834',
+            cellnum: '754-366-6908',
             email: 'Perkeisha.Underwood@hma.com'
                  
         }
@@ -23,8 +24,8 @@ var arr0 = [
         tom: {
             firstname: 'Tom ',
             lastname: 'Tindall',
-            homenum: '941-748-0588',
-            busnum: '727-553-7872',
+            homenum: '727-823-5241',
+            busnum: '727-553-7837',
             ex: '37837',
             cellnum: '941-224-5045',
             email: 'Tom.Tindall@hma.com'
@@ -33,18 +34,20 @@ var arr0 = [
         tammy: {
             firstname: 'Tammy ',
             lastname: 'Beal',
-            homenum: '',
-            busnum: '',
-            cellnum: '',
+            homenum: '727-867-8213',
+            busnum: '727-893-6238',
+            ex: '32033',
+            cellnum: '727-366-7370',
             email: 'tammy.beal@hma.com'
         }
     }, {
         colleen: {
             firstname: 'Colleen ',
             lastname: 'Hoffman',
-            homenum: '',
-            busnum: '',
-            cellnum: '',
+            homenum: '609-694-8526',
+            busnum: '727-553-7414',
+            ex: '37414',
+            cellnum: '609-694-8526',
             email: 'Colleen.Hoffman@hma.com'
         }
     }, {
@@ -90,10 +93,10 @@ var arr0 = [
         shari: {
             firstname: 'Shari ',
             lastname: 'Goodwin',
-            homenum: '',
+            homenum: '727-531-7655',
             busnum: '727-553-7820',
             ex: '37820',
-            cellnum: '',
+            cellnum: '727-560-8931',
             email: 'Shari.Goodwin@hma.com',
             company: ''
         }
@@ -112,10 +115,10 @@ var arr0 = [
         deniseM: {
             firstname: 'Denise ',
             lastname: 'Murphy',
-            homenum: '727-867-0736',
+            homenum: '727-323-3631',
             busnum: '727-553-7838',
             ex: '37838',
-            cellnum: '',
+            cellnum: '727-218-3825',
             email: 'Denise.Murphy@hma.com'
         }
     }, {
@@ -144,18 +147,18 @@ var arr0 = [
             firstname: 'Stephen ',
             lastname: 'Marts',
             homenum: '',
-            busnum: '',
-            ex: '',
-            cellnum: '',
+            busnum: '727-893-6342',
+            ex: '36342',
+            cellnum: '816-797-1755',
             email: 'Stephen.Marts@hma.com'
         }
     }, {
         rick: {
             firstname: 'Rick ',
             lastname: 'Gibner',
-            homenum: '',
-            busnum: '813-633-7556',
-            ex: '',
+            homenum: '813-633-7556',
+            busnum: '727-553-7898',
+            ex: '37898',
             cellnum: '',
             email: 'Rick.Gibner@hma.com',
             company: ''
@@ -164,10 +167,10 @@ var arr0 = [
         dave: {
             firstname: 'Dave ',
             lastname: 'Leclaire',
-            homenum: '',
+            homenum: '941-776-8385',
             busnum: '727-893-6034',
             ex: '32029',
-            cellnum: '',
+            cellnum: '727-710-9937',
             email: 'Dave.Leclaire@hma.com',
             company: ''
         }
@@ -186,10 +189,10 @@ var arr0 = [
         aston: {
             firstname: 'Aston ',
             lastname: 'Samuels',
-            homenum: '',
+            homenum: '561-449-1333',
             busnum: '727-290-1362',
             ex: '32025',
-            cellnum: '',
+            cellnum: '561-449-1333',
             email: 'Aston.Samuels@hma.com',
             company: ''
         }
@@ -206,11 +209,11 @@ var arr0 = [
         daniel: {
             firstname: 'Daniel ',
             lastname: 'Downs',
-            homenum: '',
+            homenum: '727-612-8204',
             busnum: '727-896-6348',
-            ex: '',
+            ex: '36348',
             cellnum: '',
-            email: ''
+            email: 'Daniel.Downs@hma.com'
         }
     }, {
         johnG: {
@@ -218,25 +221,28 @@ var arr0 = [
             lastname: 'Gaskins',
             homenum: '',
             busnum: '',
-            cellnum: '',
-            email: ''
+            ex: '52011',
+            cellnum: '727-504-9376',
+            email: 'John.Gaskins@hma.com'
         }
     }, {
         tyler: {
             firstname: 'Tyler ',
             lastname: 'Betts',
-            homenum: '',
-            busnum: '',
-            cellnum: '',
-            email: ''
+            homenum: '239-565-0045',
+            busnum: '727-893-7717',
+            ex: '37717',
+            cellnum: '239-565-0045',
+            email: 'Tyler.Betts@hma.com'
         }
     }, {
         bob: {
             firstname: 'Bob ',
             lastname: 'Fox',
             homenum: '',
-            busnum: '',
-            cellnum: '',
+            busnum: '727-893-6147',
+            ex: '36147',
+            cellnum: '727-519-3574',
             email: 'Robert.Fox@hma.com'
         }
     }, {
@@ -279,7 +285,190 @@ var arr0 = [
             cellnum: '',
             email: 'Janet.Bryant@hma.com'
         }
-        ];
+    }, {
+        herman: {
+            firstname: 'Herman ',
+            lastname: 'Gilyard',
+            homenum: '813-442-8336',
+            busnum: '727-893-6018',
+            ex: '36018',
+            cellnum: '727-410-6319',
+            email: 'Herman.Gilyard@hma.com'
+        }
+    }, {
+        mark: {
+            firstname: 'Mark ',
+            lastname: 'Smithson',
+            homenum: '727-523-1292',
+            busnum: '727-893-6730',
+            ex: '36730',
+            cellnum: '727-481-3233',
+            email: 'Mark.Smithson@hma.com'
+        }
+    }, {
+        barbara: {
+            firstname: 'Barbara ',
+            lastname: 'Robinson',
+            homenum: '813-661-3184',
+            busnum: '727-893-6147',
+            ex: '36147',
+            cellnum: '727-481-3233',
+            email: 'Barbara.Robinson@hma.com'
+        }
+    }, {
+        tony: {
+            firstname: 'tony ',
+            lastname: 'ruiz',
+            homenum: '813-884-7271',
+            busnum: '727-893-7441',
+            ex: '37441',
+            cellnum: '813-502-9504',
+            email: 'anthony.ruiz@hma.com'
+        }
+    }, {
+        ernest: {
+            firstname: 'Ernest ',
+            lastname: 'Whalen',
+            homenum: '727-798-1911',
+            busnum: '727-893-7441',
+            ex: '37441',
+            cellnum: '727-798-1911',
+            email: 'Ernest.Whalen@hma.com'
+        }
+    }, {
+        morgan: {
+            firstname: 'Morgan ',
+            lastname: 'Harris',
+            homenum: '',
+            busnum: '727-893-7441',
+            ex: '37441',
+            cellnum: '727-798-1911',
+            email: 'Morgan.Harris@hma.com'
+        }
+    }, {
+        ignacio: {
+            firstname: 'Ignacio ',
+            lastname: 'Fernandez',
+            homenum: '813-933-1040',
+            busnum: '727-893-7117',
+            ex: '37117',
+            cellnum: '813-933-1020',
+            email: 'Ignacio.Fernandez@hma.com'
+        }
+    }, {
+        patti: {
+            firstname: 'Patti ',
+            lastname: 'Ewin',
+            homenum: '',
+            busnum: '727-893-6351',
+            ex: '36351',
+            cellnum: '',
+            email: 'Patti.Ewin@hma.com'
+        }
+    }, {
+        cecilio: {
+            firstname: 'Cecilio ',
+            lastname: 'Shaw',
+            homenum: '813-956-6954',
+            busnum: '727-893-6776',
+            ex: '36776',
+            cellnum: '813-956-6954',
+            email: 'Cecilio.Shaw@hma.com'
+        }
+    }, {
+        rasheedah: {
+            firstname: 'Rasheedah ',
+            lastname: 'Haneef',
+            homenum: '',
+            busnum: '727-893-6613',
+            ex: '36613',
+            cellnum: '',
+            email: 'Rasheedah.Haneef@hma.com'
+        }
+    }, {
+        edwin: {
+            firstname: 'Edwin ',
+            lastname: 'Rivas',
+            homenum: '813-740-2500',
+            busnum: '800-752-7725',
+            ex: '36613',
+            cellnum: '',
+            email: '',
+            company: 'Rauland Borg'
+        }
+    }, {
+        lauren: {
+            firstname: 'Lauren ',
+            lastname: 'Hinds',
+            homenum: '813-740-2500',
+            busnum: '800-752-7725',
+            ex: '36613',
+            cellnum: '',
+            email: '',
+            company: 'Rauland Borg'
+        }
+    }, {
+        peter: {
+            firstname: 'Peter ',
+            lastname: 'Napoles',
+            homenum: '',
+            busnum: '727-893-7112',
+            ex: '37112',
+            cellnum: '305-798-2070',
+            email: 'Peter.Napoles@hma.com'
+        }
+    }, {
+        bernard: {
+            firstname: 'Bernard ',
+            lastname: 'Butler',
+            homenum: '727-867-4069',
+            busnum: '727-893-6908',
+            ex: '32011',
+            cellnum: '727-403-1206',
+            email: 'Bernard.Butler@hma.com'
+        }
+    }, {
+        kenn: {
+            firstname: 'Kenn ',
+            lastname: 'Finnis',
+            homenum: '727-710-3664',
+            busnum: '727-553-7444',
+            ex: '32022',
+            cellnum: '727-710-3664',
+            email: 'Kenn.Finnis@hma.com'
+        }
+    }, {
+        biomed: {
+            firstname: 'biomed ',
+            lastname: '',
+            homenum: '',
+            busnum: '727-257-0165',
+            ex: '36904',
+            cellnum: '',
+            email: ''
+        }
+    }, {
+        jorge: {
+            firstname: 'Jorge ',
+            lastname: 'Gimenez',
+            homenum: '',
+            busnum: '727-893-6569',
+            ex: '36569',
+            cellnum: '727-366-9779',
+            email: 'Jorge.Gimenez@hma.com'
+        }
+    }, {
+        brooke: {
+            firstname: 'Brooke ',
+            lastname: 'Gabel',
+            homenum: '',
+            busnum: '',
+            ex: '33355',
+            cellnum: '',
+            email: 'Brooke.Gabel@hma.com'
+        }
+    }
+];
 
 var arr =    [{
         appl: 'aast grand rounds',
@@ -364,7 +553,7 @@ var arr =    [{
         },
         {
             appl: 'cerner antibiotic alert',
-            anal1: arr0[9].shari,
+            anal1: arr0[9].shari
         },
         {
             appl: 'cerner blood bank',
@@ -453,8 +642,8 @@ var arr =    [{
         {
             appl: 'cerner pathnet interfaces (mdi)- direct ip-  iris- jresultnet light urinalysis',
             anal1: arr0[9].dave,
-            anal2: arr0[7].denise,,
-            anal2: arr0[9].shari
+            anal2: arr0[7].denise,
+            anal3: arr0[9].shari
         },
         {
             appl: 'cerner patient depart process',
@@ -504,88 +693,272 @@ var arr =    [{
             appl: 'desktop support',
             anal1: arr0[20].daniel,
             anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler,
-        }, 
-    {
+            anal3: arr0[22].tyler
+        },
+        {
             appl: 'dexter cedaron',
             anal1: arr0[4].colleen
-    }, 
-    {
+        },
+        {
             appl: 'dragon',
             anal1: arr0[18].aston,
             anal2: arr0[4].colleen
-    },
-    {
+        },
+        {
             appl: 'echo system- former med staff credentialing system',
-            anal1: arr0[11].deniseM, 
+            anal1: arr0[11].deniseM,
             anal2: arr0[11].lori
-    },
-    {
+        },
+        {
             appl: 'eeg xltek',
             anal1: arr0[4].colleen
-    }, 
-    {
+        },
+        {
             appl: 'elsevier',
             anal1: arr0[26].amy
-    }, 
-    {
+        },
+        {
             appl: 'ers (event reporting system)',
             anal1: arr0[15].rick
-    }, 
-    {
+        },
+        {
             appl: 'excelera',
             anal1: arr0[4].colleen
-    },
-    {
+        },
+        {
             appl: 'fl ens (events notification system) interface',
             anal1: arr0[15].rick
-    },
-    {
+        },
+        {
             appl: 'fl newborn tiff alternative printing',
             anal1: arr0[9].shari
-    },
-    {
+        },
+        {
             appl: 'forms on demand (fod)',
             anal1: arr0[1].perkeisha
-    },
-    {
+        },
+        {
             appl: 'ge centricity cardiovascular  (321 206 8419)  vs. philips cardiovascular',
             anal1: arr0[4].colleen
-    },
-    {
+        },
+        {
             appl: 'ge fetal monitoring qs',
             anal1: arr0[4].colleen
-    },
-    {
+        },
+              {
             appl: 'ge muse',
             anal1: arr0[4].colleen
-    },
-    {
+        },
+        {
             appl: 'golden hour (bayflite)',
             anal1: arr0[7].denise
-    },
-    {
+        },
+        {
             appl: 'ibm iseries',
             anal1: arr0[0].lou
-    },
-    {
+        },
+        {
             appl: 'idinc ems risk management software / employee injury / peer review',
             anal1: arr0[27].janet
-    },
-    {
+        },
+        {
             appl: 'fl ens (events notification system) interface',
             anal1: arr0[15].rick
-    },
+        },
+        {
+            appl: 'fl newborn tiff alternative printing',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'forms on demand (fod)',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'ge centricity cardiovascular  (321 206 8419)  vs. philips cardiovascular',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'ge fetal monitoring qs',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'ge muse',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'infinium',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'integrated informatics / old mars system',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'iris instrument lab',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'it manager',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark
+        },
+        {
+            appl: 'it operator',
+            anal1: arr0[23].bob,
+            anal2: arr0[30].barbara,
+            anal3: arr0[31].tony,
+            anal4: arr0[32].ernest,
+            anal5: arr0[33].morgan
+        },
+        {
+            appl: 'kronos time and attendance',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'labor lytics',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'landmark transcription',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'mckesson cerme and interqual',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'meadows business systems',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'mobile pagers',
+            anal1: arr0[34].ignacio
+        },
+        {
+            appl: 'monarch',
+            anal1: arr0[35].patti
+        },
+        {
+            appl: 'nortel telecom',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
+            appl: 'nuance powerscribe',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'passport - intellisource',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'passport onesource',
+            anal1: arr0[37].rasheedah
+        },
+        {
+            appl: 'pulse',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'remel ids database - to lookup organism identification',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'responder 5',
+            anal1: arr0[38].edwin,
+            anal2: arr0[39].lauren
+        },
+        {
+            appl: 'report request prod_bay',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'security cameras',
+            anal1: arr0[40].peter
+        },
+        {
+            appl: 'single sign on paradigm (sso)',
+            anal1: arr0[41].bernard
+        },
+        {
+            appl: 'sophos',
+            anal1: arr0[42].kenn
+        },
+        {
+            appl: 'spacelabs',
+            anal1: arr0[43].biomed
+        },
+        {
+            appl: 'specialty/ quest- see quest/specialty',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'standard registry (forms on demand)',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'stryker',
+            anal1: arr0[43].biomed
+        },
+        {
+            appl: 'telecom',
+            anal1: arr0[36].cecilio,
+            anal2: arr0[34].ignacio
+        },
+        {
+            appl: 'theradoc (infection control)',
+            anal1: arr0[45].brooke
+        },
+        {
+            appl: 'pharmacy',
+            anal1: arr0[45].brooke
+        },
+        {
+            appl: 'trauma base',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'truven mmd',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'vitrea',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'vocera',
+            anal1: arr0[41].bernard,
+            anal2: arr0[44].jorge
+        },
+        {
+            appl: 'vrad',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'xcelera philips',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'xper philips (witt)',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'abbott',
+            anal1: arr0[7].denise,
+            anal2: arr0[8].sean,
+            anal3: arr0[9].shari
+        },
+        {
+            appl: 'grand rounds',
+            anal1: arr0[1].perkeisha
+        }
             ];
 
-var ana1 = {
-        firstname: 'Perkeisha',
-        lastname: 'Underwood',
-        phoneNumber: '',
-        email: 'Perkeisha.Underwood@hma.com'
-    };
+
 
 var app, arrLength = arr.length;
+
+
 
 function myFunction() {
     var x, analystSupport, app;
@@ -600,9 +973,15 @@ function myFunction() {
     
 if (app === arr[i].appl){
     
-    console.log(arr[i].analyst1.firstname);
-    console.log(arr[i].analyst1.lastname);
-    analystSupport = arr[i].analyst1;
+    
+    console.log(arr[i].anal1.firstname);
+    console.log(arr[i].anal1.lastname);
+        if (anal1 !== undefined){
+        
+             document.getElementById("anal1").innerHTML = arr[i].anal1;
+        }
+    analystSupport = arr[i].anal1;
+    
 } 
     
 } //end of iterate through 'arr' array

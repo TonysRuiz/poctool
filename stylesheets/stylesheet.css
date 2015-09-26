@@ -243,3 +243,25 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+---------------------------------------------
+
+
+
+
+media="screen" input{ .page-header.button {
+    color: #673B3B;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: #673B3B; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
