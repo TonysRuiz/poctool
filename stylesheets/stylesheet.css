@@ -265,3 +265,36 @@ textarea {
   margin: 0; /* 3 */
 }
 
+#anal ul{
+
+    float: left;
+
+}
+
+.page-header{
+    
+    clear:left;
+    overflow:auto;
+}
+
+:-webkit-any(article,aside,nav,section)#anal {
+    
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+
+
+#anal {
+    display: block;
+    
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 29px;
+    -webkit-margin-end: 29px;
+    text-align: left;
+    
+}
+
+#glyph, #glyphe{
+    float: left;
+}

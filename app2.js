@@ -1,7 +1,9 @@
+
 var arr0 = [
     {lou: {
         firstname: 'Lou ',
         lastname: 'Schulte',
+        name: 'Lou Schulte',
         homenum: '',
         busnum: '727-553-7836',
         ex: '32034',
@@ -13,6 +15,7 @@ var arr0 = [
         perkeisha: {
             firstname: 'Perkeisha',
             lastname: 'Underwood',
+            name: 'Perkeisha Underwood',
             homenum: '754-366-6908',
             busnum: '727-553-7834',
             ex: '37834',
@@ -24,6 +27,7 @@ var arr0 = [
         tom: {
             firstname: 'Tom ',
             lastname: 'Tindall',
+            name: 'Tom Tindall',
             homenum: '727-823-5241',
             busnum: '727-553-7837',
             ex: '37837',
@@ -35,6 +39,7 @@ var arr0 = [
         tammy: {
             firstname: 'Tammy ',
             lastname: 'Beal',
+            name: 'Tammy Beal',
             homenum: '727-867-8213',
             busnum: '727-893-6238',
             ex: '32033',
@@ -46,6 +51,7 @@ var arr0 = [
         colleen: {
             firstname: 'Colleen ',
             lastname: 'Hoffman',
+            name: 'Colleen Hoffman',
             homenum: '609-694-8526',
             busnum: '727-553-7414',
             ex: '37414',
@@ -57,6 +63,7 @@ var arr0 = [
         john: {
             firstname: 'John ',
             lastname: 'Amodeo',
+            name: 'John Amodeo',
             homenum: '7278678213',
             busnum: '7278936691',
             ex: '36691',
@@ -68,6 +75,7 @@ var arr0 = [
         sharon: {
             firstname: 'Sharon ',
             lastname: 'Hodge',
+            name: 'Sharon Hodge',
             homenum: '',
             busnum: '',
             cellnum: '',
@@ -78,6 +86,7 @@ var arr0 = [
         denise: {
             firstname: 'Denise ',
             lastname: 'Rafferty',
+            name: 'Denise Rafferty',
             homenum: '',
             busnum: '1-800-366-8020',
             cellnum: '1-423-243-6759',
@@ -88,6 +97,7 @@ var arr0 = [
         sean: {
             firstname: 'Sean ',
             lastname: 'Fogarty',
+            name: 'Sean Fogarty',
             homenum: ' ',
             busnum: '727-893-6494',
             ex: '36182',
@@ -99,6 +109,7 @@ var arr0 = [
         shari: {
             firstname: 'Shari ',
             lastname: 'Goodwin',
+            name: 'Shari Goodwin',
             homenum: '727-531-7655',
             busnum: '727-553-7820',
             ex: '37820',
@@ -110,6 +121,7 @@ var arr0 = [
         timothy: {
             firstname: 'Timothy ',
             lastname: 'Luba',
+            name: 'Timothy Luba',
             homenum: '',
             busnum: '727-893-6160',
             ex: '33142',
@@ -121,6 +133,7 @@ var arr0 = [
         deniseM: {
             firstname: 'Denise ',
             lastname: 'Murphy',
+            name: 'Denise Murphy',
             homenum: '727-323-3631',
             busnum: '727-553-7838',
             ex: '37838',
@@ -132,6 +145,7 @@ var arr0 = [
         nadena: {
             firstname: 'Nadena ',
             lastname: 'Martinovich',
+            name: 'Nadena Martinovich',
             homenum: '',
             busnum: '7278936028',
             ex: '',
@@ -143,6 +157,7 @@ var arr0 = [
         chirayu: {
             firstname: 'Chirayu ',
             lastname: 'Patel',
+            name: 'Chirayu Patel',
             homenum: '',
             busnum: '',
             cellnum: '',
@@ -153,6 +168,7 @@ var arr0 = [
         stephen: {
             firstname: 'Stephen ',
             lastname: 'Marts',
+            name: 'Stephen Marts',
             homenum: '',
             busnum: '727-893-6342',
             ex: '36342',
@@ -164,6 +180,7 @@ var arr0 = [
         rick: {
             firstname: 'Rick ',
             lastname: 'Gibner',
+            name: 'Rick Gibner',
             homenum: '813-633-7556',
             busnum: '727-553-7898',
             ex: '37898',
@@ -175,6 +192,7 @@ var arr0 = [
         dave: {
             firstname: 'Dave ',
             lastname: 'Leclaire',
+            name: 'Dave Leclaire',
             homenum: '941-776-8385',
             busnum: '727-893-6034',
             ex: '32029',
@@ -186,6 +204,7 @@ var arr0 = [
         maryBeth: {
             firstname: 'Mary Beth ',
             lastname: 'Moody',
+            name: 'MaryBeth Moody',
             homenum: '',
             busnum: '727-893-6138',
             ex: '36138',
@@ -197,6 +216,7 @@ var arr0 = [
         aston: {
             firstname: 'Aston ',
             lastname: 'Samuels',
+            name: 'Aston Samuels',
             homenum: '561-449-1333',
             busnum: '727-290-1362',
             ex: '32025',
@@ -208,6 +228,7 @@ var arr0 = [
         shannon: {
             firstname: 'Shannon ',
             lastname: 'Pauley',
+            name: 'Shannon Pauley',
             homenum: '',
             busnum: '',
             cellnum: '',
@@ -218,6 +239,7 @@ var arr0 = [
         daniel: {
             firstname: 'Daniel ',
             lastname: 'Downs',
+            name: 'Daniel Downs',
             homenum: '727-612-8204',
             busnum: '727-896-6348',
             ex: '36348',
@@ -229,6 +251,7 @@ var arr0 = [
         johnG: {
             firstname: 'John ',
             lastname: 'Gaskins',
+            name: 'John Gaskins',
             homenum: '',
             busnum: '',
             ex: '52011',
@@ -240,6 +263,7 @@ var arr0 = [
         tyler: {
             firstname: 'Tyler ',
             lastname: 'Betts',
+            name: 'Tyler Betts',
             homenum: '239-565-0045',
             busnum: '727-893-7717',
             ex: '37717',
@@ -251,6 +275,7 @@ var arr0 = [
         bob: {
             firstname: 'Bob ',
             lastname: 'Fox',
+            name: 'Bob Fox',
             homenum: '',
             busnum: '727-893-6147',
             ex: '36147',
@@ -262,6 +287,7 @@ var arr0 = [
         jeremy: {
             firstname: 'Jeremy ',
             lastname: 'Dean',
+            name: 'Jeremy Dean',
             homenum: '',
             busnum: '',
             ex: '',
@@ -273,6 +299,7 @@ var arr0 = [
         lori: {
             firstname: 'Lori ',
             lastname: 'Bailey',
+            name: 'Lori Bailey',
             homenum: '',
             busnum: '7278936268',
             ex: '36268',
@@ -284,6 +311,7 @@ var arr0 = [
         amy: {
             firstname: 'Amy ',
             lastname: 'Kendricks',
+            name: 'Amy Kendricks',
             homenum: '',
             busnum: '',
             ex: '',
@@ -295,6 +323,7 @@ var arr0 = [
         janet: {
             firstname: 'Janet ',
             lastname: 'Bryant',
+            name: 'Janet Bryant',
             homenum: '',
             busnum: '',
             ex: '',
@@ -306,6 +335,7 @@ var arr0 = [
         herman: {
             firstname: 'Herman ',
             lastname: 'Gilyard',
+            name: 'Herman Gilyard',
             homenum: '813-442-8336',
             busnum: '727-893-6018',
             ex: '36018',
@@ -317,6 +347,7 @@ var arr0 = [
         mark: {
             firstname: 'Mark ',
             lastname: 'Smithson',
+            name: 'Mark Smithson',
             homenum: '727-523-1292',
             busnum: '727-893-6730',
             ex: '36730',
@@ -328,6 +359,7 @@ var arr0 = [
         barbara: {
             firstname: 'Barbara ',
             lastname: 'Robinson',
+            name: 'Barbara Robinson',
             homenum: '813-661-3184',
             busnum: '727-893-6147',
             ex: '36147',
@@ -337,8 +369,9 @@ var arr0 = [
         }
     }, {
         tony: {
-            firstname: 'tony ',
-            lastname: 'ruiz',
+            firstname: 'Tony ',
+            lastname: 'Ruiz',
+            name: 'Tony Ruiz',
             homenum: '813-884-7271',
             busnum: '727-893-7441',
             ex: '37441',
@@ -350,6 +383,7 @@ var arr0 = [
         ernest: {
             firstname: 'Ernest ',
             lastname: 'Whalen',
+            name: 'Ernest Whalen',
             homenum: '727-798-1911',
             busnum: '727-893-7441',
             ex: '37441',
@@ -361,6 +395,7 @@ var arr0 = [
         morgan: {
             firstname: 'Morgan ',
             lastname: 'Harris',
+            name: 'Morgan Harris',
             homenum: '',
             busnum: '727-893-7441',
             ex: '37441',
@@ -372,6 +407,7 @@ var arr0 = [
         ignacio: {
             firstname: 'Ignacio ',
             lastname: 'Fernandez',
+            name: 'Ignacio Fernandez',
             homenum: '813-933-1040',
             busnum: '727-893-7117',
             ex: '37117',
@@ -383,6 +419,7 @@ var arr0 = [
         patti: {
             firstname: 'Patti ',
             lastname: 'Ewin',
+            name: 'Patti Ewin',
             homenum: '',
             busnum: '727-893-6351',
             ex: '36351',
@@ -394,6 +431,7 @@ var arr0 = [
         cecilio: {
             firstname: 'Cecilio ',
             lastname: 'Shaw',
+            name: 'Cecilio Shaw',
             homenum: '813-956-6954',
             busnum: '727-893-6776',
             ex: '36776',
@@ -405,6 +443,7 @@ var arr0 = [
         rasheedah: {
             firstname: 'Rasheedah ',
             lastname: 'Haneef',
+            name: 'Rasheedah Haneef',
             homenum: '',
             busnum: '727-893-6613',
             ex: '36613',
@@ -416,6 +455,7 @@ var arr0 = [
         edwin: {
             firstname: 'Edwin ',
             lastname: 'Rivas',
+            name: 'Edwin Rivas',
             homenum: '813-740-2500',
             busnum: '800-752-7725',
             ex: '36613',
@@ -427,6 +467,7 @@ var arr0 = [
         lauren: {
             firstname: 'Lauren ',
             lastname: 'Hinds',
+            name: 'Lauren Hinds',
             homenum: '813-740-2500',
             busnum: '800-752-7725',
             ex: '36613',
@@ -438,6 +479,7 @@ var arr0 = [
         peter: {
             firstname: 'Peter ',
             lastname: 'Napoles',
+            name: 'Peter Napoles',
             homenum: '',
             busnum: '727-893-7112',
             ex: '37112',
@@ -449,6 +491,7 @@ var arr0 = [
         bernard: {
             firstname: 'Bernard ',
             lastname: 'Butler',
+            name: 'Bernard Butler',
             homenum: '727-867-4069',
             busnum: '727-893-6908',
             ex: '32011',
@@ -460,6 +503,7 @@ var arr0 = [
         kenn: {
             firstname: 'Kenn ',
             lastname: 'Finnis',
+            name: 'Kenn Finnis',
             homenum: '727-710-3664',
             busnum: '727-553-7444',
             ex: '32022',
@@ -471,6 +515,7 @@ var arr0 = [
         biomed: {
             firstname: 'biomed ',
             lastname: '',
+            name: 'biomed',
             homenum: '',
             busnum: '727-257-0165',
             ex: '36904',
@@ -482,6 +527,7 @@ var arr0 = [
         jorge: {
             firstname: 'Jorge ',
             lastname: 'Gimenez',
+            name: 'Jorge Gimenez',
             homenum: '',
             busnum: '727-893-6569',
             ex: '36569',
@@ -493,6 +539,7 @@ var arr0 = [
         brooke: {
             firstname: 'Brooke ',
             lastname: 'Gabel',
+            name: 'Brooke Gabel',
             homenum: '',
             busnum: '',
             ex: '33355',
@@ -1006,84 +1053,91 @@ function myFunction() {
     app = x.toLowerCase();
 
     
+    
     for (var i = 0; i < arrLength; i++){
+if (app === arr[i].appl) {
     
-if (app === arr[i].appl){
-    
-    var anal1, anal2, anal3, anal4, anal5;
+
     
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
     
-    anal1 = arr[i].anal1;
-    anal2 = arr[i].anal2;
-    anal3 = arr[i].anal3;
-    anal4 = arr[i].anal4;
-    anal5 = arr[i].anal5;
     
-    if (anal1 === undefined){
-                document.getElementById("anal1").innerHTML = " ";
-    } else if (anal1 !== undefined){
+    var arr1 = [
     
-                document.getElementById("firstname").innerHTML = anal1.firstname;
-                document.getElementById("lastname").innerHTML = anal1.lastname;
-                document.getElementById("homenum").innerHTML = anal1.homenum;
-                document.getElementById("busnum").innerHTML = anal1.busnum;
-                document.getElementById("ex").innerHTML = anal1.ex;
-                document.getElementById("cellnum").innerHTML = anal1.cellnum;
-                document.getElementById("email").innerHTML = anal1.email;
-                document.getElementById("company").innerHTML = anal1.company;
-        } 
-    if (anal2 === undefined){
-                document.getElementById("anal2").innerHTML = " ";
-    } else if (anal2 !== undefined) {
-                document.getElementById("firstname2").innerHTML = anal2.firstname;
-                document.getElementById("lastname2").innerHTML = anal2.lastname;
-                document.getElementById("homenum2").innerHTML = anal2.homenum;
-                document.getElementById("busnum2").innerHTML = anal2.busnum;
-                document.getElementById("ex2").innerHTML = anal2.ex;
-                document.getElementById("cellnum2").innerHTML = anal2.cellnum;
-                document.getElementById("email2").innerHTML = anal2.email;
-                document.getElementById("company2").innerHTML = anal2.company;
+        {analy1 : arr[i].anal1},
+        {analy2 : arr[i].anal2},
+        {analy3 : arr[i].anal3},     
+        {analy4 : arr[i].anal4},         
+        {analy5 : arr[i].anal5}              
+    ];
+
+    
+    if (arr1[0].analy1 === undefined) {
+            document.getElementById("analy1").innerHTML = " ";
+    } else if (arr1[0].analy1 !== undefined) {
+                
+                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("name").innerHTML = arr1[0].analy1.name;
+                document.getElementById("homenum").innerHTML = arr1[0].analy1.homenum;
+                document.getElementById("busnum").innerHTML = arr1[0].analy1.busnum;
+                document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
+                document.getElementById("cellnum").innerHTML = arr1[0].analy1.cellnum;
+                document.getElementById("glyphe").src= "glyph/glyphicons-11-envelope.png";
+                document.getElementById("email").innerHTML = arr1[0].analy1.email;
+                document.getElementById("company").innerHTML = arr1[0].analy1.company;
+
         }
-    if (anal3 === undefined){
-                document.getElementById("anal3").innerHTML = " ";
-    } else if (anal3 !== undefined) {
-                document.getElementById("firstname3").innerHTML = anal3.firstname;
-                document.getElementById("lastname3").innerHTML = anal3.lastname;
-                document.getElementById("homenum3").innerHTML = anal3.homenum;
-                document.getElementById("busnum3").innerHTML = anal3.busnum;
-                document.getElementById("ex3").innerHTML = anal3.ex;
-                document.getElementById("cellnum3").innerHTML = anal3.cellnum;
-                document.getElementById("email3").innerHTML = anal3.email;
-                document.getElementById("company3").innerHTML = anal3.company;
+    if (arr1[1].analy2 === undefined){
+                document.getElementById("analy2").innerHTML = " ";
+    } else if (arr1[1].analy2 !== undefined) {
+                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("name2").innerHTML = arr1[1].analy2.name;
+                document.getElementById("homenum2").innerHTML = arr1[1].analy2.homenum;
+                document.getElementById("busnum2").innerHTML = arr1[1].analy2.busnum;
+                document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
+                document.getElementById("cellnum2").innerHTML = arr1[1].analy2.cellnum;
+                document.getElementById("email2").innerHTML = arr1[1].analy2.email;
+                document.getElementById("company2").innerHTML = arr1[1].analy2.company;
         }
-    if (anal4 === undefined){
-                document.getElementById("anal4").innerHTML = " ";
-    } else if (anal4 !== undefined) {
-                document.getElementById("firstname4").innerHTML = anal4.firstname;
-                document.getElementById("lastname4").innerHTML = anal4.lastname;
-                document.getElementById("homenum4").innerHTML = anal4.homenum;
-                document.getElementById("busnum4").innerHTML = anal4.busnum;
-                document.getElementById("ex4").innerHTML = anal4.ex;
-                document.getElementById("cellnum4").innerHTML = anal4.cellnum;
-                document.getElementById("email4").innerHTML = anal4.email;
-                document.getElementById("company4").innerHTML = anal4.company;
+    if (arr1[2].analy3 === undefined){
+                document.getElementById("analy3").innerHTML = " ";
+    } else if (arr1[2].analy3 !== undefined) {
+                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("name3").innerHTML = arr1[2].analy3.name;
+                document.getElementById("homenum3").innerHTML = arr1[2].analy3.homenum;
+                document.getElementById("busnum3").innerHTML = arr1[2].analy3.busnum;
+                document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
+                document.getElementById("cellnum3").innerHTML = arr1[2].analy3.cellnum;
+                document.getElementById("email3").innerHTML = arr1[2].analy3.email;
+                document.getElementById("company3").innerHTML = arr1[2].analy3.company;
         }
-    if (anal5 === undefined){
-                document.getElementById("anal5").innerHTML = " ";
-    } else if (anal5 !== undefined) {
-                document.getElementById("firstname5").innerHTML = anal5.firstname;
-                document.getElementById("lastname5").innerHTML = anal5.lastname;
-                document.getElementById("homenum5").innerHTML = anal5.homenum;
-                document.getElementById("busnum5").innerHTML = anal5.busnum;
-                document.getElementById("ex5").innerHTML = anal5.ex;
-                document.getElementById("cellnum5").innerHTML = anal5.cellnum;
-                document.getElementById("email5").innerHTML = anal5.email;
-                document.getElementById("company5").innerHTML = anal5.company;
+    if (arr1[3].analy4 === undefined){
+                document.getElementById("analy4").innerHTML = " ";
+    } else if (arr1[3].analy4 !== undefined) {
+                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("name4").innerHTML = arr1[3].analy4.name;
+                document.getElementById("homenum4").innerHTML = arr1[3].analy4.homenum;
+                document.getElementById("busnum4").innerHTML = arr1[3].analy4.busnum;
+                document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
+                document.getElementById("cellnum4").innerHTML = arr1[3].analy4.cellnum;
+                document.getElementById("email4").innerHTML = arr1[3].analy4.email;
+                document.getElementById("company4").innerHTML = arr1[3].analy4.company;
+        }
+    if (arr1[4].analy5 === undefined){
+                document.getElementById("analy5").innerHTML = " ";
+    } else if (arr1[4].analy5 !== undefined) {
+                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("name5").innerHTML = arr1[4].analy5.name;
+                document.getElementById("homenum5").innerHTML = arr1[4].analy5.homenum;
+                document.getElementById("busnum5").innerHTML = arr1[4].analy5.busnum;
+                document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
+                document.getElementById("cellnum5").innerHTML = arr1[4].analy5.cellnum;
+                document.getElementById("email5").innerHTML = arr1[4].analy5.email;
+                document.getElementById("company5").innerHTML = arr1[4].analy5.company;
         }
    
-     
+
     
     
 }
@@ -1098,5 +1152,15 @@ var key=e.keyCode || e.which;
 if (key==13){
     myFunction();
 }
+}
+
+function reload(){
+
+    location.reload();
+    
+    setTimeout(function(){
+    myFunction();
+    }, 3000)
+    
 }
 
