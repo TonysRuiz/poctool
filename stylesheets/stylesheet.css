@@ -295,6 +295,24 @@ textarea {
     
 }
 
-#glyph, #glyphe{
+#glyphu1, #glyphu2, #glyphu3, #glyphu4, #glyphu5, #glyphe1, #glyphe2,
+#glyphe3, #glyphe4, #glyphe5, #glyphh1, #glyphh2, #glyphh3, 
+#glyphh4, #glyphh5, #glyphb1, #glyphb2, #glyphb3, #glyphb4, 
+#glyphb5, #glyphp1, #glyphp2, #glyphp3, #glyphp4, #glyphp5 {
     float: left;
+}
+
+div#glyph ul{
+    float: left;
+    list-style-type: none;
+}
+
+#glyph ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 53px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 74px;
 }
