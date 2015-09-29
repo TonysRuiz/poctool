@@ -310,9 +310,17 @@ div#glyph ul{
 #glyph ul {
     display: block;
     list-style-type: disc;
-    -webkit-margin-before: 1em;
+    -webkit-margin-before: 2em;
     -webkit-margin-after: 1em;
-    -webkit-margin-start: 53px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 74px;
+    -webkit-margin-start: 1em;
+    -webkit-margin-end: 0em;
+    -webkit-padding-start: 1em;
+}
+
+div#glyph li, img {
+
+padding-bottom: 6px;
+    max-width: 19px;
+    height: auto;
+
 }
