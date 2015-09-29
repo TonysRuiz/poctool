@@ -37,7 +37,7 @@ var arr0 = [
         }
     }, {
         tammy: {
-            firstname: 'Tammy ',
+            firstname: 'Tammy',
             lastname: 'Beal',
             name: 'Tammy Beal',
             homenum: '727-867-8213',
@@ -98,7 +98,7 @@ var arr0 = [
             firstname: 'Sean ',
             lastname: 'Fogarty',
             name: 'Sean Fogarty',
-            homenum: ' ',
+            homenum: '',
             busnum: '727-893-6494',
             ex: '36182',
             cellnum: '727-408-4330',
@@ -1061,7 +1061,7 @@ if (app === arr[i].appl) {
     
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
-    
+    console.log(arr[i]);
     
     var arr1 = [
     
@@ -1076,19 +1076,27 @@ if (app === arr[i].appl) {
     if (arr1[0].analy1 === undefined) {
             document.getElementById("analy1").style.display = "none";
     } else if (arr1[0].analy1 !== undefined) {
-                document.getElementById("analy1").style.display = 'block';
-                document.getElementsByClassName("glyphu1").src= "glyph/glyphicons-4-user.png";
+                document.getElementById("analy1").style.display = 'block';                
                 document.getElementById("name").innerHTML = arr1[0].analy1.name;
                 document.getElementById("homenum").innerHTML = arr1[0].analy1.homenum;
                 document.getElementById("busnum").innerHTML = arr1[0].analy1.busnum;
-        if (arr1[0].analy1.ex === undefined){
+        
+        if (document.getElementById("ex").innerHTML === undefined){
         document.getElementById("ex").style.display = "none";
         } else if (arr1[0].analy1.ex !== undefined){
         document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
         }
-                
+        
+            
+        
                 document.getElementById("cellnum").innerHTML = arr1[0].analy1.cellnum;
-                document.getElementById("email").innerHTML = arr1[0].analy1.email;
+        
+        if(arr1[0].analy1.email === undefined){
+        document.getElementById("email").style.display = 'none'; 
+        } else if (arr1[0].analy1.email !== undefined){
+        document.getElementById("email").innerHTML = arr1[0].analy1.email;
+        }
+                
                 document.getElementById("company").innerHTML = arr1[0].analy1.company;
 
                 glyph();
@@ -1194,99 +1202,180 @@ function reload(){
     
     setTimeout(function(){
     myFunction();
-    }, 3000)
+    }, 3000);
     
 }
 
 function glyph(){
 
-    if(document.getElementById("email") === undefined){
-     document.getElementById("analy1").style.display = "none";
+    if((document.getElementById("email").innerHTML === undefined) || (document.getElementById("email").innerHTML === "")){
+     document.getElementById("email").style.display = "none";
     } else if (document.getElementById("email") !== undefined){
     var d = document.getElementById("email");
         d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email").style.display = "inline-block"
     }
     
     var u = document.getElementById("name");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    if(document.getElementById("homenum") === undefined){
+    if((document.getElementById("homenum") === undefined) || (document.getElementById("homenum").innerHTML === "")){
     document.getElementById("homenum").style.display = "none";
     } else if (document.getElementById("homenum") !== undefined){
-    var u = document.getElementById("homenum");
-        u.className = u.className + "glyphicon glyphicon-home";
+    var u2 = document.getElementById("homenum");
+        u2.className = u2.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum").style.display = "inline-block"
     }
     
     if(document.getElementById("busnum"))
-    var o = document.getElementById("busnum");
-        o.className = o.className + "glyphicon glyphicon-phone-alt";
+    var i = document.getElementById("busnum");
+        i.className = i.className + "glyphicon glyphicon-phone-alt";
     
-    if(document.getElementById("cellnum"))
+    
+        if(document.getElementById("cellnum").innerHTML === undefined){
+    document.getElementById("cellnum").style.display = "none";
+    } else if (document.getElementById("cellnum") !== undefined){
     var o = document.getElementById("cellnum");
         o.className = o.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum").style.display = "inline-block"
+    }
 }
 
 function glyph2(){
 
+    
+    if((document.getElementById("email2").innerHTML === undefined) ||                            (document.getElementById("email2").innerHTML === "")){
+     document.getElementById("email2").style.display = "none";
+    } else if (document.getElementById("email2") !== undefined){
     var d = document.getElementById("email2");
         d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email2").style.display = "inline-block"
+    }
+    
     var u = document.getElementById("name2");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    var u = document.getElementById("homenum2");
-        u.className = u.className + "glyphicon glyphicon-home";
+    if((document.getElementById("homenum2") === undefined) || (document.getElementById("homenum2").innerHTML === "")){
+    document.getElementById("homenum2").style.display = "none";
+    } else if (document.getElementById("homenum2") !== undefined){
+    var u2 = document.getElementById("homenum2");
+        u2.className = u2.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum2").style.display = "inline-block"
+    }
     
     var o = document.getElementById("busnum2");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
-    var o = document.getElementById("cellnum2");
-        o.className = o.className + "glyphicon glyphicon-phone";
+    
+    if(document.getElementById("cellnum2").innerHTML === undefined){
+    document.getElementById("cellnum2").style.display = "none";
+    } else if (document.getElementById("cellnum2") !== undefined){
+    var o2 = document.getElementById("cellnum2");
+        o2.className = o2.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum2").style.display = "inline-block"
+    }
+    
 }
 function glyph3(){
 
+    
+    if((document.getElementById("email3").innerHTML === undefined) || (document.getElementById("email3").innerHTML === "")){
+     document.getElementById("email3").style.display = "none";
+    } else if (document.getElementById("email3") !== undefined){
     var d = document.getElementById("email3");
         d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email3").style.display = "inline-block"
+    }
+    
     var u = document.getElementById("name3");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    var u = document.getElementById("homenum3");
-        u.className = u.className + "glyphicon glyphicon-home";
+    
+    if((document.getElementById("homenum3") === undefined) || (document.getElementById("homenum3").innerHTML === "")){
+    document.getElementById("homenum3").style.display = "none";
+    } else if (document.getElementById("homenum3") !== undefined){
+    var u3 = document.getElementById("homenum3");
+        u3.className = u3.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum3").style.display = "inline-block"
+    }
     
     var o = document.getElementById("busnum3");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
-    var o = document.getElementById("cellnum3");
-        o.className = o.className + "glyphicon glyphicon-phone";
+    
+    if(document.getElementById("cellnum3").innerHTML === undefined){
+    document.getElementById("cellnum3").style.display = "none";
+    } else if (document.getElementById("cellnum3") !== undefined){
+    var o3 = document.getElementById("cellnum3");
+        o3.className = o3.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum3").style.display = "inline-block"
+    }
 }
 function glyph4(){
 
+    
+    if((document.getElementById("email4").innerHTML === undefined) || (document.getElementById("email4").innerHTML === "")){
+     document.getElementById("email4").style.display = "none";
+    } else if (document.getElementById("email4") !== undefined){
     var d = document.getElementById("email4");
         d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email4").style.display = "inline-block"
+    }
+    
     var u = document.getElementById("name4");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    var u = document.getElementById("homenum4");
-        u.className = u.className + "glyphicon glyphicon-home";
+    if((document.getElementById("homenum4") === undefined) || (document.getElementById("homenum4").innerHTML === "")){
+    document.getElementById("homenum4").style.display = "none";
+    } else if (document.getElementById("homenum4") !== undefined){
+    var u4 = document.getElementById("homenum4");
+        u4.className = u4.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum4").style.display = "inline-block"
+    }
     
-    var o = document.getElementById("busnum4");
-        o.className = o.className + "glyphicon glyphicon-phone-alt";
+    var o4 = document.getElementById("busnum4");
+        o4.className = o4.className + "glyphicon glyphicon-phone-alt";
     
-    var o = document.getElementById("cellnum4");
-        o.className = o.className + "glyphicon glyphicon-phone";
+    
+    if(document.getElementById("cellnum4").innerHTML === undefined){
+    document.getElementById("cellnum4").style.display = "none";
+    } else if (document.getElementById("cellnum4") !== undefined){
+    var o4 = document.getElementById("cellnum4");
+        o4.className = o4.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum4").style.display = "inline-block"
+    }
 }
 function glyph5(){
 
+
+    if((document.getElementById("email5").innerHTML === undefined) || (document.getElementById("email5").innerHTML === "")){
+     document.getElementById("email5").style.display = "none";
+    } else if (document.getElementById("email5") !== undefined){
     var d = document.getElementById("email5");
         d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email5").style.display = "inline-block"
+    }
+    
     var u = document.getElementById("name5");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    var u = document.getElementById("homenum5");
-        u.className = u.className + "glyphicon glyphicon-home";
+    if((document.getElementById("homenum5") === undefined) || (document.getElementById("homenum5").innerHTML === "")){
+    document.getElementById("homenum5").style.display = "none";
+    } else if (document.getElementById("homenum5") !== undefined){
+    var u5 = document.getElementById("homenum5");
+        u5.className = u5.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum5").style.display = "inline-block"
+    }
     
     var o = document.getElementById("busnum5");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
-    var o = document.getElementById("cellnum5");
-        o.className = o.className + "glyphicon glyphicon-phone";
+    
+    if(document.getElementById("cellnum5").innerHTML === undefined){
+    document.getElementById("cellnum5").style.display = "none";
+    } else if (document.getElementById("cellnum5") !== undefined){
+    var o5 = document.getElementById("cellnum5");
+        o5.className = o5.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum5").style.display = "inline-block"
+    }
 }
