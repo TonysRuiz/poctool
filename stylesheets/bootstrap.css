@@ -1113,6 +1113,8 @@ hr {
     width: 750px;
   }
 }
+
+
 @media (min-width: 992px) {
   .container {
     width: 800px;
@@ -2496,5 +2498,16 @@ color: #57E0FF;
 #anal ul li{
 
     
+
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 }
