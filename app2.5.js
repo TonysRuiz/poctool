@@ -1119,15 +1119,15 @@ if (app.trim() === arr[i].appl) {
                 document.getElementById("analy2").style.display = "none";
     } else if (arr1[1].analy2 !== undefined) {
                 document.getElementById("analy2").style.display = 'block';
-                document.getElementById("name2").innerHTML = arr1[1].analy2.name;
-                document.getElementById("homenum2").innerHTML = arr1[1].analy2.homenum;
-                document.getElementById("busnum2").innerHTML = arr1[1].analy2.busnum;
+                document.getElementById("name2").innerHTML =  " " + arr1[1].analy2.name;
+                document.getElementById("homenum2").innerHTML =  " " + arr1[1].analy2.homenum;
+                document.getElementById("busnum2").innerHTML =  " " + arr1[1].analy2.busnum;
         if (arr1[1].analy2.ex === undefined){
             document.getElementById("ex2").style.display = "none";
         } else if (arr1[1].analy2.ex !== undefined){
             document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
         }
-                document.getElementById("cellnum2").innerHTML = arr1[1].analy2.cellnum;
+                document.getElementById("cellnum2").innerHTML =  " " + arr1[1].analy2.cellnum;
                 
         var email = document.getElementById('email2');
         a = document.createElement('a');
@@ -1137,7 +1137,7 @@ if (app.trim() === arr[i].appl) {
         }
         
 a.href = 'mailto:' + arr1[1].analy2.email + '?Subject=PocTool%20Contact';
-a.textContent = arr1[1].analy2.email; // This will add the actual text to the link
+a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to the link
         document.getElementById("email2").appendChild(a);
         
                 document.getElementById("company2").innerHTML = arr1[1].analy2.company;
@@ -1149,15 +1149,15 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
                 document.getElementById("analy3").style.display = "none";
     } else if (arr1[2].analy3 !== undefined) {
                 document.getElementById("analy3").style.display = 'block';
-                document.getElementById("name3").innerHTML = arr1[2].analy3.name;
-                document.getElementById("homenum3").innerHTML = arr1[2].analy3.homenum;
-                document.getElementById("busnum3").innerHTML = arr1[2].analy3.busnum;
+                document.getElementById("name3").innerHTML =  " " + arr1[2].analy3.name;
+                document.getElementById("homenum3").innerHTML =  " " + arr1[2].analy3.homenum;
+                document.getElementById("busnum3").innerHTML =  " " + arr1[2].analy3.busnum;
         if (arr1[2].analy3.ex === undefined){
             document.getElementById("ex3").style.display = "none";
         } else if (arr1[2].analy3.ex !== undefined){
             document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
         }
-                document.getElementById("cellnum3").innerHTML = arr1[2].analy3.cellnum;
+                document.getElementById("cellnum3").innerHTML =  " " + arr1[2].analy3.cellnum;
         
         var email = document.getElementById('email3');
         a = document.createElement('a');
@@ -1166,7 +1166,7 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
         email.removeChild(email.firstChild);
         }
         a.href = 'mailto:' + arr1[2].analy3.email + '?Subject=PocTool%20Contact';
-        a.textContent = arr1[2].analy3.email; // This will add the actual text to the link
+        a.textContent =  " " + arr1[2].analy3.email; // This will add the actual text to the link
         document.getElementById("email3").appendChild(a);
         
                 document.getElementById("company3").innerHTML = arr1[2].analy3.company;
@@ -1178,9 +1178,9 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
                 document.getElementById("analy4").style.display = "none";
     } else if (arr1[3].analy4 !== undefined) {
                 document.getElementById("analy4").style.display = 'block';
-                document.getElementById("name4").innerHTML = arr1[3].analy4.name;
-                document.getElementById("homenum4").innerHTML = arr1[3].analy4.homenum;
-                document.getElementById("busnum4").innerHTML = arr1[3].analy4.busnum;
+                document.getElementById("name4").innerHTML =  " " + arr1[3].analy4.name;
+                document.getElementById("homenum4").innerHTML =  " " + arr1[3].analy4.homenum;
+                document.getElementById("busnum4").innerHTML =  " " + arr1[3].analy4.busnum;
         if (arr1[3].analy4.ex === undefined){
             document.getElementById("ex4").style.display = "none";
         } else if (arr1[3].analy4.ex !== undefined){
@@ -1195,7 +1195,7 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
         email.removeChild(email.firstChild);
         }
                 a.href = 'mailto:' + arr1[3].analy4.email + '?Subject=PocTool%20Contact';
-        a.textContent = arr1[3].analy4.email; // This will add the actual text to the link
+        a.textContent =  " " + arr1[3].analy4.email; // This will add the actual text to the link
         document.getElementById("email4").appendChild(a);
         
                 document.getElementById("company4").innerHTML = arr1[3].analy4.company;
@@ -1207,15 +1207,15 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
                 document.getElementById("analy5").style.display = "none";
     } else if (arr1[4].analy5 !== undefined) {
                 document.getElementById("analy5").style.display = 'inherit';
-                document.getElementById("name5").innerHTML = arr1[4].analy5.name;
-                document.getElementById("homenum5").innerHTML = arr1[4].analy5.homenum;
-                document.getElementById("busnum5").innerHTML = arr1[4].analy5.busnum;
+                document.getElementById("name5").innerHTML =  " " + arr1[4].analy5.name;
+                document.getElementById("homenum5").innerHTML =  " " + arr1[4].analy5.homenum;
+                document.getElementById("busnum5").innerHTML =  " " + arr1[4].analy5.busnum;
         if (arr1[4].analy5.ex === undefined){
             document.getElementById("ex5").style.display = "none";
         } else if (arr1[4].analy5.ex !== undefined){
             document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
         }
-                document.getElementById("cellnum5").innerHTML = arr1[4].analy5.cellnum;
+                document.getElementById("cellnum5").innerHTML =  " " + arr1[4].analy5.cellnum;
         
                         var email = document.getElementById('email5');
         a = document.createElement('a');
@@ -1224,7 +1224,7 @@ a.textContent = arr1[1].analy2.email; // This will add the actual text to the li
         email.removeChild(email.firstChild);
         }
                 a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
-        a.textContent = arr1[4].analy5.email; // This will add the actual text to the link
+        a.textContent =  " " + arr1[4].analy5.email; // This will add the actual text to the link
         document.getElementById("email5").appendChild(a);
         
                 document.getElementById("company5").innerHTML = arr1[4].analy5.company;
