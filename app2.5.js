@@ -1057,7 +1057,6 @@ function myFunction() {
     for (var i = 0; i < arrLength; i++){
 if (app === arr[i].appl) {
     
-
     
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
@@ -1077,9 +1076,9 @@ if (app === arr[i].appl) {
             document.getElementById("analy1").style.display = "none";
     } else if (arr1[0].analy1 !== undefined) {
                 document.getElementById("analy1").style.display = 'block';                
-                document.getElementById("name").innerHTML = arr1[0].analy1.name;
-                document.getElementById("homenum").innerHTML = arr1[0].analy1.homenum;
-                document.getElementById("busnum").innerHTML = arr1[0].analy1.busnum;
+                document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
+                document.getElementById("homenum").innerHTML = " " + arr1[0].analy1.homenum;
+                document.getElementById("busnum").innerHTML = " " + arr1[0].analy1.busnum;
         
         if (document.getElementById("ex").innerHTML === undefined){
         document.getElementById("ex").style.display = "none";
@@ -1089,13 +1088,25 @@ if (app === arr[i].appl) {
         
             
         
-                document.getElementById("cellnum").innerHTML = arr1[0].analy1.cellnum;
+                document.getElementById("cellnum").innerHTML = " " + arr1[0].analy1.cellnum;
+    
+
+                                
+        var email = document.getElementById('email');
+        a = document.createElement('a');
         
-        if(arr1[0].analy1.email === undefined){
-        document.getElementById("email").style.display = 'none'; 
-        } else if (arr1[0].analy1.email !== undefined){
-        document.getElementById("email").innerHTML = arr1[0].analy1.email;
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
         }
+        
+        a.href = 'mailto:' + arr1[0].analy1.email + '?Subject=PocTool%20Contact';
+        a.textContent = " " + arr1[0].analy1.email; // This will add the actual text to the link
+        
+        email.appendChild(a);
+        
+                            
+        
+        
                 
                 document.getElementById("company").innerHTML = arr1[0].analy1.company;
 
@@ -1115,7 +1126,18 @@ if (app === arr[i].appl) {
             document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
         }
                 document.getElementById("cellnum2").innerHTML = arr1[1].analy2.cellnum;
-                document.getElementById("email2").innerHTML = arr1[1].analy2.email;
+                
+        var email = document.getElementById('email2');
+        a = document.createElement('a');
+        
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
+        }
+        
+a.href = 'mailto:' + arr1[1].analy2.email + '?Subject=PocTool%20Contact';
+a.textContent = arr1[1].analy2.email; // This will add the actual text to the link
+        document.getElementById("email2").appendChild(a);
+        
                 document.getElementById("company2").innerHTML = arr1[1].analy2.company;
         
                 glyph2();
@@ -1134,7 +1156,17 @@ if (app === arr[i].appl) {
             document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
         }
                 document.getElementById("cellnum3").innerHTML = arr1[2].analy3.cellnum;
-                document.getElementById("email3").innerHTML = arr1[2].analy3.email;
+        
+        var email = document.getElementById('email3');
+        a = document.createElement('a');
+        
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
+        }
+        a.href = 'mailto:' + arr1[2].analy3.email + '?Subject=PocTool%20Contact';
+        a.textContent = arr1[2].analy3.email; // This will add the actual text to the link
+        document.getElementById("email3").appendChild(a);
+        
                 document.getElementById("company3").innerHTML = arr1[2].analy3.company;
         
                 glyph3();
@@ -1153,7 +1185,17 @@ if (app === arr[i].appl) {
             document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
         }
                 document.getElementById("cellnum4").innerHTML = arr1[3].analy4.cellnum;
-                document.getElementById("email4").innerHTML = arr1[3].analy4.email;
+        
+                var email = document.getElementById('email4');
+        a = document.createElement('a');
+        
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
+        }
+                a.href = 'mailto:' + arr1[3].analy4.email + '?Subject=PocTool%20Contact';
+        a.textContent = arr1[3].analy4.email; // This will add the actual text to the link
+        document.getElementById("email4").appendChild(a);
+        
                 document.getElementById("company4").innerHTML = arr1[3].analy4.company;
         
                 glyph4();
@@ -1172,7 +1214,17 @@ if (app === arr[i].appl) {
             document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
         }
                 document.getElementById("cellnum5").innerHTML = arr1[4].analy5.cellnum;
-                document.getElementById("email5").innerHTML = arr1[4].analy5.email;
+        
+                        var email = document.getElementById('email5');
+        a = document.createElement('a');
+        
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
+        }
+                a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
+        a.textContent = arr1[4].analy5.email; // This will add the actual text to the link
+        document.getElementById("email5").appendChild(a);
+        
                 document.getElementById("company5").innerHTML = arr1[4].analy5.company;
         
                 glyph5();
