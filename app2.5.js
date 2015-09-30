@@ -1055,7 +1055,7 @@ function myFunction() {
     
     
     for (var i = 0; i < arrLength; i++){
-if (app === arr[i].appl) {
+if (app.trim() === arr[i].appl) {
     
     
     console.log(arr[i].anal1.firstname);
@@ -1267,7 +1267,7 @@ function glyph(){
     } else if (document.getElementById("email") !== undefined){
     var d = document.getElementById("email");
         d.className = d.className + "glyphicon glyphicon-envelope";
-        document.getElementById("email").style.display = "inline-block"
+        document.getElementById("email").style.display = "inline-block";
     }
     
     var u = document.getElementById("name");
@@ -1286,6 +1286,13 @@ function glyph(){
     var i = document.getElementById("busnum");
         i.className = i.className + "glyphicon glyphicon-phone-alt";
     
+            if(document.getElementById("ex").innerHTML === undefined){
+    document.getElementById("ex").style.display = "none";
+    } else if (document.getElementById("ex") !== undefined){
+    var o = document.getElementById("ex");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex").style.display = "inline-block"
+    }
     
         if(document.getElementById("cellnum").innerHTML === undefined){
     document.getElementById("cellnum").style.display = "none";
@@ -1321,6 +1328,13 @@ function glyph2(){
     var o = document.getElementById("busnum2");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
+            if(document.getElementById("ex2").innerHTML === undefined){
+    document.getElementById("ex2").style.display = "none";
+    } else if (document.getElementById("ex2") !== undefined){
+    var o = document.getElementById("ex2");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex2").style.display = "inline-block"
+    }
     
     if(document.getElementById("cellnum2").innerHTML === undefined){
     document.getElementById("cellnum2").style.display = "none";
@@ -1357,6 +1371,13 @@ function glyph3(){
     var o = document.getElementById("busnum3");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
+            if(document.getElementById("ex3").innerHTML === undefined){
+    document.getElementById("ex3").style.display = "none";
+    } else if (document.getElementById("ex3") !== undefined){
+    var o = document.getElementById("ex3");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex3").style.display = "inline-block"
+    }    
     
     if(document.getElementById("cellnum3").innerHTML === undefined){
     document.getElementById("cellnum3").style.display = "none";
@@ -1391,6 +1412,13 @@ function glyph4(){
     var o4 = document.getElementById("busnum4");
         o4.className = o4.className + "glyphicon glyphicon-phone-alt";
     
+            if(document.getElementById("ex4").innerHTML === undefined){
+    document.getElementById("ex4").style.display = "none";
+    } else if (document.getElementById("ex4") !== undefined){
+    var o = document.getElementById("ex4");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex4").style.display = "inline-block"
+    }    
     
     if(document.getElementById("cellnum4").innerHTML === undefined){
     document.getElementById("cellnum4").style.display = "none";
@@ -1425,6 +1453,13 @@ function glyph5(){
     var o = document.getElementById("busnum5");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
+            if(document.getElementById("ex5").innerHTML === undefined){
+    document.getElementById("ex5").style.display = "none";
+    } else if (document.getElementById("ex5") !== undefined){
+    var o = document.getElementById("ex5");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex5").style.display = "inline-block"
+    }    
     
     if(document.getElementById("cellnum5").innerHTML === undefined){
     document.getElementById("cellnum5").style.display = "none";
