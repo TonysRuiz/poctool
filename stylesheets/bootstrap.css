@@ -1105,8 +1105,8 @@ hr {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media (min-width: 768px) {
   .container {
@@ -1115,12 +1115,12 @@ hr {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 800px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1050px;
   }
 }
 .container-fluid {
@@ -2419,7 +2419,7 @@ textarea {
 #anal ul{
 
     float: left;
-
+    max-width: 280px;
 }
 
 .page-header{
@@ -2486,4 +2486,15 @@ padding-bottom: 6px;
 
 li a{
 color: #57E0FF;
+}
+
+.glyphicon {
+
+    
+}
+
+#anal ul li{
+
+    
+
 }

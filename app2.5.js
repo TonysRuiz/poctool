@@ -1104,6 +1104,8 @@ if (app === arr[i].appl) {
         
         email.appendChild(a);
         
+        console.log(email.firstChild.innerHTML);
+        
                             
         
         
@@ -1260,7 +1262,7 @@ function reload(){
 
 function glyph(){
 
-    if((document.getElementById("email").innerHTML === undefined) || (document.getElementById("email").innerHTML === "")){
+    if((email.firstChild.innerHTML === undefined) || (email.firstChild.innerHTML === " ")){
      document.getElementById("email").style.display = "none";
     } else if (document.getElementById("email") !== undefined){
     var d = document.getElementById("email");
@@ -1271,13 +1273,14 @@ function glyph(){
     var u = document.getElementById("name");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    if((document.getElementById("homenum") === undefined) || (document.getElementById("homenum").innerHTML === "")){
+    if((document.getElementById("homenum") === undefined) || (document.getElementById("homenum").innerHTML === " ")){
     document.getElementById("homenum").style.display = "none";
     } else if (document.getElementById("homenum") !== undefined){
     var u2 = document.getElementById("homenum");
         u2.className = u2.className + "glyphicon glyphicon-home";
         document.getElementById("homenum").style.display = "inline-block"
     }
+    
     
     if(document.getElementById("busnum"))
     var i = document.getElementById("busnum");
