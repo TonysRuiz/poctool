@@ -567,6 +567,10 @@ var arr =    [{
             anal1: arr0[1].perkeisha
         },
         {
+            appl: 'accudose carts',
+            anal1: arr0[2].tom
+        },
+        {
             appl: 'accudose carts and support stations',
             anal1: arr0[2].tom
         },
@@ -580,6 +584,11 @@ var arr =    [{
                 
         },
         {
+            appl: 'account creation',
+            anal1: arr0[3].tammy
+                
+        },
+        {
             appl: 'ad',
             anal1: arr0[3].tammy
         },
@@ -589,6 +598,14 @@ var arr =    [{
         },
         {
             appl: 'allegiantmd radiology',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'allegiantmd',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'allegiant',
             anal1: arr0[4].colleen
         },
         {
@@ -607,6 +624,12 @@ var arr =    [{
             appl: 'cerner',
             anal1: arr0[4].colleen
         
+        },
+        {
+            appl: 'point of care',
+            anal1: arr0[7].denise,
+            anal2: arr0[8].sean,
+            anal3: arr0[9].shari
         },
         {
             appl: 'cerner (point of care) abbott',
@@ -1282,11 +1305,16 @@ function glyph(){
     }
     
     
-    if(document.getElementById("busnum"))
-    var i = document.getElementById("busnum");
+    if((document.getElementById("busnum") === undefined) || (document.getElementById("busnum") === " ")){
+        document.getElementById("busnum").style.display = "none";
+    } else if (document.getElementById("busnum") !== undefined){
+        var i = document.getElementById("busnum");
         i.className = i.className + "glyphicon glyphicon-phone-alt";
+        document.getElementById("busnum").style.display = "inline-block"
+    }
     
-            if(document.getElementById("ex").innerHTML === undefined){
+    
+            if((document.getElementById("ex").innerHTML === undefined) || (document.getElementById("ex").innerHTML === "")){
     document.getElementById("ex").style.display = "none";
     } else if (document.getElementById("ex") !== undefined){
     var o = document.getElementById("ex");
@@ -1294,7 +1322,7 @@ function glyph(){
         document.getElementById("ex").style.display = "inline-block"
     }
     
-        if(document.getElementById("cellnum").innerHTML === undefined){
+        if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ")){
     document.getElementById("cellnum").style.display = "none";
     } else if (document.getElementById("cellnum") !== undefined){
     var o = document.getElementById("cellnum");
@@ -1306,18 +1334,18 @@ function glyph(){
 function glyph2(){
 
     
-    if((document.getElementById("email2").innerHTML === undefined) ||                            (document.getElementById("email2").innerHTML === "")){
+    if((email2.firstChild.innerHTML === undefined) || (email2.firstChild.innerHTML === " ")){
      document.getElementById("email2").style.display = "none";
-    } else if (document.getElementById("email2") !== undefined){
+    } else if (email2.firstChild.innerHTML !== undefined){
     var d = document.getElementById("email2");
         d.className = d.className + "glyphicon glyphicon-envelope";
-        document.getElementById("email2").style.display = "inline-block"
+        document.getElementById("email2").style.display = "inline-block";
     }
     
     var u = document.getElementById("name2");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    if((document.getElementById("homenum2") === undefined) || (document.getElementById("homenum2").innerHTML === "")){
+    if((document.getElementById("homenum2") === undefined) || (document.getElementById("homenum2").innerHTML === " ")){
     document.getElementById("homenum2").style.display = "none";
     } else if (document.getElementById("homenum2") !== undefined){
     var u2 = document.getElementById("homenum2");
@@ -1360,7 +1388,7 @@ function glyph3(){
         u.className = u.className + "glyphicon glyphicon-user";
     
     
-    if((document.getElementById("homenum3") === undefined) || (document.getElementById("homenum3").innerHTML === "")){
+    if((document.getElementById("homenum3") === undefined) || (document.getElementById("homenum3").innerHTML === " ")){
     document.getElementById("homenum3").style.display = "none";
     } else if (document.getElementById("homenum3") !== undefined){
     var u3 = document.getElementById("homenum3");
