@@ -226,7 +226,7 @@ var arr0 = [
         }
     }, {
         shannon: {
-            firstname: 'Shannon ',
+            firstname: 'Shannon',
             lastname: 'Pauley',
             name: 'Shannon Pauley',
             homenum: '',
@@ -547,6 +547,43 @@ var arr0 = [
             email: 'Brooke.Gabel@hma.com',
             company: ''
         }
+    }, {
+        danield: {
+            firstname: 'Daniel ',
+            lastname: 'Devore',
+            name: 'Daniel Devore',
+            homenum: '',
+            busnum: '615-628-6129',
+            ex: '',
+            cellnum: '',
+            email: 'Daniel_Devore@chs.net',
+            company: 'CHS'
+        }
+    }, {
+        andrew: {
+            firstname: 'Andrew ',
+            lastname: 'Ange',
+            name: 'Andrew Ange',
+            homenum: '',
+            busnum: '615-846-2226',
+            ex: '',
+            cellnum: '',
+            email: 'Andrew_Ange@chs.net',
+            company: 'CHS'
+        }
+    }, {
+        kathleen: {
+            firstname: 'Kathleen ',
+            lastname: 'Patton',
+            name: 'Kathleen Patton',
+            homenum: '',
+            busnum: '615-846-2226',
+            ex: '',
+            cellnum: '',
+            email: 'Kathleen.Patton@hma.com',
+            role: 'Manager',
+            company: ''
+        }
     }
 ];
 
@@ -560,10 +597,12 @@ var arr =    [{
             appl: 'aast',
             anal1: arr0[1].perkeisha
         },
-       
-           
         {
             appl: 'accent health',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'accent',
             anal1: arr0[1].perkeisha
         },
         {
@@ -613,6 +652,10 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'analyze',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'ansos',
             anal1: arr0[5].john
         },
@@ -659,7 +702,20 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'antibiotic alert',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'antibiotic',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner blood bank',
+            anal1: arr0[7].denise,
+            anal2: arr0[7].nadena
+        },
+        {
+            appl: 'blood bank',
             anal1: arr0[7].denise,
             anal2: arr0[7].nadena
         },
@@ -668,7 +724,15 @@ var arr =    [{
             anal1: arr0[13].chirayu
         },
         {
+            appl: 'carecompass',
+            anal1: arr0[13].chirayu
+        },
+        {
             appl: 'cerner cpoe',
+            anal1: arr0[11].deniseM
+        },
+        {
+            appl: 'cpoe',
             anal1: arr0[11].deniseM
         },
         {
@@ -677,7 +741,27 @@ var arr =    [{
             anal2: arr0[2].tom
         },
         {
+            appl: 'cpdi',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom
+        },
+        {
+            appl: 'batch scanning',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom
+        },
+        {
+            appl: 'document imaging',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom,
+            anal3: arr0[1].perkeisha
+        },
+        {
             appl: 'cerner document imaging (poi- pharmacy order imaging)',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'poi',
             anal1: arr0[1].perkeisha
         },
         {
@@ -685,7 +769,19 @@ var arr =    [{
             anal1: arr0[5].john
         },
         {
+            appl: 'firstnet',
+            anal1: arr0[5].john
+        },
+        {
             appl: 'cerner health sentry',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'health sentry',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'sentry',
             anal1: arr0[9].shari
         },
         {
@@ -697,11 +793,27 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'inet',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ics',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner iview',
             anal1: arr0[13].chirayu
         },
         {
+            appl: 'iview',
+            anal1: arr0[13].chirayu
+        },
+        {
             appl: 'cerner message center/inbox',
+            anal1: arr0[7].denise
+        },
+        {
+            appl: 'message center',
             anal1: arr0[7].denise
         },
         {
@@ -713,7 +825,15 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'medical records',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner open engine interfaces- fsi',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'open engine',
             anal1: arr0[15].rick
         },
         {
@@ -721,7 +841,19 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
+            appl: 'open port interfaces',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'open port',
+            anal1: arr0[15].rick
+        },
+        {
             appl: 'cerner pacs (picture archical clinical system',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'pacs',
             anal1: arr0[4].colleen
         },
         {
@@ -749,7 +881,31 @@ var arr =    [{
             anal3: arr0[9].shari
         },
         {
+            appl: 'pathnet',
+            anal1: arr0[7].denise,
+            anal2: arr0[9].shari,
+            anal3: arr0[9].dave
+        },
+        {
+            appl: 'cerner pathnet',
+            anal1: arr0[7].denise,
+            anal2: arr0[9].shari,
+            anal3: arr0[9].dave
+        },
+        {
             appl: 'cerner patient depart process',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'patient depart',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'patient depart process',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'depart process',
             anal1: arr0[5].john
         },
         {
@@ -757,14 +913,30 @@ var arr =    [{
             anal1: arr0[1].perkeisha
         },
         {
+            appl: 'patient portal',
+            anal1: arr0[1].perkeisha
+        },
+        {
             appl: 'cerner pharmnet',
             anal1: arr0[2].tom
+        },
+        {
+            appl: 'pharmnet',
+            anal1: arr0[2].tom
+        },
+        {
+            appl: 'powerchart',
+            anal1: arr0[4].colleen,
+            anal2: arr0[18].aston,
+            anal3: arr0[9].shari,
+            anal4: arr0[11].deniseM
         },
         {
             appl: 'cerner powerchart',
             anal1: arr0[4].colleen,
             anal2: arr0[18].aston,
-            anal3: arr0[9].shari
+            anal3: arr0[9].shari,
+            anal4: arr0[11].deniseM
         },
         {
             appl: 'cerner profile',
@@ -772,10 +944,18 @@ var arr =    [{
         },
         {
             appl: 'cerner profit',
-            anal1: arr0[14].shannon
+            anal1: arr0[19].shannon
+        },
+        {
+            appl: 'profit',
+            anal1: arr0[19].shannon
         },
         {
             appl: 'cerner radnet',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'radnet',
             anal1: arr0[4].colleen
         },
         {
@@ -783,17 +963,29 @@ var arr =    [{
             anal1: arr0[14].stephen
         },
         {
+            appl: 'scheduling',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'cerner surginet',
             anal1: arr0[5].john
         },
-           
+        {
+            appl: 'surginet',
+            anal1: arr0[5].john
+        },
         {
             appl: 'dar',
             anal1: arr0[0].lou
         },
-        
         {
             appl: 'desktop support',
+            anal1: arr0[20].daniel,
+            anal2: arr0[21].johnG,
+            anal3: arr0[22].tyler
+        },
+        {
+            appl: 'desktop',
             anal1: arr0[20].daniel,
             anal2: arr0[21].johnG,
             anal3: arr0[22].tyler
@@ -803,12 +995,25 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'dexter',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'cedaron',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'dragon',
             anal1: arr0[18].aston,
             anal2: arr0[4].colleen
         },
         {
             appl: 'echo system- former med staff credentialing system',
+            anal1: arr0[11].deniseM,
+            anal2: arr0[11].lori
+        },
+        {
+            appl: 'echo',
             anal1: arr0[11].deniseM,
             anal2: arr0[11].lori
         },
@@ -833,7 +1038,7 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
-            appl: 'fl newborn tiff alternative printing',
+            appl: 'tiff',
             anal1: arr0[9].shari
         },
         {
@@ -841,17 +1046,27 @@ var arr =    [{
             anal1: arr0[1].perkeisha
         },
         {
-            appl: 'ge centricity cardiovascular  (321 206 8419)  vs. philips cardiovascular',
+            appl: 'fod',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'ge centricity',
             anal1: arr0[4].colleen
         },
         {
-            appl: 'ge fetal monitoring qs',
+            appl: 'ge fetal monitoring',
             anal1: arr0[4].colleen
         },
-              {
+        {
             appl: 'ge muse',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].colleen, 
+            anal2: arr0[15].rick
         },
+        {
+            appl: 'muse',
+            anal1: arr0[4].colleen,
+            anal2: arr0[15].rick
+        },              
         {
             appl: 'golden hour (bayflite)',
             anal1: arr0[7].denise
@@ -865,15 +1080,35 @@ var arr =    [{
             anal1: arr0[27].janet
         },
         {
-            appl: 'fl ens (events notification system) interface',
+            appl: 'events notification system',
             anal1: arr0[15].rick
+        },
+        {
+            appl: 'ens',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'family health center',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'family health',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'fhc',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'family medicine clinics',
+            anal1: arr0[48].kathleen
         },
         {
             appl: 'fl newborn tiff alternative printing',
             anal1: arr0[9].shari
         },
         {
-            appl: 'forms on demand (fod)',
+            appl: 'forms on demand',
             anal1: arr0[1].perkeisha
         },
         {
@@ -881,12 +1116,24 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'cardiovascular',
+            anal1: arr0[4].colleen
+        },              
+        {
+            appl: 'centricity',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'ge fetal monitoring qs',
             anal1: arr0[4].colleen
         },
         {
-            appl: 'ge muse',
-            anal1: arr0[15].rick
+            appl: 'fetal',
+            anal1: arr0[4].colleen
+        },              
+        {
+            appl: 'fetal monitoring',
+            anal1: arr0[4].colleen
         },
         {
             appl: 'infinium',
@@ -914,7 +1161,27 @@ var arr =    [{
             anal5: arr0[33].morgan
         },
         {
+            appl: 'operator',
+            anal1: arr0[23].bob,
+            anal2: arr0[30].barbara,
+            anal3: arr0[31].tony,
+            anal4: arr0[32].ernest,
+            anal5: arr0[33].morgan
+        },
+        {
+            appl: 'help desk',
+            anal1: arr0[23].bob,
+            anal2: arr0[30].barbara,
+            anal3: arr0[31].tony,
+            anal4: arr0[32].ernest,
+            anal5: arr0[33].morgan
+        },
+        {
             appl: 'kronos time and attendance',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'kronos',
             anal1: arr0[0].lou
         },
         {
@@ -926,11 +1193,39 @@ var arr =    [{
             anal1: arr0[14].stephen
         },
         {
+            appl: 'landmark',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'transcription',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'mckesson cerme and interqual',
             anal1: arr0[14].stephen
         },
         {
+            appl: 'mckesson cerme',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'cerme',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'mckesson',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'interqual',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'meadows business systems',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'meadows',
             anal1: arr0[4].colleen
         },
         {
@@ -951,11 +1246,27 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'nuance',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'powerscribe',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'passport - intellisource',
             anal1: arr0[14].stephen
         },
         {
+            appl: 'intellisource',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'passport onesource',
+            anal1: arr0[37].rasheedah
+        },
+        {
+            appl: 'onesource',
             anal1: arr0[37].rasheedah
         },
         {
@@ -964,6 +1275,18 @@ var arr =    [{
         },
         {
             appl: 'remel ids database - to lookup organism identification',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'remel',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ids database',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ids',
             anal1: arr0[9].shari
         },
         {
@@ -981,7 +1304,18 @@ var arr =    [{
         },
         {
             appl: 'single sign on paradigm (sso)',
-            anal1: arr0[41].bernard
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
+        },
+        {
+            appl: 'sso',
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
+        },
+        {
+            appl: 'single sign on',
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
         },
         {
             appl: 'sophos',
@@ -1010,6 +1344,10 @@ var arr =    [{
         },
         {
             appl: 'theradoc (infection control)',
+            anal1: arr0[45].brooke
+        },
+        {
+            appl: 'infection control',
             anal1: arr0[45].brooke
         },
         {
@@ -1042,6 +1380,10 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'xcelera',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'xper philips (witt)',
             anal1: arr0[4].colleen
         },
@@ -1054,6 +1396,17 @@ var arr =    [{
         {
             appl: 'grand rounds',
             anal1: arr0[1].perkeisha
+        },
+              
+        {
+            appl: 'security awareness',
+            anal1: arr0[42].danield,
+            anal2: arr0[43].andrew
+        },
+        {
+            appl: 'it security',
+            anal1: arr0[42].danield,
+            anal2: arr0[43].andrew
         }
             ];
 
@@ -1078,9 +1431,10 @@ function myFunction() {
     
     
     for (var i = 0; i < arrLength; i++){
+        
 if (app.trim() === arr[i].appl) {
     
-    
+    console.log(app);
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
     console.log(arr[i]);
@@ -1098,7 +1452,8 @@ if (app.trim() === arr[i].appl) {
     if (arr1[0].analy1 === undefined) {
             document.getElementById("analy1").style.display = "none";
     } else if (arr1[0].analy1 !== undefined) {
-                document.getElementById("analy1").style.display = 'block';                
+                document.getElementById("errorg").style.display = 'none';
+                document.getElementById("analy1").style.display = 'block';                             document.getElementById("error").style.display = "none";
                 document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
                 document.getElementById("homenum").innerHTML = " " + arr1[0].analy1.homenum;
                 document.getElementById("busnum").innerHTML = " " + arr1[0].analy1.busnum;
@@ -1111,7 +1466,7 @@ if (app.trim() === arr[i].appl) {
         
             
         
-                document.getElementById("cellnum").innerHTML = " " + arr1[0].analy1.cellnum;
+        document.getElementById("cellnum").innerHTML = " " + arr1[0].analy1.cellnum;
     
 
                                 
@@ -1152,11 +1507,11 @@ if (app.trim() === arr[i].appl) {
         }
                 document.getElementById("cellnum2").innerHTML =  " " + arr1[1].analy2.cellnum;
                 
-        var email = document.getElementById('email2');
+        var email2 = document.getElementById('email2');
         a = document.createElement('a');
         
-        if (email.hasChildNodes()) {
-        email.removeChild(email.firstChild);
+        if (email2.hasChildNodes()) {
+        email2.removeChild(email2.firstChild);
         }
         
 a.href = 'mailto:' + arr1[1].analy2.email + '?Subject=PocTool%20Contact';
@@ -1182,11 +1537,11 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
         }
                 document.getElementById("cellnum3").innerHTML =  " " + arr1[2].analy3.cellnum;
         
-        var email = document.getElementById('email3');
+        var email3 = document.getElementById('email3');
         a = document.createElement('a');
         
-        if (email.hasChildNodes()) {
-        email.removeChild(email.firstChild);
+        if (email3.hasChildNodes()) {
+        email3.removeChild(email3.firstChild);
         }
         a.href = 'mailto:' + arr1[2].analy3.email + '?Subject=PocTool%20Contact';
         a.textContent =  " " + arr1[2].analy3.email; // This will add the actual text to the link
@@ -1211,11 +1566,11 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
         }
                 document.getElementById("cellnum4").innerHTML = arr1[3].analy4.cellnum;
         
-                var email = document.getElementById('email4');
+                var email4 = document.getElementById('email4');
         a = document.createElement('a');
         
-        if (email.hasChildNodes()) {
-        email.removeChild(email.firstChild);
+        if (email4.hasChildNodes()) {
+        email4.removeChild(email4.firstChild);
         }
                 a.href = 'mailto:' + arr1[3].analy4.email + '?Subject=PocTool%20Contact';
         a.textContent =  " " + arr1[3].analy4.email; // This will add the actual text to the link
@@ -1240,11 +1595,11 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
         }
                 document.getElementById("cellnum5").innerHTML =  " " + arr1[4].analy5.cellnum;
         
-                        var email = document.getElementById('email5');
+                        var email5 = document.getElementById('email5');
         a = document.createElement('a');
         
-        if (email.hasChildNodes()) {
-        email.removeChild(email.firstChild);
+        if (email5.hasChildNodes()) {
+        email5.removeChild(email5.firstChild);
         }
                 a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
         a.textContent =  " " + arr1[4].analy5.email; // This will add the actual text to the link
@@ -1257,13 +1612,45 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
         }
    
 
+    return arr[i].appl; 
     
+} else if (app != arr[i].appl) {
+        
+    error();
     
 }
-} //end of iterate through 'arr' array
+        
+} //end of iterate through 'arr' array (arr0[31].tony.email)
     
-}
+    
+        
+    
+    
 
+    } 
+
+function error(){
+
+        
+    document.getElementById("error").innerHTML = "<span class='glyphicon glyphicon-remove-sign'></span> Sorry, I don't have anything on that :( <span><a href='mailto:Anthony.Ruiz@hma.com'></a>contact me</span> and we can get it added to the PocTool.";
+    document.getElementById("error").style.display = 'block';
+    document.getElementById("errorg").style.display = 'block';
+    document.getElementById("analy1").style.display = "none";
+    document.getElementById("analy2").style.display = "none";
+    document.getElementById("analy3").style.display = "none";
+    document.getElementById("analy4").style.display = "none";
+    document.getElementById("analy5").style.display = "none";
+    
+    a = document.createElement('a');
+        
+        if (errorg.hasChildNodes()) {
+        errorg.removeChild(errorg.firstChild);
+        }
+                a.href = 'mailto:' + arr0[31].tony.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr0[31].tony.email; // This will add the actual text to the link
+        document.getElementById("errorg").appendChild(a);
+    
+}
             
 
 function enterKey(e){
@@ -1301,7 +1688,7 @@ function glyph(){
     } else if (document.getElementById("homenum") !== undefined){
     var u2 = document.getElementById("homenum");
         u2.className = u2.className + "glyphicon glyphicon-home";
-        document.getElementById("homenum").style.display = "inline-block"
+        document.getElementById("homenum").style.display = "inline-block";
     }
     
     
@@ -1310,7 +1697,7 @@ function glyph(){
     } else if (document.getElementById("busnum") !== undefined){
         var i = document.getElementById("busnum");
         i.className = i.className + "glyphicon glyphicon-phone-alt";
-        document.getElementById("busnum").style.display = "inline-block"
+        document.getElementById("busnum").style.display = "inline-block";
     }
     
     
@@ -1319,7 +1706,7 @@ function glyph(){
     } else if (document.getElementById("ex") !== undefined){
     var o = document.getElementById("ex");
         o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
-        document.getElementById("ex").style.display = "inline-block"
+        document.getElementById("ex").style.display = "inline-block";
     }
     
         if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ")){
@@ -1327,7 +1714,7 @@ function glyph(){
     } else if (document.getElementById("cellnum") !== undefined){
     var o = document.getElementById("cellnum");
         o.className = o.className + "glyphicon glyphicon-phone";
-        document.getElementById("cellnum").style.display = "inline-block"
+        document.getElementById("cellnum").style.display = "inline-block";
     }
 }
 
@@ -1350,7 +1737,7 @@ function glyph2(){
     } else if (document.getElementById("homenum2") !== undefined){
     var u2 = document.getElementById("homenum2");
         u2.className = u2.className + "glyphicon glyphicon-home";
-        document.getElementById("homenum2").style.display = "inline-block"
+        document.getElementById("homenum2").style.display = "inline-block";
     }
     
     var o = document.getElementById("busnum2");
@@ -1361,15 +1748,15 @@ function glyph2(){
     } else if (document.getElementById("ex2") !== undefined){
     var o = document.getElementById("ex2");
         o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
-        document.getElementById("ex2").style.display = "inline-block"
+        document.getElementById("ex2").style.display = "inline-block";
     }
     
-    if(document.getElementById("cellnum2").innerHTML === undefined){
+    if((document.getElementById("cellnum2").innerHTML === undefined) || (document.getElementById("cellnum2").innerHTML === " ")){
     document.getElementById("cellnum2").style.display = "none";
     } else if (document.getElementById("cellnum2") !== undefined){
     var o2 = document.getElementById("cellnum2");
         o2.className = o2.className + "glyphicon glyphicon-phone";
-        document.getElementById("cellnum2").style.display = "inline-block"
+        document.getElementById("cellnum2").style.display = "inline-block";
     }
     
 }
@@ -1381,7 +1768,7 @@ function glyph3(){
     } else if (document.getElementById("email3") !== undefined){
     var d = document.getElementById("email3");
         d.className = d.className + "glyphicon glyphicon-envelope";
-        document.getElementById("email3").style.display = "inline-block"
+        document.getElementById("email3").style.display = "inline-block";
     }
     
     var u = document.getElementById("name3");
@@ -1393,7 +1780,7 @@ function glyph3(){
     } else if (document.getElementById("homenum3") !== undefined){
     var u3 = document.getElementById("homenum3");
         u3.className = u3.className + "glyphicon glyphicon-home";
-        document.getElementById("homenum3").style.display = "inline-block"
+        document.getElementById("homenum3").style.display = "inline-block";
     }
     
     var o = document.getElementById("busnum3");
@@ -1404,7 +1791,7 @@ function glyph3(){
     } else if (document.getElementById("ex3") !== undefined){
     var o = document.getElementById("ex3");
         o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
-        document.getElementById("ex3").style.display = "inline-block"
+        document.getElementById("ex3").style.display = "inline-block";
     }    
     
     if(document.getElementById("cellnum3").innerHTML === undefined){
@@ -1412,7 +1799,7 @@ function glyph3(){
     } else if (document.getElementById("cellnum3") !== undefined){
     var o3 = document.getElementById("cellnum3");
         o3.className = o3.className + "glyphicon glyphicon-phone";
-        document.getElementById("cellnum3").style.display = "inline-block"
+        document.getElementById("cellnum3").style.display = "inline-block";
     }
 }
 function glyph4(){
@@ -1470,7 +1857,7 @@ function glyph5(){
     var u = document.getElementById("name5");
         u.className = u.className + "glyphicon glyphicon-user";
     
-    if((document.getElementById("homenum5") === undefined) || (document.getElementById("homenum5").innerHTML === "")){
+    if((document.getElementById("homenum5") === undefined) || (document.getElementById("homenum5").innerHTML === " ")){
     document.getElementById("homenum5").style.display = "none";
     } else if (document.getElementById("homenum5") !== undefined){
     var u5 = document.getElementById("homenum5");
