@@ -1197,6 +1197,10 @@ var arr =    [{
             anal1: arr0[14].stephen
         },
         {
+            appl: 'lansweeper',
+            anal1: arr0[42].kenn
+        },                  
+        {
             appl: 'transcription',
             anal1: arr0[14].stephen
         },
@@ -1233,9 +1237,22 @@ var arr =    [{
             anal1: arr0[34].ignacio
         },
         {
+            appl: 'pagers',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },              
+        {
             appl: 'monarch',
             anal1: arr0[35].patti
         },
+        {
+            appl: 'network',
+            anal1: arr0[42].kenn
+        },
+        {
+            appl: 'networking',
+            anal1: arr0[42].kenn
+        },              
         {
             appl: 'nortel telecom',
             anal1: arr0[34].ignacio,
@@ -1347,6 +1364,10 @@ var arr =    [{
             anal1: arr0[45].brooke
         },
         {
+            appl: 'theradoc',
+            anal1: arr0[45].brooke
+        },              
+        {
             appl: 'infection control',
             anal1: arr0[45].brooke
         },
@@ -1362,6 +1383,10 @@ var arr =    [{
             appl: 'truven mmd',
             anal1: arr0[1].perkeisha
         },
+        {
+            appl: 'truven',
+            anal1: arr0[1].perkeisha
+        },              
         {
             appl: 'vitrea',
             anal1: arr0[4].colleen
@@ -1406,7 +1431,8 @@ var arr =    [{
         {
             appl: 'it security',
             anal1: arr0[42].danield,
-            anal2: arr0[43].andrew
+            anal2: arr0[43].andrew,
+            anal3: arr0[42].kenn
         }
             ];
 
@@ -1556,15 +1582,15 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 document.getElementById("analy4").style.display = "none";
     } else if (arr1[3].analy4 !== undefined) {
                 document.getElementById("analy4").style.display = 'block';
-                document.getElementById("name4").innerHTML =  " " + arr1[3].analy4.name;
-                document.getElementById("homenum4").innerHTML =  " " + arr1[3].analy4.homenum;
-                document.getElementById("busnum4").innerHTML =  " " + arr1[3].analy4.busnum;
+                document.getElementById("name4").innerHTML = " " + arr1[3].analy4.name;
+                document.getElementById("homenum4").innerHTML = " " + arr1[3].analy4.homenum;
+                document.getElementById("busnum4").innerHTML = " " + arr1[3].analy4.busnum;
         if (arr1[3].analy4.ex === undefined){
             document.getElementById("ex4").style.display = "none";
         } else if (arr1[3].analy4.ex !== undefined){
             document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
         }
-                document.getElementById("cellnum4").innerHTML = arr1[3].analy4.cellnum;
+                document.getElementById("cellnum4").innerHTML = " " + arr1[3].analy4.cellnum;
         
                 var email4 = document.getElementById('email4');
         a = document.createElement('a');
@@ -1585,15 +1611,15 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 document.getElementById("analy5").style.display = "none";
     } else if (arr1[4].analy5 !== undefined) {
                 document.getElementById("analy5").style.display = 'inherit';
-                document.getElementById("name5").innerHTML =  " " + arr1[4].analy5.name;
-                document.getElementById("homenum5").innerHTML =  " " + arr1[4].analy5.homenum;
-                document.getElementById("busnum5").innerHTML =  " " + arr1[4].analy5.busnum;
+                document.getElementById("name5").innerHTML = " " + arr1[4].analy5.name;
+                document.getElementById("homenum5").innerHTML = " " + arr1[4].analy5.homenum;
+                document.getElementById("busnum5").innerHTML = " " + arr1[4].analy5.busnum;
         if (arr1[4].analy5.ex === undefined){
             document.getElementById("ex5").style.display = "none";
         } else if (arr1[4].analy5.ex !== undefined){
             document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
         }
-                document.getElementById("cellnum5").innerHTML =  " " + arr1[4].analy5.cellnum;
+                document.getElementById("cellnum5").innerHTML = " " + arr1[4].analy5.cellnum;
         
                         var email5 = document.getElementById('email5');
         a = document.createElement('a');
