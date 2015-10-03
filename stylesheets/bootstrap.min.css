@@ -196,3 +196,20 @@ color: #57E0FF;
      color: crimson;
         
      }     
+     
+               @media (min-width: 768px){
+     .container {
+    width: 660px;
+}
+                   #anal ul {
+                   padding-left: 0px;
+                   }
+     }
+     
+     @media (min-width: 992px){
+     .container {
+         width: 975px;
+         
+}     
+     }
+
