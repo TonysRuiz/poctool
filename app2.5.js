@@ -1031,6 +1031,10 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
+            appl: 'ers',
+            anal1: arr0[15].rick
+        },
+        {
             appl: 'excelera',
             anal1: arr0[4].colleen
         },
@@ -1060,20 +1064,32 @@ var arr =    [{
         },
         {
             appl: 'ge muse',
-            anal1: arr0[4].colleen, 
+            anal1: arr0[4].colleen,
             anal2: arr0[15].rick
         },
         {
             appl: 'muse',
             anal1: arr0[4].colleen,
             anal2: arr0[15].rick
-        },              
+        },
         {
             appl: 'golden hour (bayflite)',
             anal1: arr0[7].denise
         },
         {
+            appl: 'bayflite',
+            anal1: arr0[7].denise
+        },
+        {
             appl: 'ibm iseries',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'ibm',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'iseries',
             anal1: arr0[0].lou
         },
         {
@@ -1119,7 +1135,7 @@ var arr =    [{
         {
             appl: 'cardiovascular',
             anal1: arr0[4].colleen
-        },              
+        },
         {
             appl: 'centricity',
             anal1: arr0[4].colleen
@@ -1131,7 +1147,7 @@ var arr =    [{
         {
             appl: 'fetal',
             anal1: arr0[4].colleen
-        },              
+        },
         {
             appl: 'fetal monitoring',
             anal1: arr0[4].colleen
@@ -1200,7 +1216,7 @@ var arr =    [{
         {
             appl: 'lansweeper',
             anal1: arr0[42].kenn
-        },                  
+        },
         {
             appl: 'transcription',
             anal1: arr0[14].stephen
@@ -1241,7 +1257,22 @@ var arr =    [{
             appl: 'pagers',
             anal1: arr0[34].ignacio,
             anal2: arr0[36].cecilio
-        },              
+        },
+        {
+            appl: 'pager',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
+            appl: 'phones',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
+            appl: 'phone',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
         {
             appl: 'monarch',
             anal1: arr0[35].patti
@@ -1253,7 +1284,7 @@ var arr =    [{
         {
             appl: 'networking',
             anal1: arr0[42].kenn
-        },              
+        },
         {
             appl: 'nortel telecom',
             anal1: arr0[34].ignacio,
@@ -1367,7 +1398,7 @@ var arr =    [{
         {
             appl: 'theradoc',
             anal1: arr0[45].brooke
-        },              
+        },
         {
             appl: 'infection control',
             anal1: arr0[45].brooke
@@ -1387,7 +1418,7 @@ var arr =    [{
         {
             appl: 'truven',
             anal1: arr0[1].perkeisha
-        },              
+        },
         {
             appl: 'vitrea',
             anal1: arr0[4].colleen
@@ -1411,6 +1442,10 @@ var arr =    [{
         },
         {
             appl: 'xper philips (witt)',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'witt',
             anal1: arr0[4].colleen
         },
         {
