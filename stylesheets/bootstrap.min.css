@@ -128,6 +128,9 @@ color: #57E0FF;
   padding-right: 15px;
 }
 
+    ul#analy1 {
+    padding-left: 37px;
+    }
 }
 
 #errorg a {
@@ -153,7 +156,7 @@ color: #57E0FF;
     width: 525px;
       margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-right: 15px;
   }
 }
