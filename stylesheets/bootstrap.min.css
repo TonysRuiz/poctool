@@ -148,3 +148,36 @@ color: #57E0FF;
      
      }
      
+@media (min-width: 1200px) {
+  .container2 {
+    width: 525px;
+      margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+}
+     
+     @media (min-width: 992px) {
+  .container2 {
+    width: 515px;
+        margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+}
+          @media (min-width: 768px) {
+  .container2 {
+    width: 510px;
+        margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+}
+     
+     button.btn.btn-link {
+     color: crimson;
+        
+     }     
