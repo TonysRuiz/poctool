@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
   <head>
-    <script type='text/javascript' src="jquery-1.11.3.min.js"></script>
+    
     <meta charset="UTF-8">
     <title>PocTool by TonysRuiz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,8 +15,22 @@
       
       
     <script src="app2.5.js"></script>
-      <script src="bootstrap.min.js"></script>
-    
+
+      <script src="js/greensock/TimelineLite.min.js"></script>
+      <script src="js/greensock/TweenMax.min.js"></script>
+	
+      <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="bootstrap.min.js"></script>
+      
+	<script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+      <script src="js/lib/velocity.min.js"></script> 
+     <script src="scrollmagic/uncompressed/plugins/animation.velocity.js"></script> 
+      <script src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script> 
+  	<script type="text/javascript" src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+      
+      
+
   </head>
   <body>
     <section class="page-header">
@@ -49,7 +64,7 @@
         <div id="anal">
             <p id="error"> </p><p id="errorg"</p>
             
-        <ul id="analy1" style="list-style-type:none">
+        <ul id="analy1" class="scrollblock" style="list-style-type:none">
             
             
             <li id="name"></li>
@@ -78,7 +93,7 @@
         
         <div id="anal">
         
-        <ul id="analy2" style="list-style-type:none">
+        <ul id="analy2" class="scrollblock" style="list-style-type:none">
             <li id="name2"></li>
             <li id="lastname2"></li>
             <li id="busnum2"></li>
@@ -189,6 +204,6 @@
 
     </section>
 
-  <script src="jquery-1.11.3.min.js"></script>
+  
   </body>
 </html>
