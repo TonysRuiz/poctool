@@ -21,11 +21,15 @@
     <section class="page-header">
       <h1 class="project-name">PocTool</h1>
       <!--<h2 class="project-tagline">poctool</h2>-->
-        
-        <input class="form-control" id="app" type="string" onkeypress="enterKey(event)">
-        <button #id="submit" type="button" onclick="myFunction();">Submit</button>
-        <button onclick="javascript:location.reload(true)">Clear</button>
-
+        <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+        <input class="form-control" id="app" type="text" onkeypress="enterKey(event)">
+        <span class="input-group-btn"><button class="btn btn-default" type="button" onclick="myFunction();">Submit</button></span>
+                <span class="input-group-btn"><button class="btn btn-default" onclick="javascript:location.reload(true)">Clear</button></span>
+        </div>
+        </div>
+        </div>
         
         
         <div class="container">
