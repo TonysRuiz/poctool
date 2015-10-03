@@ -585,6 +585,19 @@ var arr0 = [
             role: 'Manager',
             company: ''
         }
+    }, {
+        clarissa: {
+            firstname: 'Clarissa ',
+            lastname: 'D Alesandro',
+            name: "Clarissa D'Alesandro",
+            homenum: '',
+            busnum: '727-553-7890',
+            ex: '37890',
+            cellnum: '727-365-3153',
+            email: 'Clarissa.DAlesandro@bayfronthealth.com',
+            role: 'IT Manager',
+            company: ''
+        }
     }
 ];
 
@@ -618,6 +631,10 @@ var arr =    [{
             appl: 'accudose',
             anal1: arr0[2].tom
         },
+        {
+            appl: 'accucheck',
+            anal1: arr0[49].clarissa
+        },              
         {
             appl: 'ad/cerner account creation',
             anal1: arr0[3].tammy
