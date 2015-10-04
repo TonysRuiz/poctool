@@ -1612,9 +1612,17 @@ if (app.trim() === arr[i].appl) {
         document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
         }
         
-            
+        var cell = document.getElementById('cellnum');
+        b = document.createElement('a');
         
-        document.getElementById("cellnum").innerHTML = " " + arr1[0].analy1.cellnum;
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[0].analy1.cellnum;
+        b.textContent =" " + arr1[0].analy1.cellnum;
+
+        cell.appendChild(b);
     
 
                                 
