@@ -1198,6 +1198,12 @@ var arr =    [{
             anal1: arr0[28].herman,
             anal2: arr0[29].mark, 
             anal3: arr0[49].clarissa
+        },
+        {
+            appl: 'managers',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
         },              
         {
             appl: 'it operator',
