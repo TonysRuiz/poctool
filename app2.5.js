@@ -1188,6 +1188,12 @@ var arr =    [{
             anal3: arr0[49].clarissa
         },
         {
+            appl: 'it managers',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
+        },              
+        {
             appl: 'manager',
             anal1: arr0[28].herman,
             anal2: arr0[29].mark, 
@@ -1980,3 +1986,8 @@ function glyph5(){
     }
 }
 
+var projectname = document.getElementById("title"),
+    count = 0,
+    tween;
+
+tween = TweenMax.to(projectname, 0.3,{opacity:0, rotation:800, x:-20,  repeat:1, yoyo: true, ease:Linear._easePower});
