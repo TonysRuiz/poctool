@@ -598,6 +598,32 @@ var arr0 = [
             role: 'IT Manager',
             company: ''
         }
+    }, {
+        cerner: {
+            firstname: 'Cerner ',
+            lastname: 'ACIS',
+            name: "Cerner",
+            homenum: '',
+            busnum: '866-221-8877',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'Cerner Bay_FL 753'
+        }
+    }, {
+        ge: {
+            firstname: 'GE ',
+            lastname: 'Carescape',
+            name: "GE CareScape",
+            homenum: '',
+            busnum: '800-558-7044',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'GE CareScape'
+        }
     }
 ];
 
@@ -633,7 +659,8 @@ var arr =    [{
         },
         {
             appl: 'accucheck',
-            anal1: arr0[49].clarissa
+            anal1: arr0[49].clarissa, 
+            anal2: arr0[51].ge
         },              
         {
             appl: 'ad/cerner account creation',
@@ -683,7 +710,8 @@ var arr =    [{
         },
         {
             appl: 'cerner',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].colleen,
+            anal2: arr0[50].cerner
         
         },
         {
@@ -1075,6 +1103,15 @@ var arr =    [{
             appl: 'ge centricity',
             anal1: arr0[4].colleen
         },
+        {
+            appl: 'ge carescape',
+            anal1: arr0[49].clarissa,
+            anal2: arr0[51].ge
+        },
+        {
+            appl: 'ge',
+            anal1: arr0[51].ge
+        },              
         {
             appl: 'ge fetal monitoring',
             anal1: arr0[4].colleen
