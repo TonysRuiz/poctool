@@ -1109,6 +1109,11 @@ var arr =    [{
             anal2: arr0[51].ge
         },
         {
+            appl: 'carescape',
+            anal1: arr0[49].clarissa,
+            anal2: arr0[51].ge
+        },              
+        {
             appl: 'ge',
             anal1: arr0[51].ge
         },              
