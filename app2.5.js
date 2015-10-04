@@ -1990,4 +1990,13 @@ var projectname = document.getElementById("title"),
     count = 0,
     tween;
 
-tween = TweenMax.to(projectname, 0.3,{opacity:0, rotation:800, x:-20,  repeat:1, yoyo: true, ease:Linear._easePower});
+tween = TweenMax.to(projectname, 0.3,{rotation:800, x:-20, scale:2, repeat:1, yoyo: true, ease:Linear._easePower});
+
+
+
+
+var app = document.getElementById("app"),
+    count = 0,
+    tween;
+
+tween = TweenMax.to(app, 0.3,{right: "200px", rotation:800, x:-20, scale:1, repeat:1, yoyo: true, ease:Power2.SlowMo});
