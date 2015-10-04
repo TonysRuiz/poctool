@@ -276,5 +276,19 @@ color: #57E0FF;
     .projectname{
 
   position:relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
 
+    }
+    
+    .container2{
+    
+        shape-outside:padding-box;
+        padding-top: none;
+    
+    }
+    
+    .page-header{
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
