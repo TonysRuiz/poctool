@@ -1466,6 +1466,14 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'wts location',
+            anal1: arr0[20].daniel
+        },
+        {
+            appl: 'wts',
+            anal1: arr0[20].daniel
+        },              
+        {
             appl: 'abbott',
             anal1: arr0[7].denise,
             anal2: arr0[8].sean,
@@ -1561,14 +1569,14 @@ if (app.trim() === arr[i].appl) {
         
         email.appendChild(a);
         
-        console.log(email.firstChild.innerHTML);
-        
-                            
-        
-        
-                
+                console.log(email.firstChild.innerHTML);
                 document.getElementById("company").innerHTML = arr1[0].analy1.company;
 
+        
+        var cl = document.getElementById("analy1");
+        analy1.classList.remove("fade-in");
+        cl.className = cl.className + "fade-in";
+        
                 glyph();
         
         }
@@ -1787,6 +1795,7 @@ function glyph(){
         o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
         document.getElementById("ex").style.display = "inline-block";
     }
+    
     
         if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ")){
     document.getElementById("cellnum").style.display = "none";
