@@ -224,6 +224,10 @@ color: #57E0FF;
 @-webkit-keyframes main-content { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes main-content { from { opacity:0; } to { opacity:1; } }
 @keyframes main-content { from { opacity:0; } to { opacity:1; } }
+
+@-webkit-keyframes container2 { from 50% { opacity:0; } to { opacity:1; } }
+@-moz-keyframes container2 { from 50% { opacity:0; } to { opacity:1; } }
+@keyframes container2 { from 50% { opacity:0; } to { opacity:1; } }
     
     .fade-in {
         opacity: : 0;
@@ -240,6 +244,7 @@ color: #57E0FF;
     }
     
         .main-content {
+
         opacity: : 0;
         -webkit-animation: fadeIn ease-in 1; 
         -moz-animation: fadeIn ease-in 1; 
@@ -250,7 +255,22 @@ color: #57E0FF;
         -webkit-animation-duration: 1s;
         -moz-animation-duration: 1s;
         animation-duration: 1s;
+
+    }
     
+            .container2 {
+        opacity: : 0;
+        -webkit-animation: fadeIn ease-in 1; 
+        -moz-animation: fadeIn ease-in 1; 
+        animation:  fadeIn ease-in 1;
+        -webkit-animation-fill-mode: forwards; 
+        -moz-animation-fill-mode: forwards; 
+        animation-fill-mode: forwards; 
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        animation-duration: 1s;
+        
+
     }
     
     .projectname{
