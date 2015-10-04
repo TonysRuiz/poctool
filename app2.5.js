@@ -1604,13 +1604,23 @@ if (app.trim() === arr[i].appl) {
                 document.getElementById("analy1").style.display = 'block';                             document.getElementById("error").style.display = "none";
                 document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
                 document.getElementById("homenum").innerHTML = " " + arr1[0].analy1.homenum;
-                document.getElementById("busnum").innerHTML = " " + arr1[0].analy1.busnum;
+        
+                
+        var busn = document.getElementById('busnum');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }        
+        c.href = 'tel:' + arr1[0].analy1.busnum;
+        c.textContent =" " + arr1[0].analy1.busnum;
+        busn.appendChild(c);
         
         if (document.getElementById("ex").innerHTML === undefined){
         document.getElementById("ex").style.display = "none";
         } else if (arr1[0].analy1.ex !== undefined){
         document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
         }
+        
         
         var cell = document.getElementById('cellnum');
         b = document.createElement('a');
@@ -1655,13 +1665,38 @@ if (app.trim() === arr[i].appl) {
                 document.getElementById("analy2").style.display = 'block';
                 document.getElementById("name2").innerHTML =  " " + arr1[1].analy2.name;
                 document.getElementById("homenum2").innerHTML =  " " + arr1[1].analy2.homenum;
-                document.getElementById("busnum2").innerHTML =  " " + arr1[1].analy2.busnum;
+                
+        
+        var busn = document.getElementById('busnum2');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[1].analy2.busnum;
+        c.textContent =" " + arr1[1].analy2.busnum;
+        busn.appendChild(c);
+        
         if (arr1[1].analy2.ex === undefined){
             document.getElementById("ex2").style.display = "none";
         } else if (arr1[1].analy2.ex !== undefined){
             document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
         }
-                document.getElementById("cellnum2").innerHTML =  " " + arr1[1].analy2.cellnum;
+
+        
+        
+        var cell = document.getElementById('cellnum2');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[1].analy2.cellnum;
+        b.textContent =" " + arr1[1].analy2.cellnum;
+
+        cell.appendChild(b);
+        
+        
                 
         var email2 = document.getElementById('email2');
         a = document.createElement('a');
@@ -1685,13 +1720,37 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 document.getElementById("analy3").style.display = 'block';
                 document.getElementById("name3").innerHTML =  " " + arr1[2].analy3.name;
                 document.getElementById("homenum3").innerHTML =  " " + arr1[2].analy3.homenum;
-                document.getElementById("busnum3").innerHTML =  " " + arr1[2].analy3.busnum;
+                
+        
+        var busn = document.getElementById('busnum3');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[2].analy3.busnum;
+        c.textContent =" " + arr1[2].analy3.busnum;
+        busn.appendChild(c);
+        
+        
         if (arr1[2].analy3.ex === undefined){
             document.getElementById("ex3").style.display = "none";
         } else if (arr1[2].analy3.ex !== undefined){
             document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
         }
-                document.getElementById("cellnum3").innerHTML =  " " + arr1[2].analy3.cellnum;
+
+        
+                var cell = document.getElementById('cellnum3');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[2].analy3.cellnum;
+        b.textContent =" " + arr1[2].analy3.cellnum;
+
+        cell.appendChild(b);
+        
         
         var email3 = document.getElementById('email3');
         a = document.createElement('a');
@@ -1714,13 +1773,36 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 document.getElementById("analy4").style.display = 'block';
                 document.getElementById("name4").innerHTML = " " + arr1[3].analy4.name;
                 document.getElementById("homenum4").innerHTML = " " + arr1[3].analy4.homenum;
-                document.getElementById("busnum4").innerHTML = " " + arr1[3].analy4.busnum;
+        
+        var busn = document.getElementById('busnum4');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[3].analy4.busnum;
+        c.textContent =" " + arr1[3].analy4.busnum;
+        busn.appendChild(c);
+        
+        
         if (arr1[3].analy4.ex === undefined){
             document.getElementById("ex4").style.display = "none";
         } else if (arr1[3].analy4.ex !== undefined){
             document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
         }
-                document.getElementById("cellnum4").innerHTML = " " + arr1[3].analy4.cellnum;
+
+        
+                        var cell = document.getElementById('cellnum4');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[3].analy4.cellnum;
+        b.textContent =" " + arr1[3].analy4.cellnum;
+
+        cell.appendChild(b);
+        
         
                 var email4 = document.getElementById('email4');
         a = document.createElement('a');
@@ -1743,7 +1825,16 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 document.getElementById("analy5").style.display = 'inherit';
                 document.getElementById("name5").innerHTML = " " + arr1[4].analy5.name;
                 document.getElementById("homenum5").innerHTML = " " + arr1[4].analy5.homenum;
-                document.getElementById("busnum5").innerHTML = " " + arr1[4].analy5.busnum;
+                
+                var busn = document.getElementById('busnum5');
+                c = document.createElement('a');
+                if(busn.hasChildNodes()) {
+                busn.removeChild(busn.firstChild);
+                }
+                c.href = 'tel:' + arr1[4].analy5.busnum;
+                c.textContent =" " + arr1[4].analy5.busnum;
+                busn.appendChild(c);
+        
         if (arr1[4].analy5.ex === undefined){
             document.getElementById("ex5").style.display = "none";
         } else if (arr1[4].analy5.ex !== undefined){
@@ -1751,17 +1842,26 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
         }
                 document.getElementById("cellnum5").innerHTML = " " + arr1[4].analy5.cellnum;
         
+        var cell = document.getElementById('cellnum5');
+        b = document.createElement('a');
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        b.href = 'tel:' + arr1[4].analy5.cellnum;
+        b.textContent =" " + arr1[4].analy5.cellnum;
+        cell.appendChild(b);
+        
+        
                         var email5 = document.getElementById('email5');
         a = document.createElement('a');
-        
         if (email5.hasChildNodes()) {
         email5.removeChild(email5.firstChild);
         }
-                a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
+        a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
         a.textContent =  " " + arr1[4].analy5.email; // This will add the actual text to the link
         document.getElementById("email5").appendChild(a);
         
-                document.getElementById("company5").innerHTML = arr1[4].analy5.company;
+        document.getElementById("company5").innerHTML = arr1[4].analy5.company;
         
                 glyph5();
         
@@ -2041,6 +2141,11 @@ function glyph5(){
         document.getElementById("cellnum5").style.display = "inline-block"
     }
 }
+
+
+
+
+
 
 var projectname = document.getElementById("title"),
     count = 0,
