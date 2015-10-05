@@ -1200,6 +1200,10 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'qs',
+            anal1: arr0[4].colleen
+        },              
+        {
             appl: 'ge fetal monitoring qs',
             anal1: arr0[4].colleen
         },
@@ -1335,7 +1339,7 @@ var arr =    [{
             appl: 'pagers',
             anal1: arr0[34].ignacio,
             anal2: arr0[36].cecilio
-        },
+        },              
         {
             appl: 'pager',
             anal1: arr0[34].ignacio,
@@ -1392,6 +1396,10 @@ var arr =    [{
             appl: 'passport onesource',
             anal1: arr0[37].rasheedah
         },
+        {
+            appl: 'passport',
+            anal1: arr0[14].stephen
+        },              
         {
             appl: 'onesource',
             anal1: arr0[37].rasheedah
@@ -1469,6 +1477,11 @@ var arr =    [{
             anal1: arr0[36].cecilio,
             anal2: arr0[34].ignacio
         },
+        {
+            appl: 'fax',
+            anal1: arr0[36].cecilio,
+            anal2: arr0[34].ignacio
+        },              
         {
             appl: 'theradoc (infection control)',
             anal1: arr0[45].brooke
@@ -1615,34 +1628,29 @@ if (app.trim() === arr[i].appl) {
         c.textContent =" " + arr1[0].analy1.busnum;
         busn.appendChild(c);
         
-        if (document.getElementById("ex").innerHTML === undefined){
-        document.getElementById("ex").style.display = "none";
-        } else if (arr1[0].analy1.ex !== undefined){
+        
+        
+
         document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
-        }
+        
         
         
         var cell = document.getElementById('cellnum');
         b = document.createElement('a');
-        
         if(cell.hasChildNodes()) {
         cell.removeChild(cell.firstChild);
         }
-        
         b.href = 'tel:' + arr1[0].analy1.cellnum;
         b.textContent =" " + arr1[0].analy1.cellnum;
-
         cell.appendChild(b);
     
 
                                 
         var email = document.getElementById('email');
         a = document.createElement('a');
-        
         if (email.hasChildNodes()) {
         email.removeChild(email.firstChild);
         }
-        
         a.href = 'mailto:' + arr1[0].analy1.email + '?Subject=PocTool%20Contact';
         a.textContent = " " + arr1[0].analy1.email; // This will add the actual text to the link
         
@@ -1948,25 +1956,26 @@ function glyph(){
     }
     
     
-    if((document.getElementById("busnum") === undefined) || (document.getElementById("busnum") === " ")){
+    if((document.getElementById("busnum") === undefined) || (document.getElementById("busnum") === " ") || (busnum.firstChild.innerHTML === " ")){
         document.getElementById("busnum").style.display = "none";
     } else if (document.getElementById("busnum") !== undefined){
         var i = document.getElementById("busnum");
         i.className = i.className + "glyphicon glyphicon-phone-alt";
         document.getElementById("busnum").style.display = "inline-block";
+        
     }
     
     
-            if((document.getElementById("ex").innerHTML === undefined) || (document.getElementById("ex").innerHTML === "")){
+            if((document.getElementById("ex").innerHTML === "undefined") || (document.getElementById("ex").innerHTML === " ") || (document.getElementById("ex").innerHTML === "")){
     document.getElementById("ex").style.display = "none";
     } else if (document.getElementById("ex") !== undefined){
-    var o = document.getElementById("ex");
-        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+    var e = document.getElementById("ex");
+        e.className = e.className + "glyphicon glyphicon-circle-arrow-right";
         document.getElementById("ex").style.display = "inline-block";
     }
     
     
-        if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ")){
+        if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ") || (document.getElementById("cellnum").firstChild.innerHTML === " ")){
     document.getElementById("cellnum").style.display = "none";
     } else if (document.getElementById("cellnum") !== undefined){
     var o = document.getElementById("cellnum");
@@ -2000,7 +2009,7 @@ function glyph2(){
     var o = document.getElementById("busnum2");
         o.className = o.className + "glyphicon glyphicon-phone-alt";
     
-            if(document.getElementById("ex2").innerHTML === undefined){
+            if((document.getElementById("ex2").innerHTML === undefined) || (document.getElementById("ex2").innerHTML === "")){
     document.getElementById("ex2").style.display = "none";
     } else if (document.getElementById("ex2") !== undefined){
     var o = document.getElementById("ex2");
@@ -2008,7 +2017,7 @@ function glyph2(){
         document.getElementById("ex2").style.display = "inline-block";
     }
     
-    if((document.getElementById("cellnum2").innerHTML === undefined) || (document.getElementById("cellnum2").innerHTML === " ")){
+    if((document.getElementById("cellnum2").innerHTML === undefined) || (document.getElementById("cellnum2").innerHTML === " ") || (document.getElementById("cellnum2").firstChild.innerHTML === " ")){
     document.getElementById("cellnum2").style.display = "none";
     } else if (document.getElementById("cellnum2") !== undefined){
     var o2 = document.getElementById("cellnum2");
