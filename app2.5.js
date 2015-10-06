@@ -660,7 +660,8 @@ var arr =    [{
         {
             appl: 'accucheck',
             anal1: arr0[49].clarissa, 
-            anal2: arr0[51].ge
+            anal2: arr0[51].ge,
+            anal3: arr0[8].sean
         },              
         {
             appl: 'ad/cerner account creation',
@@ -2164,6 +2165,8 @@ function glyph5(){
 
 
 
+_.where(arr0)
+
 
 
 
@@ -2181,3 +2184,4 @@ var app = document.getElementById("app"),
     tween;
 
 tween = TweenMax.to(app, 0.4,{right: "450px", x:-20, scale:1, repeat:1, yoyo: true, ease:Power2.SlowMo});
+
