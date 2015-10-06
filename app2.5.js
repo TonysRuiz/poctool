@@ -291,7 +291,7 @@ var arr0 = [
             name: 'Jeremy Dean',
             homenum: '',
             busnum: '',
-            ex: '',
+            ex: '52041',
             cellnum: '',
             email: 'Robert.Fox@hma.com',
             company: ''
@@ -1033,13 +1033,15 @@ var arr =    [{
             appl: 'desktop support',
             anal1: arr0[20].daniel,
             anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler
+            anal3: arr0[22].tyler,
+            anal4: arr0[24].jeremy
         },
         {
             appl: 'desktop',
             anal1: arr0[20].daniel,
             anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler
+            anal3: arr0[22].tyler,
+            anal4: arr0[24].jeremy
         },
         {
             appl: 'dexter cedaron',
