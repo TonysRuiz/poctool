@@ -1448,7 +1448,11 @@ var arr =    [{
         {
             appl: 'credit card',
             anal1: arr0[40].peter
-        },              
+        },
+        {
+            appl: 'credit cards',
+            anal1: arr0[40].peter
+        },
         {
             appl: 'single sign on paradigm (sso)',
             anal1: arr0[41].bernard,
