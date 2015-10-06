@@ -1446,6 +1446,10 @@ var arr =    [{
             anal1: arr0[40].peter
         },
         {
+            appl: 'credit card',
+            anal1: arr0[40].peter
+        },              
+        {
             appl: 'single sign on paradigm (sso)',
             anal1: arr0[41].bernard,
             anal2: arr0[18].aston
@@ -1890,16 +1894,18 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
 
     return arr[i].appl; 
     
+    
 } else if (app != arr[i].appl) {
         
     error();
-    
+    var ana = _.where(arr0, {firstname: app.trim()});
+        console.log(ana);
 }
         
 } //end of iterate through 'arr' array (arr0[31].tony.email)
     
     
-        
+       
     
     
 
@@ -2165,7 +2171,7 @@ function glyph5(){
 
 
 
-_.where(arr0)
+
 
 
 
