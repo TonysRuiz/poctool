@@ -1556,13 +1556,17 @@ var arr =    [{
         {
             appl: 'grand rounds',
             anal1: arr0[1].perkeisha
-        },
-              
+        },         
         {
             appl: 'security awareness',
             anal1: arr0[42].danield,
             anal2: arr0[43].andrew
         },
+        {
+            appl: 'server',
+            anal1: arr0[41].bernard,
+            anal2: arr0[44].jorge
+        },              
         {
             appl: 'it security',
             anal1: arr0[42].danield,
