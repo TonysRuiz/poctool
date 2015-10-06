@@ -668,6 +668,11 @@ var arr =    [{
                 
         },
         {
+            appl: 'cerner account',
+            anal1: arr0[0].lou
+                
+        },              
+        {
             appl: 'account creation',
             anal1: arr0[3].tammy
                 
