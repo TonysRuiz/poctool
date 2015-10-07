@@ -650,6 +650,19 @@ var arr0 = [
             role: '',
             company: 'CHS Home Office'
         }
+    }, {
+        kim : {
+            firstname: 'Kim ',
+            lastname: 'Ramer',
+            name: "Kim Ramer",
+            homenum: '727-290-1387',
+            busnum: '',
+            ex: '57287',
+            cellnum: '',
+            email: "Kim.Ramer@hma.com",
+            role: '',
+            company: ''
+        }
     }
 ];
 
@@ -1231,7 +1244,8 @@ var arr =    [{
         },
         {
             appl: 'centricity',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].colleen,
+            anal2: arr0[54].kim
         },
         {
             appl: 'qs',
