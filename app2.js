@@ -37,7 +37,7 @@ var arr0 = [
         }
     }, {
         tammy: {
-            firstname: 'Tammy ',
+            firstname: 'Tammy',
             lastname: 'Beal',
             name: 'Tammy Beal',
             homenum: '727-867-8213',
@@ -85,20 +85,21 @@ var arr0 = [
     }, {
         denise: {
             firstname: 'Denise ',
-            lastname: 'Rafferty',
-            name: 'Denise Rafferty',
-            homenum: '',
-            busnum: '1-800-366-8020',
-            cellnum: '1-423-243-6759',
-            email: '',
-            company: 'Abbott'
+            lastname: 'Murphy',
+            name: 'Denise Murphy',
+            homenum: '727-323-3631',
+            busnum: '727-553-7838',
+            ex: '37838',
+            cellnum: '727-218-3825',
+            email: 'Denise.Murphy@hma.com',
+            company: ''
         }
     }, {
         sean: {
             firstname: 'Sean ',
             lastname: 'Fogarty',
             name: 'Sean Fogarty',
-            homenum: ' ',
+            homenum: '',
             busnum: '727-893-6494',
             ex: '36182',
             cellnum: '727-408-4330',
@@ -226,7 +227,7 @@ var arr0 = [
         }
     }, {
         shannon: {
-            firstname: 'Shannon ',
+            firstname: 'Shannon',
             lastname: 'Pauley',
             name: 'Shannon Pauley',
             homenum: '',
@@ -290,7 +291,7 @@ var arr0 = [
             name: 'Jeremy Dean',
             homenum: '',
             busnum: '',
-            ex: '',
+            ex: '52041',
             cellnum: '',
             email: 'Robert.Fox@hma.com',
             company: ''
@@ -547,6 +548,95 @@ var arr0 = [
             email: 'Brooke.Gabel@hma.com',
             company: ''
         }
+    }, {
+        danield: {
+            firstname: 'Daniel ',
+            lastname: 'Devore',
+            name: 'Daniel Devore',
+            homenum: '',
+            busnum: '615-628-6129',
+            ex: '',
+            cellnum: '',
+            email: 'Daniel_Devore@chs.net',
+            company: 'CHS'
+        }
+    }, {
+        andrew: {
+            firstname: 'Andrew ',
+            lastname: 'Ange',
+            name: 'Andrew Ange',
+            homenum: '',
+            busnum: '615-846-2226',
+            ex: '',
+            cellnum: '',
+            email: 'Andrew_Ange@chs.net',
+            company: 'CHS'
+        }
+    }, {
+        kathleen: {
+            firstname: 'Kathleen ',
+            lastname: 'Patton',
+            name: 'Kathleen Patton',
+            homenum: '',
+            busnum: '615-846-2226',
+            ex: '',
+            cellnum: '',
+            email: 'Kathleen.Patton@hma.com',
+            role: 'Manager',
+            company: ''
+        }
+    }, {
+        clarissa: {
+            firstname: 'Clarissa ',
+            lastname: 'D Alesandro',
+            name: "Clarissa D'Alesandro",
+            homenum: '',
+            busnum: '727-553-7890',
+            ex: '37890',
+            cellnum: '727-365-3153',
+            email: "Clarissa.D'Alesandro@hma.com",
+            role: 'IT Manager',
+            company: ''
+        }
+    }, {
+        cerner: {
+            firstname: 'Cerner ',
+            lastname: 'ACIS',
+            name: "Cerner",
+            homenum: '',
+            busnum: '866-221-8877',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'Cerner Bay_FL 753'
+        }
+    }, {
+        ge: {
+            firstname: 'GE ',
+            lastname: 'Carescape',
+            name: "GE CareScape",
+            homenum: '',
+            busnum: '800-558-7044',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'GE CareScape'
+        }
+    }, {
+        chs : {
+            firstname: 'CHS ',
+            lastname: 'Home Office',
+            name: "CHS Home Office",
+            homenum: '',
+            busnum: '239-598-4855',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'CHS Home Office'
+        }
     }
 ];
 
@@ -560,11 +650,17 @@ var arr =    [{
             appl: 'aast',
             anal1: arr0[1].perkeisha
         },
-       
-           
         {
             appl: 'accent health',
             anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'accent',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'accudose carts',
+            anal1: arr0[2].tom
         },
         {
             appl: 'accudose carts and support stations',
@@ -575,7 +671,23 @@ var arr =    [{
             anal1: arr0[2].tom
         },
         {
+            appl: 'accucheck',
+            anal1: arr0[49].clarissa, 
+            anal2: arr0[51].ge,
+            anal3: arr0[8].sean
+        },              
+        {
             appl: 'ad/cerner account creation',
+            anal1: arr0[3].tammy
+                
+        },
+        {
+            appl: 'cerner account',
+            anal1: arr0[0].lou
+                
+        },              
+        {
+            appl: 'account creation',
             anal1: arr0[3].tammy
                 
         },
@@ -592,7 +704,19 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'allegiantmd',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'allegiant',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'analyze direct',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'analyze',
             anal1: arr0[4].colleen
         },
         {
@@ -605,8 +729,15 @@ var arr =    [{
         },
         {
             appl: 'cerner',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].colleen,
+            anal2: arr0[50].cerner
         
+        },
+        {
+            appl: 'point of care',
+            anal1: arr0[7].denise,
+            anal2: arr0[8].sean,
+            anal3: arr0[9].shari
         },
         {
             appl: 'cerner (point of care) abbott',
@@ -636,7 +767,20 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'antibiotic alert',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'antibiotic',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner blood bank',
+            anal1: arr0[7].denise,
+            anal2: arr0[7].nadena
+        },
+        {
+            appl: 'blood bank',
             anal1: arr0[7].denise,
             anal2: arr0[7].nadena
         },
@@ -645,7 +789,15 @@ var arr =    [{
             anal1: arr0[13].chirayu
         },
         {
+            appl: 'carecompass',
+            anal1: arr0[13].chirayu
+        },
+        {
             appl: 'cerner cpoe',
+            anal1: arr0[11].deniseM
+        },
+        {
+            appl: 'cpoe',
             anal1: arr0[11].deniseM
         },
         {
@@ -654,7 +806,27 @@ var arr =    [{
             anal2: arr0[2].tom
         },
         {
+            appl: 'cpdi',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom
+        },
+        {
+            appl: 'batch scanning',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom
+        },
+        {
+            appl: 'document imaging',
+            anal1: arr0[14].stephen,
+            anal2: arr0[2].tom,
+            anal3: arr0[1].perkeisha
+        },
+        {
             appl: 'cerner document imaging (poi- pharmacy order imaging)',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'poi',
             anal1: arr0[1].perkeisha
         },
         {
@@ -662,7 +834,19 @@ var arr =    [{
             anal1: arr0[5].john
         },
         {
+            appl: 'firstnet',
+            anal1: arr0[5].john
+        },
+        {
             appl: 'cerner health sentry',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'health sentry',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'sentry',
             anal1: arr0[9].shari
         },
         {
@@ -674,11 +858,27 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'inet',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ics',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner iview',
             anal1: arr0[13].chirayu
         },
         {
+            appl: 'iview',
+            anal1: arr0[13].chirayu
+        },
+        {
             appl: 'cerner message center/inbox',
+            anal1: arr0[7].denise
+        },
+        {
+            appl: 'message center',
             anal1: arr0[7].denise
         },
         {
@@ -690,7 +890,15 @@ var arr =    [{
             anal1: arr0[9].shari
         },
         {
+            appl: 'medical records',
+            anal1: arr0[9].shari
+        },
+        {
             appl: 'cerner open engine interfaces- fsi',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'open engine',
             anal1: arr0[15].rick
         },
         {
@@ -698,7 +906,19 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
+            appl: 'open port interfaces',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'open port',
+            anal1: arr0[15].rick
+        },
+        {
             appl: 'cerner pacs (picture archical clinical system',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'pacs',
             anal1: arr0[4].colleen
         },
         {
@@ -726,7 +946,31 @@ var arr =    [{
             anal3: arr0[9].shari
         },
         {
+            appl: 'pathnet',
+            anal1: arr0[7].denise,
+            anal2: arr0[9].shari,
+            anal3: arr0[9].dave
+        },
+        {
+            appl: 'cerner pathnet',
+            anal1: arr0[7].denise,
+            anal2: arr0[9].shari,
+            anal3: arr0[9].dave
+        },
+        {
             appl: 'cerner patient depart process',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'patient depart',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'patient depart process',
+            anal1: arr0[5].john
+        },
+        {
+            appl: 'depart process',
             anal1: arr0[5].john
         },
         {
@@ -734,14 +978,30 @@ var arr =    [{
             anal1: arr0[1].perkeisha
         },
         {
+            appl: 'patient portal',
+            anal1: arr0[1].perkeisha
+        },
+        {
             appl: 'cerner pharmnet',
             anal1: arr0[2].tom
+        },
+        {
+            appl: 'pharmnet',
+            anal1: arr0[2].tom
+        },
+        {
+            appl: 'powerchart',
+            anal1: arr0[4].colleen,
+            anal2: arr0[18].aston,
+            anal3: arr0[9].shari,
+            anal4: arr0[11].deniseM
         },
         {
             appl: 'cerner powerchart',
             anal1: arr0[4].colleen,
             anal2: arr0[18].aston,
-            anal3: arr0[9].shari
+            anal3: arr0[9].shari,
+            anal4: arr0[11].deniseM
         },
         {
             appl: 'cerner profile',
@@ -749,10 +1009,18 @@ var arr =    [{
         },
         {
             appl: 'cerner profit',
-            anal1: arr0[14].shannon
+            anal1: arr0[19].shannon
+        },
+        {
+            appl: 'profit',
+            anal1: arr0[19].shannon
         },
         {
             appl: 'cerner radnet',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'radnet',
             anal1: arr0[4].colleen
         },
         {
@@ -760,23 +1028,45 @@ var arr =    [{
             anal1: arr0[14].stephen
         },
         {
+            appl: 'scheduling',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'cerner surginet',
             anal1: arr0[5].john
         },
-           
+        {
+            appl: 'surginet',
+            anal1: arr0[5].john
+        },
         {
             appl: 'dar',
             anal1: arr0[0].lou
         },
-        
         {
             appl: 'desktop support',
             anal1: arr0[20].daniel,
             anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler
+            anal3: arr0[22].tyler,
+            anal4: arr0[24].jeremy
+        },
+        {
+            appl: 'desktop',
+            anal1: arr0[20].daniel,
+            anal2: arr0[21].johnG,
+            anal3: arr0[22].tyler,
+            anal4: arr0[24].jeremy
         },
         {
             appl: 'dexter cedaron',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'dexter',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'cedaron',
             anal1: arr0[4].colleen
         },
         {
@@ -786,6 +1076,11 @@ var arr =    [{
         },
         {
             appl: 'echo system- former med staff credentialing system',
+            anal1: arr0[11].deniseM,
+            anal2: arr0[11].lori
+        },
+        {
+            appl: 'echo',
             anal1: arr0[11].deniseM,
             anal2: arr0[11].lori
         },
@@ -802,6 +1097,10 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
+            appl: 'ers',
+            anal1: arr0[15].rick
+        },
+        {
             appl: 'excelera',
             anal1: arr0[4].colleen
         },
@@ -810,7 +1109,7 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
-            appl: 'fl newborn tiff alternative printing',
+            appl: 'tiff',
             anal1: arr0[9].shari
         },
         {
@@ -818,19 +1117,47 @@ var arr =    [{
             anal1: arr0[1].perkeisha
         },
         {
-            appl: 'ge centricity cardiovascular  (321 206 8419)  vs. philips cardiovascular',
+            appl: 'fod',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'ge centricity',
             anal1: arr0[4].colleen
         },
         {
-            appl: 'ge fetal monitoring qs',
+            appl: 'ge carescape',
+            anal1: arr0[49].clarissa,
+            anal2: arr0[51].ge
+        },
+        {
+            appl: 'carescape',
+            anal1: arr0[49].clarissa,
+            anal2: arr0[51].ge
+        },              
+        {
+            appl: 'ge',
+            anal1: arr0[51].ge
+        },              
+        {
+            appl: 'ge fetal monitoring',
             anal1: arr0[4].colleen
         },
-              {
+        {
             appl: 'ge muse',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].colleen,
+            anal2: arr0[15].rick
+        },
+        {
+            appl: 'muse',
+            anal1: arr0[4].colleen,
+            anal2: arr0[15].rick
         },
         {
             appl: 'golden hour (bayflite)',
+            anal1: arr0[7].denise
+        },
+        {
+            appl: 'bayflite',
             anal1: arr0[7].denise
         },
         {
@@ -838,19 +1165,47 @@ var arr =    [{
             anal1: arr0[0].lou
         },
         {
+            appl: 'ibm',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'iseries',
+            anal1: arr0[0].lou
+        },
+        {
             appl: 'idinc ems risk management software / employee injury / peer review',
             anal1: arr0[27].janet
         },
         {
-            appl: 'fl ens (events notification system) interface',
+            appl: 'events notification system',
             anal1: arr0[15].rick
+        },
+        {
+            appl: 'ens',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'family health center',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'family health',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'fhc',
+            anal1: arr0[48].kathleen
+        },
+        {
+            appl: 'family medicine clinics',
+            anal1: arr0[48].kathleen
         },
         {
             appl: 'fl newborn tiff alternative printing',
             anal1: arr0[9].shari
         },
         {
-            appl: 'forms on demand (fod)',
+            appl: 'forms on demand',
             anal1: arr0[1].perkeisha
         },
         {
@@ -858,12 +1213,28 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'cardiovascular',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'centricity',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'qs',
+            anal1: arr0[4].colleen
+        },              
+        {
             appl: 'ge fetal monitoring qs',
             anal1: arr0[4].colleen
         },
         {
-            appl: 'ge muse',
-            anal1: arr0[15].rick
+            appl: 'fetal',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'fetal monitoring',
+            anal1: arr0[4].colleen
         },
         {
             appl: 'infinium',
@@ -880,8 +1251,27 @@ var arr =    [{
         {
             appl: 'it manager',
             anal1: arr0[28].herman,
-            anal2: arr0[29].mark
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
         },
+        {
+            appl: 'it managers',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
+        },              
+        {
+            appl: 'manager',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
+        },
+        {
+            appl: 'managers',
+            anal1: arr0[28].herman,
+            anal2: arr0[29].mark, 
+            anal3: arr0[49].clarissa
+        },              
         {
             appl: 'it operator',
             anal1: arr0[23].bob,
@@ -891,7 +1281,35 @@ var arr =    [{
             anal5: arr0[33].morgan
         },
         {
+            appl: 'intranet',
+            anal1: arr0[52].chs
+        },              
+        {
+            appl: 'operator',
+            anal1: arr0[23].bob,
+            anal2: arr0[30].barbara,
+            anal3: arr0[31].tony,
+            anal4: arr0[32].ernest,
+            anal5: arr0[33].morgan
+        },
+        {
+            appl: 'help desk',
+            anal1: arr0[23].bob,
+            anal2: arr0[30].barbara,
+            anal3: arr0[31].tony,
+            anal4: arr0[32].ernest,
+            anal5: arr0[33].morgan
+        },
+        {
+            appl: 'homepage',
+            anal1: arr0[52].chs
+        },              
+        {
             appl: 'kronos time and attendance',
+            anal1: arr0[0].lou
+        },
+        {
+            appl: 'kronos',
             anal1: arr0[0].lou
         },
         {
@@ -903,7 +1321,35 @@ var arr =    [{
             anal1: arr0[14].stephen
         },
         {
+            appl: 'landmark',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'lansweeper',
+            anal1: arr0[42].kenn
+        },
+        {
+            appl: 'transcription',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'mckesson cerme and interqual',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'mckesson cerme',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'cerme',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'mckesson',
+            anal1: arr0[14].stephen
+        },
+        {
+            appl: 'interqual',
             anal1: arr0[14].stephen
         },
         {
@@ -911,12 +1357,44 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'meadows',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'mobile pagers',
             anal1: arr0[34].ignacio
         },
         {
+            appl: 'pagers',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },              
+        {
+            appl: 'pager',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
+            appl: 'phones',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
+            appl: 'phone',
+            anal1: arr0[34].ignacio,
+            anal2: arr0[36].cecilio
+        },
+        {
             appl: 'monarch',
             anal1: arr0[35].patti
+        },
+        {
+            appl: 'network',
+            anal1: arr0[42].kenn
+        },
+        {
+            appl: 'networking',
+            anal1: arr0[42].kenn
         },
         {
             appl: 'nortel telecom',
@@ -928,11 +1406,31 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'nuance',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'powerscribe',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'passport - intellisource',
             anal1: arr0[14].stephen
         },
         {
+            appl: 'intellisource',
+            anal1: arr0[14].stephen
+        },
+        {
             appl: 'passport onesource',
+            anal1: arr0[37].rasheedah
+        },
+        {
+            appl: 'passport',
+            anal1: arr0[14].stephen
+        },              
+        {
+            appl: 'onesource',
             anal1: arr0[37].rasheedah
         },
         {
@@ -941,6 +1439,18 @@ var arr =    [{
         },
         {
             appl: 'remel ids database - to lookup organism identification',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'remel',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ids database',
+            anal1: arr0[9].shari
+        },
+        {
+            appl: 'ids',
             anal1: arr0[9].shari
         },
         {
@@ -957,8 +1467,27 @@ var arr =    [{
             anal1: arr0[40].peter
         },
         {
+            appl: 'credit card',
+            anal1: arr0[40].peter
+        },
+        {
+            appl: 'credit cards',
+            anal1: arr0[40].peter
+        },
+        {
             appl: 'single sign on paradigm (sso)',
-            anal1: arr0[41].bernard
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
+        },
+        {
+            appl: 'sso',
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
+        },
+        {
+            appl: 'single sign on',
+            anal1: arr0[41].bernard,
+            anal2: arr0[18].aston
         },
         {
             appl: 'sophos',
@@ -986,7 +1515,20 @@ var arr =    [{
             anal2: arr0[34].ignacio
         },
         {
+            appl: 'fax',
+            anal1: arr0[36].cecilio,
+            anal2: arr0[34].ignacio
+        },              
+        {
             appl: 'theradoc (infection control)',
+            anal1: arr0[45].brooke
+        },
+        {
+            appl: 'theradoc',
+            anal1: arr0[45].brooke
+        },
+        {
+            appl: 'infection control',
             anal1: arr0[45].brooke
         },
         {
@@ -999,6 +1541,10 @@ var arr =    [{
         },
         {
             appl: 'truven mmd',
+            anal1: arr0[1].perkeisha
+        },
+        {
+            appl: 'truven',
             anal1: arr0[1].perkeisha
         },
         {
@@ -1019,9 +1565,25 @@ var arr =    [{
             anal1: arr0[4].colleen
         },
         {
+            appl: 'xcelera',
+            anal1: arr0[4].colleen
+        },
+        {
             appl: 'xper philips (witt)',
             anal1: arr0[4].colleen
         },
+        {
+            appl: 'witt',
+            anal1: arr0[4].colleen
+        },
+        {
+            appl: 'wts location',
+            anal1: arr0[20].daniel
+        },
+        {
+            appl: 'wts',
+            anal1: arr0[20].daniel
+        },              
         {
             appl: 'abbott',
             anal1: arr0[7].denise,
@@ -1031,6 +1593,22 @@ var arr =    [{
         {
             appl: 'grand rounds',
             anal1: arr0[1].perkeisha
+        },         
+        {
+            appl: 'security awareness',
+            anal1: arr0[42].danield,
+            anal2: arr0[43].andrew
+        },
+        {
+            appl: 'server',
+            anal1: arr0[41].bernard,
+            anal2: arr0[44].jorge
+        },              
+        {
+            appl: 'it security',
+            anal1: arr0[42].danield,
+            anal2: arr0[43].andrew,
+            anal3: arr0[42].kenn
         }
             ];
 
@@ -1055,13 +1633,13 @@ function myFunction() {
     
     
     for (var i = 0; i < arrLength; i++){
-if (app === arr[i].appl) {
+        
+if (app.trim() === arr[i].appl) {
     
-
-    
+    console.log(app);
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
-    
+    console.log(arr[i]);
     
     var arr1 = [
     
@@ -1074,77 +1652,322 @@ if (app === arr[i].appl) {
 
     
     if (arr1[0].analy1 === undefined) {
-            document.getElementById("analy1").innerHTML = " ";
+            document.getElementById("analy1").style.display = "none";
     } else if (arr1[0].analy1 !== undefined) {
+                document.getElementById("errorg").style.display = 'none';
+                document.getElementById("analy1").style.display = 'block';                             document.getElementById("error").style.display = "none";
+                document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
+                document.getElementById("homenum").innerHTML = " " + arr1[0].analy1.homenum;
+        
                 
-                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
-                document.getElementById("name").innerHTML = arr1[0].analy1.name;
-                document.getElementById("homenum").innerHTML = arr1[0].analy1.homenum;
-                document.getElementById("busnum").innerHTML = arr1[0].analy1.busnum;
-                document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
-                document.getElementById("cellnum").innerHTML = arr1[0].analy1.cellnum;
-                document.getElementById("glyphe").src= "glyph/glyphicons-11-envelope.png";
-                document.getElementById("email").innerHTML = arr1[0].analy1.email;
+        var busn = document.getElementById('busnum');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }        
+        c.href = 'tel:' + arr1[0].analy1.busnum;
+        c.textContent =" " + arr1[0].analy1.busnum;
+        busn.appendChild(c);
+        
+        
+        
+
+        document.getElementById("ex").innerHTML = arr1[0].analy1.ex;
+        
+        
+        
+        var cell = document.getElementById('cellnum');
+        b = document.createElement('a');
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        b.href = 'tel:' + arr1[0].analy1.cellnum;
+        b.textContent =" " + arr1[0].analy1.cellnum;
+        cell.appendChild(b);
+    
+
+                                
+        var email = document.getElementById('email');
+        a = document.createElement('a');
+        if (email.hasChildNodes()) {
+        email.removeChild(email.firstChild);
+        }
+        a.href = 'mailto:' + arr1[0].analy1.email + '?Subject=PocTool%20Contact';
+        a.textContent = " " + arr1[0].analy1.email; // This will add the actual text to the link
+        
+        email.appendChild(a);
+        
+                console.log(email.firstChild.innerHTML);
                 document.getElementById("company").innerHTML = arr1[0].analy1.company;
 
+        
+        var cl = document.getElementById("analy1");
+        analy1.classList.remove("fade-in");
+        cl.className = cl.className + "fade-in";
+        
+                glyph();
+        
         }
     if (arr1[1].analy2 === undefined){
-                document.getElementById("analy2").innerHTML = " ";
+                document.getElementById("analy2").style.display = "none";
     } else if (arr1[1].analy2 !== undefined) {
-                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
-                document.getElementById("name2").innerHTML = arr1[1].analy2.name;
-                document.getElementById("homenum2").innerHTML = arr1[1].analy2.homenum;
-                document.getElementById("busnum2").innerHTML = arr1[1].analy2.busnum;
-                document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
-                document.getElementById("cellnum2").innerHTML = arr1[1].analy2.cellnum;
-                document.getElementById("email2").innerHTML = arr1[1].analy2.email;
+                document.getElementById("analy2").style.display = 'block';
+                document.getElementById("name2").innerHTML =  " " + arr1[1].analy2.name;
+                document.getElementById("homenum2").innerHTML =  " " + arr1[1].analy2.homenum;
+                
+        
+        var busn = document.getElementById('busnum2');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[1].analy2.busnum;
+        c.textContent =" " + arr1[1].analy2.busnum;
+        busn.appendChild(c);
+        
+        if (arr1[1].analy2.ex === undefined){
+            document.getElementById("ex2").style.display = "none";
+        } else if (arr1[1].analy2.ex !== undefined){
+            document.getElementById("ex2").innerHTML = arr1[1].analy2.ex;
+        }
+
+        
+        
+        var cell = document.getElementById('cellnum2');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[1].analy2.cellnum;
+        b.textContent =" " + arr1[1].analy2.cellnum;
+
+        cell.appendChild(b);
+        
+        
+                
+        var email2 = document.getElementById('email2');
+        a = document.createElement('a');
+        
+        if (email2.hasChildNodes()) {
+        email2.removeChild(email2.firstChild);
+        }
+        
+a.href = 'mailto:' + arr1[1].analy2.email + '?Subject=PocTool%20Contact';
+a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to the link
+        document.getElementById("email2").appendChild(a);
+        
                 document.getElementById("company2").innerHTML = arr1[1].analy2.company;
+        
+                glyph2();
+        
         }
     if (arr1[2].analy3 === undefined){
-                document.getElementById("analy3").innerHTML = " ";
+                document.getElementById("analy3").style.display = "none";
     } else if (arr1[2].analy3 !== undefined) {
-                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
-                document.getElementById("name3").innerHTML = arr1[2].analy3.name;
-                document.getElementById("homenum3").innerHTML = arr1[2].analy3.homenum;
-                document.getElementById("busnum3").innerHTML = arr1[2].analy3.busnum;
-                document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
-                document.getElementById("cellnum3").innerHTML = arr1[2].analy3.cellnum;
-                document.getElementById("email3").innerHTML = arr1[2].analy3.email;
+                document.getElementById("analy3").style.display = 'block';
+                document.getElementById("name3").innerHTML =  " " + arr1[2].analy3.name;
+                document.getElementById("homenum3").innerHTML =  " " + arr1[2].analy3.homenum;
+                
+        
+        var busn = document.getElementById('busnum3');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[2].analy3.busnum;
+        c.textContent =" " + arr1[2].analy3.busnum;
+        busn.appendChild(c);
+        
+        
+        if (arr1[2].analy3.ex === undefined){
+            document.getElementById("ex3").style.display = "none";
+        } else if (arr1[2].analy3.ex !== undefined){
+            document.getElementById("ex3").innerHTML = arr1[2].analy3.ex;
+        }
+
+        
+                var cell = document.getElementById('cellnum3');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[2].analy3.cellnum;
+        b.textContent =" " + arr1[2].analy3.cellnum;
+
+        cell.appendChild(b);
+        
+        
+        var email3 = document.getElementById('email3');
+        a = document.createElement('a');
+        
+        if (email3.hasChildNodes()) {
+        email3.removeChild(email3.firstChild);
+        }
+        a.href = 'mailto:' + arr1[2].analy3.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr1[2].analy3.email; // This will add the actual text to the link
+        document.getElementById("email3").appendChild(a);
+        
                 document.getElementById("company3").innerHTML = arr1[2].analy3.company;
+        
+                glyph3();
+        
         }
     if (arr1[3].analy4 === undefined){
-                document.getElementById("analy4").innerHTML = " ";
+                document.getElementById("analy4").style.display = "none";
     } else if (arr1[3].analy4 !== undefined) {
-                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
-                document.getElementById("name4").innerHTML = arr1[3].analy4.name;
-                document.getElementById("homenum4").innerHTML = arr1[3].analy4.homenum;
-                document.getElementById("busnum4").innerHTML = arr1[3].analy4.busnum;
-                document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
-                document.getElementById("cellnum4").innerHTML = arr1[3].analy4.cellnum;
-                document.getElementById("email4").innerHTML = arr1[3].analy4.email;
+                document.getElementById("analy4").style.display = 'block';
+                document.getElementById("name4").innerHTML = " " + arr1[3].analy4.name;
+                document.getElementById("homenum4").innerHTML = " " + arr1[3].analy4.homenum;
+        
+        var busn = document.getElementById('busnum4');
+        c = document.createElement('a');
+        if(busn.hasChildNodes()) {
+        busn.removeChild(busn.firstChild);
+        }
+        c.href = 'tel:' + arr1[3].analy4.busnum;
+        c.textContent =" " + arr1[3].analy4.busnum;
+        busn.appendChild(c);
+        
+        
+        if (arr1[3].analy4.ex === undefined){
+            document.getElementById("ex4").style.display = "none";
+        } else if (arr1[3].analy4.ex !== undefined){
+            document.getElementById("ex4").innerHTML = arr1[3].analy4.ex;
+        }
+
+        
+                        var cell = document.getElementById('cellnum4');
+        b = document.createElement('a');
+        
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        
+        b.href = 'tel:' + arr1[3].analy4.cellnum;
+        b.textContent =" " + arr1[3].analy4.cellnum;
+
+        cell.appendChild(b);
+        
+        
+                var email4 = document.getElementById('email4');
+        a = document.createElement('a');
+        
+        if (email4.hasChildNodes()) {
+        email4.removeChild(email4.firstChild);
+        }
+                a.href = 'mailto:' + arr1[3].analy4.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr1[3].analy4.email; // This will add the actual text to the link
+        document.getElementById("email4").appendChild(a);
+        
                 document.getElementById("company4").innerHTML = arr1[3].analy4.company;
+        
+                glyph4();
+        
         }
     if (arr1[4].analy5 === undefined){
-                document.getElementById("analy5").innerHTML = " ";
+                document.getElementById("analy5").style.display = "none";
     } else if (arr1[4].analy5 !== undefined) {
-                document.getElementById("glyphu").src= "glyph/glyphicons-4-user.png";
-                document.getElementById("name5").innerHTML = arr1[4].analy5.name;
-                document.getElementById("homenum5").innerHTML = arr1[4].analy5.homenum;
-                document.getElementById("busnum5").innerHTML = arr1[4].analy5.busnum;
-                document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
-                document.getElementById("cellnum5").innerHTML = arr1[4].analy5.cellnum;
-                document.getElementById("email5").innerHTML = arr1[4].analy5.email;
-                document.getElementById("company5").innerHTML = arr1[4].analy5.company;
+                document.getElementById("analy5").style.display = 'inherit';
+                document.getElementById("name5").innerHTML = " " + arr1[4].analy5.name;
+                document.getElementById("homenum5").innerHTML = " " + arr1[4].analy5.homenum;
+                
+                var busn = document.getElementById('busnum5');
+                c = document.createElement('a');
+                if(busn.hasChildNodes()) {
+                busn.removeChild(busn.firstChild);
+                }
+                c.href = 'tel:' + arr1[4].analy5.busnum;
+                c.textContent =" " + arr1[4].analy5.busnum;
+                busn.appendChild(c);
+        
+        if (arr1[4].analy5.ex === undefined){
+            document.getElementById("ex5").style.display = "none";
+        } else if (arr1[4].analy5.ex !== undefined){
+            document.getElementById("ex5").innerHTML = arr1[4].analy5.ex;
+        }
+                document.getElementById("cellnum5").innerHTML = " " + arr1[4].analy5.cellnum;
+        
+        var cell = document.getElementById('cellnum5');
+        b = document.createElement('a');
+        if(cell.hasChildNodes()) {
+        cell.removeChild(cell.firstChild);
+        }
+        b.href = 'tel:' + arr1[4].analy5.cellnum;
+        b.textContent =" " + arr1[4].analy5.cellnum;
+        cell.appendChild(b);
+        
+        
+                        var email5 = document.getElementById('email5');
+        a = document.createElement('a');
+        if (email5.hasChildNodes()) {
+        email5.removeChild(email5.firstChild);
+        }
+        a.href = 'mailto:' + arr1[4].analy5.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr1[4].analy5.email; // This will add the actual text to the link
+        document.getElementById("email5").appendChild(a);
+        
+        document.getElementById("company5").innerHTML = arr1[4].analy5.company;
+        
+                glyph5();
+        
+        }
+    
+    
+    if (app != arr[i].appl) {
+        var aname = _.filter(arr0, function(x){
+            return x.firstname = app ;
+        
+        });
+            document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
+        
         }
    
 
+    return arr[i].appl; 
     
+    
+} else if (app != arr[i].appl) {
+        
+        error();
+        }
     
 }
-} //end of iterate through 'arr' array
+        
+} //end of iterate through 'arr' array (arr0[31].tony.email)
     
-}
+    
+       
+    
+    
 
+     
+
+function error(){
+
+        
+    document.getElementById("error").innerHTML = "<span class='glyphicon glyphicon-remove-sign'></span> Sorry, I don't have anything on that :( <span><a href='mailto:Anthony.Ruiz@hma.com'></a>contact me</span> and we can get it added to the PocTool.";
+    document.getElementById("error").style.display = 'block';
+    document.getElementById("errorg").style.display = 'block';
+    document.getElementById("analy1").style.display = "none";
+    document.getElementById("analy2").style.display = "none";
+    document.getElementById("analy3").style.display = "none";
+    document.getElementById("analy4").style.display = "none";
+    document.getElementById("analy5").style.display = "none";
+    
+    a = document.createElement('a');
+        
+        if (errorg.hasChildNodes()) {
+        errorg.removeChild(errorg.firstChild);
+        }
+                a.href = 'mailto:' + arr0[31].tony.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr0[31].tony.email; // This will add the actual text to the link
+        document.getElementById("errorg").appendChild(a);
+    
+}
             
 
 function enterKey(e){
@@ -1160,7 +1983,246 @@ function reload(){
     
     setTimeout(function(){
     myFunction();
-    }, 3000)
+    }, 3000);
     
 }
+
+function glyph(){
+
+    if((email.firstChild.innerHTML === undefined) || (email.firstChild.innerHTML === " ")){
+     document.getElementById("email").style.display = "none";
+    } else if (document.getElementById("email") !== undefined){
+    var d = document.getElementById("email");
+        d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email").style.display = "inline-block";
+    }
+    
+    var u = document.getElementById("name");
+        u.className = u.className + "glyphicon glyphicon-user";
+    
+    if((document.getElementById("homenum") === undefined) || (document.getElementById("homenum").innerHTML === " ")){
+    document.getElementById("homenum").style.display = "none";
+    } else if (document.getElementById("homenum") !== undefined){
+    var u2 = document.getElementById("homenum");
+        u2.className = u2.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum").style.display = "inline-block";
+    }
+    
+    
+    if((document.getElementById("busnum") === undefined) || (document.getElementById("busnum") === " ") || (busnum.firstChild.innerHTML === " ")){
+        document.getElementById("busnum").style.display = "none";
+    } else if (document.getElementById("busnum") !== undefined){
+        var i = document.getElementById("busnum");
+        i.className = i.className + "glyphicon glyphicon-phone-alt";
+        document.getElementById("busnum").style.display = "inline-block";
+        
+    }
+    
+    
+            if((document.getElementById("ex").innerHTML === "undefined") || (document.getElementById("ex").innerHTML === " ") || (document.getElementById("ex").innerHTML === "")){
+    document.getElementById("ex").style.display = "none";
+    } else if (document.getElementById("ex") !== undefined){
+    var e = document.getElementById("ex");
+        e.className = e.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex").style.display = "inline-block";
+    }
+    
+    
+        if((document.getElementById("cellnum").innerHTML === undefined) || (document.getElementById("cellnum").innerHTML === " ") || (document.getElementById("cellnum").firstChild.innerHTML === " ")){
+    document.getElementById("cellnum").style.display = "none";
+    } else if (document.getElementById("cellnum") !== undefined){
+    var o = document.getElementById("cellnum");
+        o.className = o.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum").style.display = "inline-block";
+    }
+}
+
+function glyph2(){
+
+    
+    if((email2.firstChild.innerHTML === undefined) || (email2.firstChild.innerHTML === " ")){
+     document.getElementById("email2").style.display = "none";
+    } else if (email2.firstChild.innerHTML !== undefined){
+    var d = document.getElementById("email2");
+        d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email2").style.display = "inline-block";
+    }
+    
+    var u = document.getElementById("name2");
+        u.className = u.className + "glyphicon glyphicon-user";
+    
+    if((document.getElementById("homenum2") === undefined) || (document.getElementById("homenum2").innerHTML === " ")){
+    document.getElementById("homenum2").style.display = "none";
+    } else if (document.getElementById("homenum2") !== undefined){
+    var u2 = document.getElementById("homenum2");
+        u2.className = u2.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum2").style.display = "inline-block";
+    }
+    
+    var o = document.getElementById("busnum2");
+        o.className = o.className + "glyphicon glyphicon-phone-alt";
+    
+            if((document.getElementById("ex2").innerHTML === undefined) || (document.getElementById("ex2").innerHTML === "")){
+    document.getElementById("ex2").style.display = "none";
+    } else if (document.getElementById("ex2") !== undefined){
+    var o = document.getElementById("ex2");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex2").style.display = "inline-block";
+    }
+    
+    if((document.getElementById("cellnum2").innerHTML === undefined) || (document.getElementById("cellnum2").innerHTML === " ") || (document.getElementById("cellnum2").firstChild.innerHTML === " ")){
+    document.getElementById("cellnum2").style.display = "none";
+    } else if (document.getElementById("cellnum2") !== undefined){
+    var o2 = document.getElementById("cellnum2");
+        o2.className = o2.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum2").style.display = "inline-block";
+    }
+    
+}
+function glyph3(){
+
+    
+    if((document.getElementById("email3").innerHTML === undefined) || (document.getElementById("email3").innerHTML === "")){
+     document.getElementById("email3").style.display = "none";
+    } else if (document.getElementById("email3") !== undefined){
+    var d = document.getElementById("email3");
+        d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email3").style.display = "inline-block";
+    }
+    
+    var u = document.getElementById("name3");
+        u.className = u.className + "glyphicon glyphicon-user";
+    
+    
+    if((document.getElementById("homenum3") === undefined) || (document.getElementById("homenum3").innerHTML === " ")){
+    document.getElementById("homenum3").style.display = "none";
+    } else if (document.getElementById("homenum3") !== undefined){
+    var u3 = document.getElementById("homenum3");
+        u3.className = u3.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum3").style.display = "inline-block";
+    }
+    
+    var o = document.getElementById("busnum3");
+        o.className = o.className + "glyphicon glyphicon-phone-alt";
+    
+            if(document.getElementById("ex3").innerHTML === undefined){
+    document.getElementById("ex3").style.display = "none";
+    } else if (document.getElementById("ex3") !== undefined){
+    var o = document.getElementById("ex3");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex3").style.display = "inline-block";
+    }    
+    
+    if(document.getElementById("cellnum3").innerHTML === undefined){
+    document.getElementById("cellnum3").style.display = "none";
+    } else if (document.getElementById("cellnum3") !== undefined){
+    var o3 = document.getElementById("cellnum3");
+        o3.className = o3.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum3").style.display = "inline-block";
+    }
+}
+function glyph4(){
+
+    
+    if((document.getElementById("email4").innerHTML === undefined) || (document.getElementById("email4").innerHTML === "")){
+     document.getElementById("email4").style.display = "none";
+    } else if (document.getElementById("email4") !== undefined){
+    var d = document.getElementById("email4");
+        d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email4").style.display = "inline-block"
+    }
+    
+    var u = document.getElementById("name4");
+        u.className = u.className + "glyphicon glyphicon-user";
+    
+    if((document.getElementById("homenum4") === undefined) || (document.getElementById("homenum4").innerHTML === "")){
+    document.getElementById("homenum4").style.display = "none";
+    } else if (document.getElementById("homenum4") !== undefined){
+    var u4 = document.getElementById("homenum4");
+        u4.className = u4.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum4").style.display = "inline-block"
+    }
+    
+    var o4 = document.getElementById("busnum4");
+        o4.className = o4.className + "glyphicon glyphicon-phone-alt";
+    
+            if(document.getElementById("ex4").innerHTML === undefined){
+    document.getElementById("ex4").style.display = "none";
+    } else if (document.getElementById("ex4") !== undefined){
+    var o = document.getElementById("ex4");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex4").style.display = "inline-block"
+    }    
+    
+    if(document.getElementById("cellnum4").innerHTML === undefined){
+    document.getElementById("cellnum4").style.display = "none";
+    } else if (document.getElementById("cellnum4") !== undefined){
+    var o4 = document.getElementById("cellnum4");
+        o4.className = o4.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum4").style.display = "inline-block"
+    }
+}
+function glyph5(){
+
+
+    if((document.getElementById("email5").innerHTML === undefined) || (document.getElementById("email5").innerHTML === "")){
+     document.getElementById("email5").style.display = "none";
+    } else if (document.getElementById("email5") !== undefined){
+    var d = document.getElementById("email5");
+        d.className = d.className + "glyphicon glyphicon-envelope";
+        document.getElementById("email5").style.display = "inline-block"
+    }
+    
+    var u = document.getElementById("name5");
+        u.className = u.className + "glyphicon glyphicon-user";
+    
+    if((document.getElementById("homenum5") === undefined) || (document.getElementById("homenum5").innerHTML === " ")){
+    document.getElementById("homenum5").style.display = "none";
+    } else if (document.getElementById("homenum5") !== undefined){
+    var u5 = document.getElementById("homenum5");
+        u5.className = u5.className + "glyphicon glyphicon-home";
+        document.getElementById("homenum5").style.display = "inline-block"
+    }
+    
+    var o = document.getElementById("busnum5");
+        o.className = o.className + "glyphicon glyphicon-phone-alt";
+    
+            if(document.getElementById("ex5").innerHTML === undefined){
+    document.getElementById("ex5").style.display = "none";
+    } else if (document.getElementById("ex5") !== undefined){
+    var o = document.getElementById("ex5");
+        o.className = o.className + "glyphicon glyphicon-circle-arrow-right";
+        document.getElementById("ex5").style.display = "inline-block"
+    }    
+    
+    if(document.getElementById("cellnum5").innerHTML === undefined){
+    document.getElementById("cellnum5").style.display = "none";
+    } else if (document.getElementById("cellnum5") !== undefined){
+    var o5 = document.getElementById("cellnum5");
+        o5.className = o5.className + "glyphicon glyphicon-phone";
+        document.getElementById("cellnum5").style.display = "inline-block"
+    }
+}
+
+
+
+
+
+
+
+
+var projectname = document.getElementById("title"),
+    count = 0,
+    tween;
+
+tween = TweenMax.to(projectname, 0.9,{rotation:800, x:-20, delay: .85, scale:2, repeat:1, yoyo: true, ease:Power3.SlowMo});
+
+
+
+
+var app = document.getElementById("app"),
+    count = 0,
+    tween;
+
+tween = TweenMax.to(app, 0.4,{right: "450px", x:-20, scale:1, repeat:1, yoyo: true, ease:Power2.SlowMo});
 
