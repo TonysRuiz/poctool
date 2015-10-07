@@ -624,6 +624,19 @@ var arr0 = [
             role: '',
             company: 'GE CareScape'
         }
+    }, {
+        chs : {
+            firstname: 'CHS ',
+            lastname: 'Home Office',
+            name: "CHS Home Office",
+            homenum: '',
+            busnum: '239-598-4855',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'CHS Home Office'
+        }
     }
 ];
 
@@ -1268,6 +1281,10 @@ var arr =    [{
             anal5: arr0[33].morgan
         },
         {
+            appl: 'intranet',
+            anal1: arr0[52].chs
+        },              
+        {
             appl: 'operator',
             anal1: arr0[23].bob,
             anal2: arr0[30].barbara,
@@ -1283,6 +1300,10 @@ var arr =    [{
             anal4: arr0[32].ernest,
             anal5: arr0[33].morgan
         },
+        {
+            appl: 'homepage',
+            anal1: arr0[52].chs
+        },              
         {
             appl: 'kronos time and attendance',
             anal1: arr0[0].lou
