@@ -1901,11 +1901,7 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
     
 } else if (app != arr[i].appl) {
         
-    error();
-    _.filter(arr0, function(ana)){
-             if (app ===  )
-             
-             }
+
 }
         
 } //end of iterate through 'arr' array (arr0[31].tony.email)
