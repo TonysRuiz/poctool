@@ -698,7 +698,7 @@ var arr =    [{
         },
         {
             appl: 'accucheck',
-            anal1: arr0[49].clarissa, 
+            anal1: arr0[49].clarissa,
             anal2: arr0[51].ge,
             anal3: arr0[8].sean
         },              
@@ -1017,17 +1017,13 @@ var arr =    [{
         },
         {
             appl: 'powerchart',
-            anal1: arr0[4].colleen,
-            anal2: arr0[18].aston,
-            anal3: arr0[9].shari,
-            anal4: arr0[11].deniseM
+            anal1: arr0[18].aston,
+            anal2: arr0[9].shari
         },
         {
             appl: 'cerner powerchart',
-            anal1: arr0[4].colleen,
-            anal2: arr0[18].aston,
-            anal3: arr0[9].shari,
-            anal4: arr0[11].deniseM
+            anal1: arr0[18].aston,
+            anal2: arr0[9].shari
         },
         {
             appl: 'cerner profile',
@@ -1663,7 +1659,7 @@ function myFunction() {
         
 if (app.trim() === arr[i].appl) {
     
-    console.log(app);
+    console.log(app.trim());
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
     console.log(arr[i]);
@@ -1947,10 +1943,11 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
     return arr[i].appl; 
     
     
-} else if (app != arr[i].appl) {
+} else if (app.trim() !== arr[i].appl) {
+    
         
     error();
-}
+} 
         
 } //end of iterate through 'arr' array (arr0[31].tony.email)
     

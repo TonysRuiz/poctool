@@ -1,6 +1,6 @@
 
 var arr0 = [
-    {lou: {
+    {analyst: {
         firstname: 'Lou ',
         lastname: 'Schulte',
         name: 'Lou Schulte',
@@ -12,7 +12,7 @@ var arr0 = [
         company: ''
     }
         }, {
-        perkeisha: {
+        analyst: {
             firstname: 'Perkeisha',
             lastname: 'Underwood',
             name: 'Perkeisha Underwood',
@@ -24,7 +24,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        tom: {
+        analyst: {
             firstname: 'Tom ',
             lastname: 'Tindall',
             name: 'Tom Tindall',
@@ -36,7 +36,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        tammy: {
+        analyst: {
             firstname: 'Tammy',
             lastname: 'Beal',
             name: 'Tammy Beal',
@@ -48,7 +48,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        colleen: {
+        analyst: {
             firstname: 'Colleen ',
             lastname: 'Hoffman',
             name: 'Colleen Hoffman',
@@ -60,7 +60,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        john: {
+        analyst: {
             firstname: 'John ',
             lastname: 'Amodeo',
             name: 'John Amodeo',
@@ -72,7 +72,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        sharon: {
+        analyst: {
             firstname: 'Sharon ',
             lastname: 'Hodge',
             name: 'Sharon Hodge',
@@ -83,7 +83,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        denise: {
+        analyst: {
             firstname: 'Denise ',
             lastname: 'Murphy',
             name: 'Denise Murphy',
@@ -95,7 +95,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        sean: {
+        analyst: {
             firstname: 'Sean ',
             lastname: 'Fogarty',
             name: 'Sean Fogarty',
@@ -107,7 +107,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        shari: {
+        analyst: {
             firstname: 'Shari ',
             lastname: 'Goodwin',
             name: 'Shari Goodwin',
@@ -119,7 +119,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        timothy: {
+        analyst: {
             firstname: 'Timothy ',
             lastname: 'Luba',
             name: 'Timothy Luba',
@@ -131,7 +131,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        deniseM: {
+        analyst: {
             firstname: 'Denise ',
             lastname: 'Murphy',
             name: 'Denise Murphy',
@@ -143,7 +143,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        nadena: {
+        analyst: {
             firstname: 'Nadena ',
             lastname: 'Martinovich',
             name: 'Nadena Martinovich',
@@ -155,7 +155,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        chirayu: {
+        analyst: {
             firstname: 'Chirayu ',
             lastname: 'Patel',
             name: 'Chirayu Patel',
@@ -166,7 +166,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        stephen: {
+        analyst: {
             firstname: 'Stephen ',
             lastname: 'Marts',
             name: 'Stephen Marts',
@@ -178,7 +178,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        rick: {
+        analyst: {
             firstname: 'Rick ',
             lastname: 'Gibner',
             name: 'Rick Gibner',
@@ -190,7 +190,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        dave: {
+        analyst: {
             firstname: 'Dave ',
             lastname: 'Leclaire',
             name: 'Dave Leclaire',
@@ -202,7 +202,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        maryBeth: {
+        analyst: {
             firstname: 'Mary Beth ',
             lastname: 'Moody',
             name: 'MaryBeth Moody',
@@ -214,7 +214,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        aston: {
+        analyst: {
             firstname: 'Aston ',
             lastname: 'Samuels',
             name: 'Aston Samuels',
@@ -226,7 +226,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        shannon: {
+        analyst: {
             firstname: 'Shannon',
             lastname: 'Pauley',
             name: 'Shannon Pauley',
@@ -237,7 +237,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        daniel: {
+        analyst: {
             firstname: 'Daniel ',
             lastname: 'Downs',
             name: 'Daniel Downs',
@@ -249,7 +249,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        johnG: {
+        analyst: {
             firstname: 'John ',
             lastname: 'Gaskins',
             name: 'John Gaskins',
@@ -261,7 +261,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        tyler: {
+        analyst: {
             firstname: 'Tyler ',
             lastname: 'Betts',
             name: 'Tyler Betts',
@@ -273,7 +273,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        bob: {
+        analyst: {
             firstname: 'Bob ',
             lastname: 'Fox',
             name: 'Bob Fox',
@@ -285,7 +285,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        jeremy: {
+        analyst: {
             firstname: 'Jeremy ',
             lastname: 'Dean',
             name: 'Jeremy Dean',
@@ -297,7 +297,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        lori: {
+        analyst: {
             firstname: 'Lori ',
             lastname: 'Bailey',
             name: 'Lori Bailey',
@@ -309,7 +309,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        amy: {
+        analyst: {
             firstname: 'Amy ',
             lastname: 'Kendricks',
             name: 'Amy Kendricks',
@@ -321,7 +321,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        janet: {
+        analyst: {
             firstname: 'Janet ',
             lastname: 'Bryant',
             name: 'Janet Bryant',
@@ -333,7 +333,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        herman: {
+        analyst: {
             firstname: 'Herman ',
             lastname: 'Gilyard',
             name: 'Herman Gilyard',
@@ -345,7 +345,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        mark: {
+        analyst: {
             firstname: 'Mark ',
             lastname: 'Smithson',
             name: 'Mark Smithson',
@@ -357,7 +357,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        barbara: {
+        analyst: {
             firstname: 'Barbara ',
             lastname: 'Robinson',
             name: 'Barbara Robinson',
@@ -369,7 +369,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        tony: {
+        analyst: {
             firstname: 'Tony ',
             lastname: 'Ruiz',
             name: 'Tony Ruiz',
@@ -381,7 +381,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        ernest: {
+        analyst: {
             firstname: 'Ernest ',
             lastname: 'Whalen',
             name: 'Ernest Whalen',
@@ -393,7 +393,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        morgan: {
+        analyst: {
             firstname: 'Morgan ',
             lastname: 'Harris',
             name: 'Morgan Harris',
@@ -405,7 +405,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        ignacio: {
+        analyst: {
             firstname: 'Ignacio ',
             lastname: 'Fernandez',
             name: 'Ignacio Fernandez',
@@ -417,7 +417,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        patti: {
+        analyst: {
             firstname: 'Patti ',
             lastname: 'Ewin',
             name: 'Patti Ewin',
@@ -429,7 +429,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        cecilio: {
+        analyst: {
             firstname: 'Cecilio ',
             lastname: 'Shaw',
             name: 'Cecilio Shaw',
@@ -441,7 +441,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        rasheedah: {
+        analyst: {
             firstname: 'Rasheedah ',
             lastname: 'Haneef',
             name: 'Rasheedah Haneef',
@@ -453,7 +453,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        edwin: {
+        analyst: {
             firstname: 'Edwin ',
             lastname: 'Rivas',
             name: 'Edwin Rivas',
@@ -465,7 +465,7 @@ var arr0 = [
             company: 'Rauland Borg'
         }
     }, {
-        lauren: {
+        analyst: {
             firstname: 'Lauren ',
             lastname: 'Hinds',
             name: 'Lauren Hinds',
@@ -477,7 +477,7 @@ var arr0 = [
             company: 'Rauland Borg'
         }
     }, {
-        peter: {
+        analyst: {
             firstname: 'Peter ',
             lastname: 'Napoles',
             name: 'Peter Napoles',
@@ -489,7 +489,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        bernard: {
+        analyst: {
             firstname: 'Bernard ',
             lastname: 'Butler',
             name: 'Bernard Butler',
@@ -501,7 +501,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        kenn: {
+        analyst: {
             firstname: 'Kenn ',
             lastname: 'Finnis',
             name: 'Kenn Finnis',
@@ -513,7 +513,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        biomed: {
+        analyst: {
             firstname: 'biomed ',
             lastname: '',
             name: 'biomed',
@@ -525,7 +525,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        jorge: {
+        analyst: {
             firstname: 'Jorge ',
             lastname: 'Gimenez',
             name: 'Jorge Gimenez',
@@ -537,7 +537,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        brooke: {
+        analyst: {
             firstname: 'Brooke ',
             lastname: 'Gabel',
             name: 'Brooke Gabel',
@@ -549,7 +549,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        danield: {
+        analyst: {
             firstname: 'Daniel ',
             lastname: 'Devore',
             name: 'Daniel Devore',
@@ -561,7 +561,7 @@ var arr0 = [
             company: 'CHS'
         }
     }, {
-        andrew: {
+        analyst: {
             firstname: 'Andrew ',
             lastname: 'Ange',
             name: 'Andrew Ange',
@@ -573,7 +573,7 @@ var arr0 = [
             company: 'CHS'
         }
     }, {
-        kathleen: {
+        analyst: {
             firstname: 'Kathleen ',
             lastname: 'Patton',
             name: 'Kathleen Patton',
@@ -586,7 +586,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        clarissa: {
+        analyst: {
             firstname: 'Clarissa ',
             lastname: 'D Alesandro',
             name: "Clarissa D'Alesandro",
@@ -599,7 +599,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        cerner: {
+        analyst: {
             firstname: 'Cerner ',
             lastname: 'ACIS',
             name: "Cerner",
@@ -612,7 +612,7 @@ var arr0 = [
             company: 'Cerner Bay_FL 753'
         }
     }, {
-        ge: {
+        analyst: {
             firstname: 'GE ',
             lastname: 'Carescape',
             name: "GE CareScape",
@@ -625,7 +625,7 @@ var arr0 = [
             company: 'GE CareScape'
         }
     }, {
-        chs : {
+        analyst : {
             firstname: 'CHS ',
             lastname: 'Home Office',
             name: "CHS Home Office",
@@ -637,265 +637,291 @@ var arr0 = [
             role: '',
             company: 'CHS Home Office'
         }
+    }, {
+        analyst : {
+            firstname: 'CHS ',
+            lastname: 'Home Office',
+            name: "CHS phishing reports",
+            homenum: '',
+            busnum: '239-598-4855',
+            ex: '',
+            cellnum: '',
+            email: "phishing_reports@chs.net",
+            role: '',
+            company: 'CHS Home Office'
+        }
+    }, {
+        analyst : {
+            firstname: 'Kim ',
+            lastname: 'Ramer',
+            name: "Kim Ramer",
+            homenum: '727-290-1387',
+            busnum: '',
+            ex: '57287',
+            cellnum: '',
+            email: "Kim.Ramer@hma.com",
+            role: '',
+            company: ''
+        }
     }
 ];
 
 var arr =    [{
         appl: 'aast grand rounds',
-        anal1: arr0[1].perkeisha
+        anal1: arr0[1].analyst
     },
     
     
         {
             appl: 'aast',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'accent health',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'accent',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'accudose carts',
-            anal1: arr0[2].tom
+            anal1: arr0[2].analyst
         },
         {
             appl: 'accudose carts and support stations',
-            anal1: arr0[2].tom
+            anal1: arr0[2].analyst
         },
         {
             appl: 'accudose',
-            anal1: arr0[2].tom
+            anal1: arr0[2].analyst
         },
         {
             appl: 'accucheck',
-            anal1: arr0[49].clarissa, 
-            anal2: arr0[51].ge,
-            anal3: arr0[8].sean
+            anal1: arr0[49].analyst,
+            anal2: arr0[51].analyst,
+            anal3: arr0[8].analyst
         },              
         {
             appl: 'ad/cerner account creation',
-            anal1: arr0[3].tammy
+            anal1: arr0[3].analyst
                 
         },
         {
             appl: 'cerner account',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
                 
         },              
         {
             appl: 'account creation',
-            anal1: arr0[3].tammy
+            anal1: arr0[3].analyst
                 
         },
         {
             appl: 'ad',
-            anal1: arr0[3].tammy
+            anal1: arr0[3].analyst
         },
         {
             appl: 'aegis',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'allegiantmd radiology',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'allegiantmd',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'allegiant',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'analyze direct',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'analyze',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'ansos',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'ariba',
-            anal1: arr0[6].sharon
+            anal1: arr0[6].analyst
         },
         {
             appl: 'cerner',
-            anal1: arr0[4].colleen,
-            anal2: arr0[50].cerner
+            anal1: arr0[4].analyst,
+            anal2: arr0[50].analyst
         
         },
         {
             appl: 'point of care',
-            anal1: arr0[7].denise,
-            anal2: arr0[8].sean,
-            anal3: arr0[9].shari
+            anal1: arr0[7].analyst,
+            anal2: arr0[8].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner (point of care) abbott',
-            anal1: arr0[7].denise,
-            anal2: arr0[8].sean,
-            anal3: arr0[9].shari
+            anal1: arr0[7].analyst,
+            anal2: arr0[8].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner (point of care)- blood gases- telcor/quiklinc/radiance (radiometer)',
-            anal1: arr0[9].shari,
-            anal2: arr0[7].denise,
-            anal3: arr0[10].timothy
+            anal1: arr0[9].analyst,
+            anal2: arr0[7].analyst,
+            anal3: arr0[10].analyst
         },
         {
             appl: 'cerner (point of care)- istat-cds-telcor/quiklinc',
-            anal1: arr0[7].denise,
-            anal2: arr0[8].sean,
-            anal3: arr0[9].shari
+            anal1: arr0[7].analyst,
+            anal2: arr0[8].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner access',
-            anal1: arr0[11].deniseM,
-            anal2: arr0[0].lou
+            anal1: arr0[11].analyst,
+            anal2: arr0[0].analyst
         },
         {
             appl: 'cerner antibiotic alert',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'antibiotic alert',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'antibiotic',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'cerner blood bank',
-            anal1: arr0[7].denise,
-            anal2: arr0[7].nadena
+            anal1: arr0[7].analyst,
+            anal2: arr0[7].analyst
         },
         {
             appl: 'blood bank',
-            anal1: arr0[7].denise,
-            anal2: arr0[7].nadena
+            anal1: arr0[7].analyst,
+            anal2: arr0[7].analyst
         },
         {
             appl: 'cerner carecompass',
-            anal1: arr0[13].chirayu
+            anal1: arr0[13].analyst
         },
         {
             appl: 'carecompass',
-            anal1: arr0[13].chirayu
+            anal1: arr0[13].analyst
         },
         {
             appl: 'cerner cpoe',
-            anal1: arr0[11].deniseM
+            anal1: arr0[11].analyst
         },
         {
             appl: 'cpoe',
-            anal1: arr0[11].deniseM
+            anal1: arr0[11].analyst
         },
         {
             appl: 'cerner document imaging (cpdi- single/batch scanning)',
-            anal1: arr0[14].stephen,
-            anal2: arr0[2].tom
+            anal1: arr0[14].analyst,
+            anal2: arr0[2].analyst
         },
         {
             appl: 'cpdi',
-            anal1: arr0[14].stephen,
-            anal2: arr0[2].tom
+            anal1: arr0[14].analyst,
+            anal2: arr0[2].analyst
         },
         {
             appl: 'batch scanning',
-            anal1: arr0[14].stephen,
-            anal2: arr0[2].tom
+            anal1: arr0[14].analyst,
+            anal2: arr0[2].analyst
         },
         {
             appl: 'document imaging',
-            anal1: arr0[14].stephen,
-            anal2: arr0[2].tom,
-            anal3: arr0[1].perkeisha
+            anal1: arr0[14].analyst,
+            anal2: arr0[2].analyst,
+            anal3: arr0[1].analyst
         },
         {
             appl: 'cerner document imaging (poi- pharmacy order imaging)',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'poi',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'cerner firstnet',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'firstnet',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'cerner health sentry',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'health sentry',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'sentry',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'cerner hub',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'cerner inet downloads- spacelabs ics / g2 / clinical access',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'inet',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'ics',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'cerner iview',
-            anal1: arr0[13].chirayu
+            anal1: arr0[13].analyst
         },
         {
             appl: 'iview',
-            anal1: arr0[13].chirayu
+            anal1: arr0[13].analyst
         },
         {
             appl: 'cerner message center/inbox',
-            anal1: arr0[7].denise
+            anal1: arr0[7].analyst
         },
         {
             appl: 'message center',
-            anal1: arr0[7].denise
+            anal1: arr0[7].analyst
         },
         {
             appl: 'cerner mpages',
-            anal1: arr0[13].chirayu
+            anal1: arr0[13].analyst
         },
         {
             appl: 'cerner mrp medical records publishing (clinical reporting xr)',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'medical records',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'cerner open engine interfaces- fsi',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'open engine',
@@ -903,712 +929,713 @@ var arr =    [{
         },
         {
             appl: 'cerner open port interfaces- fsi',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'open port interfaces',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'open port',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'cerner pacs (picture archical clinical system',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'pacs',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'cerner pathnet (anatomic pathology, gen lab, microbiology)',
-            anal1: arr0[7].denise,
-            anal2: arr0[9].shari
+            anal1: arr0[7].analyst,
+            anal2: arr0[9].analyst
         },
         {
             appl: 'cerner pathnet interfaces (mdi) cas11 and cas12',
-            anal1: arr0[7].denise,
-            anal2: arr0[9].shari,
-            anal3: arr0[9].dave
+            anal1: arr0[7].analyst,
+            anal2: arr0[9].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner pathnet interfaces (mdi)- direct ip-  genexpert- microbiology (not live yet)',
-            anal1: arr0[9].dave,
-            anal2: arr0[7].denise,
-            anal3: arr0[7].maryBeth,
-            anal4: arr0[9].shari
+            anal1: arr0[9].analyst,
+            anal2: arr0[7].analyst,
+            anal3: arr0[7].analyst,
+            anal4: arr0[9].analyst
         },
         {
             appl: 'cerner pathnet interfaces (mdi)- direct ip-  iris- jresultnet light urinalysis',
-            anal1: arr0[9].dave,
-            anal2: arr0[7].denise,
-            anal3: arr0[9].shari
+            anal1: arr0[9].analyst,
+            anal2: arr0[7].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'pathnet',
-            anal1: arr0[7].denise,
-            anal2: arr0[9].shari,
-            anal3: arr0[9].dave
+            anal1: arr0[7].analyst,
+            anal2: arr0[9].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner pathnet',
-            anal1: arr0[7].denise,
-            anal2: arr0[9].shari,
-            anal3: arr0[9].dave
+            anal1: arr0[7].analyst,
+            anal2: arr0[9].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'cerner patient depart process',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'patient depart',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'patient depart process',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'depart process',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'cerner patient portal',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'patient portal',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'cerner pharmnet',
-            anal1: arr0[2].tom
+            anal1: arr0[2].analyst
         },
         {
             appl: 'pharmnet',
-            anal1: arr0[2].tom
+            anal1: arr0[2].analyst
         },
         {
             appl: 'powerchart',
-            anal1: arr0[4].colleen,
-            anal2: arr0[18].aston,
-            anal3: arr0[9].shari,
-            anal4: arr0[11].deniseM
+            anal1: arr0[4].analyst,
+            anal2: arr0[18].analyst,
+            anal3: arr0[9].analyst,
+            anal4: arr0[11].analyst
         },
         {
             appl: 'cerner powerchart',
-            anal1: arr0[4].colleen,
-            anal2: arr0[18].aston,
-            anal3: arr0[9].shari,
-            anal4: arr0[11].deniseM
+            anal1: arr0[4].analyst,
+            anal2: arr0[18].analyst,
+            anal3: arr0[9].analyst,
+            anal4: arr0[11].analyst
         },
         {
             appl: 'cerner profile',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'cerner profit',
-            anal1: arr0[19].shannon
+            anal1: arr0[19].analyst
         },
         {
             appl: 'profit',
-            anal1: arr0[19].shannon
+            anal1: arr0[19].analyst
         },
         {
             appl: 'cerner radnet',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'radnet',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'cerner scheduling',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'scheduling',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'cerner surginet',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'surginet',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'dar',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'desktop support',
-            anal1: arr0[20].daniel,
-            anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler,
-            anal4: arr0[24].jeremy
+            anal1: arr0[20].analyst,
+            anal2: arr0[21].analyst,
+            anal3: arr0[22].analyst,
+            anal4: arr0[24].analyst
         },
         {
             appl: 'desktop',
-            anal1: arr0[20].daniel,
-            anal2: arr0[21].johnG,
-            anal3: arr0[22].tyler,
-            anal4: arr0[24].jeremy
+            anal1: arr0[20].analyst,
+            anal2: arr0[21].analyst,
+            anal3: arr0[22].analyst,
+            anal4: arr0[24].analyst
         },
         {
             appl: 'dexter cedaron',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'dexter',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'cedaron',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'dragon',
-            anal1: arr0[18].aston,
-            anal2: arr0[4].colleen
+            anal1: arr0[18].analyst,
+            anal2: arr0[4].analyst
         },
         {
             appl: 'echo system- former med staff credentialing system',
-            anal1: arr0[11].deniseM,
-            anal2: arr0[11].lori
+            anal1: arr0[11].analyst,
+            anal2: arr0[11].analyst
         },
         {
             appl: 'echo',
-            anal1: arr0[11].deniseM,
-            anal2: arr0[11].lori
+            anal1: arr0[11].analyst,
+            anal2: arr0[11].analyst
         },
         {
             appl: 'eeg xltek',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'elsevier',
-            anal1: arr0[26].amy
+            anal1: arr0[26].analyst
         },
         {
             appl: 'ers (event reporting system)',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'ers',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'excelera',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'fl ens (events notification system) interface',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'tiff',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'forms on demand (fod)',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'fod',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'ge centricity',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'ge carescape',
-            anal1: arr0[49].clarissa,
-            anal2: arr0[51].ge
+            anal1: arr0[49].analyst,
+            anal2: arr0[51].analyst
         },
         {
             appl: 'carescape',
-            anal1: arr0[49].clarissa,
-            anal2: arr0[51].ge
+            anal1: arr0[49].analyst,
+            anal2: arr0[51].analyst
         },              
         {
             appl: 'ge',
-            anal1: arr0[51].ge
+            anal1: arr0[51].analyst
         },              
         {
             appl: 'ge fetal monitoring',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'ge muse',
-            anal1: arr0[4].colleen,
-            anal2: arr0[15].rick
+            anal1: arr0[4].analyst,
+            anal2: arr0[15].analyst
         },
         {
             appl: 'muse',
-            anal1: arr0[4].colleen,
-            anal2: arr0[15].rick
+            anal1: arr0[4].analyst,
+            anal2: arr0[15].analyst
         },
         {
             appl: 'golden hour (bayflite)',
-            anal1: arr0[7].denise
+            anal1: arr0[7].analyst
         },
         {
             appl: 'bayflite',
-            anal1: arr0[7].denise
+            anal1: arr0[7].analyst
         },
         {
             appl: 'ibm iseries',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'ibm',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'iseries',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'idinc ems risk management software / employee injury / peer review',
-            anal1: arr0[27].janet
+            anal1: arr0[27].analyst
         },
         {
             appl: 'events notification system',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'ens',
-            anal1: arr0[15].rick
+            anal1: arr0[15].analyst
         },
         {
             appl: 'family health center',
-            anal1: arr0[48].kathleen
+            anal1: arr0[48].analyst
         },
         {
             appl: 'family health',
-            anal1: arr0[48].kathleen
+            anal1: arr0[48].analyst
         },
         {
             appl: 'fhc',
-            anal1: arr0[48].kathleen
+            anal1: arr0[48].analyst
         },
         {
             appl: 'family medicine clinics',
-            anal1: arr0[48].kathleen
+            anal1: arr0[48].analyst
         },
         {
             appl: 'fl newborn tiff alternative printing',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'forms on demand',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'ge centricity cardiovascular  (321 206 8419)  vs. philips cardiovascular',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'cardiovascular',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'centricity',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst,
+            anal2: arr0[54].analyst
         },
         {
             appl: 'qs',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },              
         {
             appl: 'ge fetal monitoring qs',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'fetal',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'fetal monitoring',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'infinium',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'integrated informatics / old mars system',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'iris instrument lab',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'it manager',
-            anal1: arr0[28].herman,
-            anal2: arr0[29].mark, 
-            anal3: arr0[49].clarissa
+            anal1: arr0[28].analyst,
+            anal2: arr0[29].analyst, 
+            anal3: arr0[49].analyst
         },
         {
             appl: 'it managers',
-            anal1: arr0[28].herman,
-            anal2: arr0[29].mark, 
-            anal3: arr0[49].clarissa
+            anal1: arr0[28].analyst,
+            anal2: arr0[29].analyst, 
+            anal3: arr0[49].analyst
         },              
         {
             appl: 'manager',
-            anal1: arr0[28].herman,
-            anal2: arr0[29].mark, 
-            anal3: arr0[49].clarissa
+            anal1: arr0[28].analyst,
+            anal2: arr0[29].analyst, 
+            anal3: arr0[49].analyst
         },
         {
             appl: 'managers',
-            anal1: arr0[28].herman,
-            anal2: arr0[29].mark, 
-            anal3: arr0[49].clarissa
+            anal1: arr0[28].analyst,
+            anal2: arr0[29].analyst, 
+            anal3: arr0[49].analyst
         },              
         {
             appl: 'it operator',
-            anal1: arr0[23].bob,
-            anal2: arr0[30].barbara,
-            anal3: arr0[31].tony,
-            anal4: arr0[32].ernest,
-            anal5: arr0[33].morgan
+            anal1: arr0[23].analyst,
+            anal2: arr0[30].analyst,
+            anal3: arr0[31].analyst,
+            anal4: arr0[32].analyst,
+            anal5: arr0[33].analyst
         },
         {
             appl: 'intranet',
-            anal1: arr0[52].chs
+            anal1: arr0[52].analyst
         },              
         {
             appl: 'operator',
-            anal1: arr0[23].bob,
-            anal2: arr0[30].barbara,
-            anal3: arr0[31].tony,
-            anal4: arr0[32].ernest,
-            anal5: arr0[33].morgan
+            anal1: arr0[23].analyst,
+            anal2: arr0[30].analyst,
+            anal3: arr0[31].analyst,
+            anal4: arr0[32].analyst,
+            anal5: arr0[33].analyst
         },
         {
             appl: 'help desk',
-            anal1: arr0[23].bob,
-            anal2: arr0[30].barbara,
-            anal3: arr0[31].tony,
-            anal4: arr0[32].ernest,
-            anal5: arr0[33].morgan
+            anal1: arr0[23].analyst,
+            anal2: arr0[30].analyst,
+            anal3: arr0[31].analyst,
+            anal4: arr0[32].analyst,
+            anal5: arr0[33].analyst
         },
         {
             appl: 'homepage',
-            anal1: arr0[52].chs
+            anal1: arr0[52].analyst
         },              
         {
             appl: 'kronos time and attendance',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'kronos',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'labor lytics',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'landmark transcription',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'landmark',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'lansweeper',
-            anal1: arr0[42].kenn
+            anal1: arr0[42].analyst
         },
         {
             appl: 'transcription',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'mckesson cerme and interqual',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'mckesson cerme',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'cerme',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'mckesson',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'interqual',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'meadows business systems',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'meadows',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'mobile pagers',
-            anal1: arr0[34].ignacio
+            anal1: arr0[34].analyst
         },
         {
             appl: 'pagers',
-            anal1: arr0[34].ignacio,
-            anal2: arr0[36].cecilio
+            anal1: arr0[34].analyst,
+            anal2: arr0[36].analyst
         },              
         {
             appl: 'pager',
-            anal1: arr0[34].ignacio,
-            anal2: arr0[36].cecilio
+            anal1: arr0[34].analyst,
+            anal2: arr0[36].analyst
         },
         {
             appl: 'phones',
-            anal1: arr0[34].ignacio,
-            anal2: arr0[36].cecilio
+            anal1: arr0[34].analyst,
+            anal2: arr0[36].analyst
         },
         {
             appl: 'phone',
-            anal1: arr0[34].ignacio,
-            anal2: arr0[36].cecilio
+            anal1: arr0[34].analyst,
+            anal2: arr0[36].analyst
         },
         {
             appl: 'monarch',
-            anal1: arr0[35].patti
+            anal1: arr0[35].analyst
         },
         {
             appl: 'network',
-            anal1: arr0[42].kenn
+            anal1: arr0[42].analyst
         },
         {
             appl: 'networking',
-            anal1: arr0[42].kenn
+            anal1: arr0[42].analyst
         },
         {
             appl: 'nortel telecom',
-            anal1: arr0[34].ignacio,
-            anal2: arr0[36].cecilio
+            anal1: arr0[34].analyst,
+            anal2: arr0[36].analyst
         },
         {
             appl: 'nuance powerscribe',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'nuance',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'powerscribe',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'passport - intellisource',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'intellisource',
-            anal1: arr0[14].stephen
+            anal1: arr0[14].analyst
         },
         {
             appl: 'passport onesource',
-            anal1: arr0[37].rasheedah
+            anal1: arr0[37].analyst
         },
         {
-            appl: 'passport',
-            anal1: arr0[14].stephen
+            appl: 'phishing',
+            anal1: arr0[53].analyst
         },              
         {
             appl: 'onesource',
-            anal1: arr0[37].rasheedah
+            anal1: arr0[37].analyst
         },
         {
             appl: 'pulse',
-            anal1: arr0[0].lou
+            anal1: arr0[0].analyst
         },
         {
             appl: 'remel ids database - to lookup organism identification',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'remel',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'ids database',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'ids',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'responder 5',
-            anal1: arr0[38].edwin,
-            anal2: arr0[39].lauren
+            anal1: arr0[38].analyst,
+            anal2: arr0[39].analyst
         },
         {
             appl: 'report request prod_bay',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'security cameras',
-            anal1: arr0[40].peter
+            anal1: arr0[40].analyst
         },
         {
             appl: 'credit card',
-            anal1: arr0[40].peter
+            anal1: arr0[40].analyst
         },
         {
             appl: 'credit cards',
-            anal1: arr0[40].peter
+            anal1: arr0[40].analyst
         },
         {
             appl: 'single sign on paradigm (sso)',
-            anal1: arr0[41].bernard,
-            anal2: arr0[18].aston
+            anal1: arr0[41].analyst,
+            anal2: arr0[18].analyst
         },
         {
             appl: 'sso',
-            anal1: arr0[41].bernard,
-            anal2: arr0[18].aston
+            anal1: arr0[41].analyst,
+            anal2: arr0[18].analyst
         },
         {
             appl: 'single sign on',
-            anal1: arr0[41].bernard,
-            anal2: arr0[18].aston
+            anal1: arr0[41].analyst,
+            anal2: arr0[18].analyst
         },
         {
             appl: 'sophos',
-            anal1: arr0[42].kenn
+            anal1: arr0[42].analyst
         },
         {
             appl: 'spacelabs',
-            anal1: arr0[43].biomed
+            anal1: arr0[43].analyst
         },
         {
             appl: 'specialty/ quest- see quest/specialty',
-            anal1: arr0[9].shari
+            anal1: arr0[9].analyst
         },
         {
             appl: 'standard registry (forms on demand)',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'stryker',
-            anal1: arr0[43].biomed
+            anal1: arr0[43].analyst
         },
         {
             appl: 'telecom',
-            anal1: arr0[36].cecilio,
-            anal2: arr0[34].ignacio
+            anal1: arr0[36].analyst,
+            anal2: arr0[34].analyst
         },
         {
             appl: 'fax',
-            anal1: arr0[36].cecilio,
-            anal2: arr0[34].ignacio
+            anal1: arr0[36].analyst,
+            anal2: arr0[34].analyst
         },              
         {
             appl: 'theradoc (infection control)',
-            anal1: arr0[45].brooke
+            anal1: arr0[45].analyst
         },
         {
             appl: 'theradoc',
-            anal1: arr0[45].brooke
+            anal1: arr0[45].analyst
         },
         {
             appl: 'infection control',
-            anal1: arr0[45].brooke
+            anal1: arr0[45].analyst
         },
         {
             appl: 'pharmacy',
-            anal1: arr0[45].brooke
+            anal1: arr0[45].analyst
         },
         {
             appl: 'trauma base',
-            anal1: arr0[5].john
+            anal1: arr0[5].analyst
         },
         {
             appl: 'truven mmd',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'truven',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },
         {
             appl: 'vitrea',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'vocera',
-            anal1: arr0[41].bernard,
-            anal2: arr0[44].jorge
+            anal1: arr0[41].analyst,
+            anal2: arr0[44].analyst
         },
         {
             appl: 'vrad',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'xcelera philips',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'xcelera',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'xper philips (witt)',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'witt',
-            anal1: arr0[4].colleen
+            anal1: arr0[4].analyst
         },
         {
             appl: 'wts location',
-            anal1: arr0[20].daniel
+            anal1: arr0[20].analyst
         },
         {
             appl: 'wts',
-            anal1: arr0[20].daniel
+            anal1: arr0[20].analyst
         },              
         {
             appl: 'abbott',
-            anal1: arr0[7].denise,
-            anal2: arr0[8].sean,
-            anal3: arr0[9].shari
+            anal1: arr0[7].analyst,
+            anal2: arr0[8].analyst,
+            anal3: arr0[9].analyst
         },
         {
             appl: 'grand rounds',
-            anal1: arr0[1].perkeisha
+            anal1: arr0[1].analyst
         },         
         {
             appl: 'security awareness',
-            anal1: arr0[42].danield,
-            anal2: arr0[43].andrew
+            anal1: arr0[46].analyst,
+            anal2: arr0[47].analyst
         },
         {
             appl: 'server',
-            anal1: arr0[41].bernard,
-            anal2: arr0[44].jorge
+            anal1: arr0[41].analyst,
+            anal2: arr0[44].analyst
         },              
         {
             appl: 'it security',
-            anal1: arr0[42].danield,
-            anal2: arr0[43].andrew,
-            anal3: arr0[42].kenn
+            anal1: arr0[46].analyst,
+            anal2: arr0[47].analyst,
+            anal3: arr0[42].analyst
         }
             ];
 
@@ -1636,7 +1663,7 @@ function myFunction() {
         
 if (app.trim() === arr[i].appl) {
     
-    console.log(app);
+    console.log(app.trim());
     console.log(arr[i].anal1.firstname);
     console.log(arr[i].anal1.lastname);
     console.log(arr[i]);
@@ -1915,27 +1942,39 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
                 glyph5();
         
         }
-    
-    
-    if (app != arr[i].appl) {
-        var aname = _.filter(arr0, function(x){
-            return x.firstname = app ;
-        
-        });
-            document.getElementById("name").innerHTML = " " + arr1[0].analy1.name;
-        
-        }
    
 
     return arr[i].appl; 
     
     
-} else if (app != arr[i].appl) {
-        
-        error();
-        }
+} else if (app.trim() !== arr[i].appl) {
     
-}
+   
+    
+        var x = arr0[i].analyst.firstname.toLowerCase();
+        var xx = arr0[i].analyst.firstname;
+        var xe = x.trim();
+        
+        if ((app === x) || (app === xx) || (app === xe)){
+        var analys = _.filter (arr0[i], function(analys, [firstname: app]){
+            
+            return analys;
+        
+        });
+        
+        } 
+    
+    
+    
+    
+
+            
+            
+        
+
+        
+    error();
+} 
         
 } //end of iterate through 'arr' array (arr0[31].tony.email)
     
@@ -1944,7 +1983,7 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
     
     
 
-     
+    } 
 
 function error(){
 
@@ -1963,8 +2002,8 @@ function error(){
         if (errorg.hasChildNodes()) {
         errorg.removeChild(errorg.firstChild);
         }
-                a.href = 'mailto:' + arr0[31].tony.email + '?Subject=PocTool%20Contact';
-        a.textContent =  " " + arr0[31].tony.email; // This will add the actual text to the link
+                a.href = 'mailto:' + arr0[31].analyst.email + '?Subject=PocTool%20Contact';
+        a.textContent =  " " + arr0[31].analyst.email; // This will add the actual text to the link
         document.getElementById("errorg").appendChild(a);
     
 }
