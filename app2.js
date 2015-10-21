@@ -42,7 +42,7 @@ var arr0 = [
             name: 'Tammy Beal',
             homenum: '727-867-8213',
             busnum: '727-893-6238',
-            ex: '32033',
+            ex: '36238',
             cellnum: '727-366-7370',
             email: 'tammy.beal@hma.com',
             company: ''
@@ -315,7 +315,7 @@ var arr0 = [
             name: 'Amy Kendricks',
             homenum: '',
             busnum: '',
-            ex: '',
+            ex: '37149',
             cellnum: '',
             email: 'Amy.Kendricks@hma.com',
             company: ''
@@ -1373,7 +1373,7 @@ var arr =    [{
         },
         {
             appl: 'mckesson',
-            anal1: arr0[14].analyst
+            anal1: arr0[52].analyst
         },
         {
             appl: 'interqual',
@@ -1947,43 +1947,10 @@ a.textContent =  " " + arr1[1].analy2.email; // This will add the actual text to
     return arr[i].appl; 
     
     
-} else if (app.trim() !== arr[i].appl) {
-    
-   
-    
-        var x = arr0[i].analyst.firstname.toLowerCase();
-        var xx = arr0[i].analyst.firstname;
-        var xe = x.trim();
-        
-        if ((app === x) || (app === xx) || (app === xe)){
-        var analys = _.filter (arr0[i], function(analys, [firstname: app]){
-            
-            return analys;
-        
-        });
-        
-        } 
-    
-    
-    
-    
-
-            
-            
-        
-
-        
-    error();
 } 
-        
-} //end of iterate through 'arr' array (arr0[31].tony.email)
-    
-    
-       
-    
-    
 
-    } 
+} //end of iterate through 'arr' array 
+}//End myFunction
 
 function error(){
 
