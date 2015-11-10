@@ -1132,6 +1132,14 @@ var arr =    [{
             anal1: arr0[15].rick
         },
         {
+            appl: 'interface',
+            anal1: arr0[15].rick
+        },
+        {
+            appl: 'interfaces',
+            anal1: arr0[15].rick
+        },              
+        {
             appl: 'ers',
             anal1: arr0[15].rick
         },
