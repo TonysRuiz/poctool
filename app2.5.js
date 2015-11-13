@@ -1379,6 +1379,10 @@ var arr =    [{
             anal1: arr0[42].kenn
         },
         {
+            appl: 'portal',
+            anal1: arr0[42].kenn
+        },              
+        {
             appl: 'transcription',
             anal1: arr0[14].stephen
         },
