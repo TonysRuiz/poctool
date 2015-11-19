@@ -677,7 +677,7 @@ var arr0 = [
             company: ''
         }
     }, {
-        kathy : {
+        kathleen : {
             firstname: 'Kathleen ',
             lastname: 'Patton',
             name: "Kathleen Patton",
