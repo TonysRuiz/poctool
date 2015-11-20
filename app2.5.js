@@ -867,6 +867,14 @@ var arr =    [{
             anal2: arr0[2].tom
         },
         {
+            appl: 'reports',
+            anal1: arr0[2].tom
+        },
+        {
+            appl: 'report',
+            anal1: arr0[2].tom
+        },              
+        {
             appl: 'batch scanning',
             anal1: arr0[14].stephen,
             anal2: arr0[2].tom
