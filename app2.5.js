@@ -1130,11 +1130,13 @@ var arr =    [{
         },
         {
             appl: 'surginet',
-            anal1: arr0[5].john
+            anal1: arr0[5].john,
+            anal2: arr0[9].shari
         },
         {
             appl: 'dar',
-            anal1: arr0[0].lou
+            anal1: arr0[0].lou,
+            anal2: arr0[49].clarissa
         },
         {
             appl: 'desktop support',
@@ -1547,7 +1549,8 @@ var arr =    [{
         },
         {
             appl: 'pulse',
-            anal1: arr0[0].lou
+            anal1: arr0[0].lou,
+            anal1: arr0[49].clarissa
         },
         {
             appl: 'remel ids database - to lookup organism identification',
