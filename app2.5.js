@@ -1620,6 +1620,13 @@ var arr =    [{
             anal4: arr0[58].mitch
         },
         {
+            appl: 'responder',
+            anal1: arr0[38].edwin,
+            anal2: arr0[39].lauren,
+            anal3: arr0[55].kristen,
+            anal4: arr0[58].mitch
+        },              
+        {
             appl: 'rauland',
             anal1: arr0[38].edwin,
             anal2: arr0[39].lauren,
