@@ -715,6 +715,32 @@ var arr0 = [
             role: '',
             company: ''
         }
+    }, {
+        allscripts : {
+            firstname: 'Allscripts ',
+            lastname: '',
+            name: "Allscripts",
+            homenum: '',
+            busnum: '1-866-790-8690',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'Allscripts'
+        }
+    }, {
+        canopy : {
+            firstname: 'Canopy ',
+            lastname: '',
+            name: "Canopy",
+            homenum: '',
+            busnum: '888-672-2433',
+            ex: '',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: 'Allscripts'
+        }
     }
 ];
 
@@ -856,6 +882,11 @@ var arr =    [{
             appl: 'antibiotic',
             anal1: arr0[9].shari
         },
+        {
+            appl: 'canopy',
+            anal1: arr0[59].allscripts,
+            anal2: arr0[60].canopy
+        },              
         {
             appl: 'call light',
             anal1: arr0[57].plantopts
