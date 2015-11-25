@@ -702,6 +702,19 @@ var arr0 = [
             role: '',
             company: ''
         }
+    }, {
+        mitch : {
+            firstname: 'Mitch ',
+            lastname: '',
+            name: "Mitch in Facilities",
+            homenum: '',
+            busnum: '',
+            ex: '37286',
+            cellnum: '',
+            email: "",
+            role: '',
+            company: ''
+        }
     }
 ];
 
@@ -1572,8 +1585,16 @@ var arr =    [{
             appl: 'responder 5',
             anal1: arr0[38].edwin,
             anal2: arr0[39].lauren,
-            anal3: arr0[55].kristen
+            anal3: arr0[55].kristen,
+            anal4: arr0[58].mitch
         },
+        {
+            appl: 'rauland',
+            anal1: arr0[38].edwin,
+            anal2: arr0[39].lauren,
+            anal3: arr0[55].kristen,
+            anal4: arr0[58].mitch
+        },              
         {
             appl: 'report request prod_bay',
             anal1: arr0[9].shari
