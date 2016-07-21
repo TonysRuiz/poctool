@@ -316,3 +316,10 @@ blockquote {
 #newversion a:hover span {
 	text-decoration: underline;
 }
+
+#fun {
+	height: 100px;
+	width: 100px;
+	
+	
+}
